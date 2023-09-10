@@ -1,0 +1,66 @@
+<prefab version="0.5.3">
+	<group id_="924048448" name="instance=LEVEL/prefab/excavaterBig.xml" pos="23.2 10.5 27.7" rot="0.0 -33.0 0.0">
+		<vehicle id_="2121726464" open_="true" tags="frontloader" pos="0.0 0.1 0.0" rot="0.0 0.0 0.0" sound="excavator" spring="2" damping="2" topspeed="10" acceleration="0.2" strength="10" antiroll="0.5" difflock="1">
+			<body id_="1912195072" open_="true" pos="0.0 0.7 0.5" rot="0.0 180.0 0.0" dynamic="true">
+				<vox id_="1444894848" pos="0.0 -0.6 0.4" density="4" file="LEVEL/vox/excavator_big.vox" object="body_lower">
+					<wheel id_="63835960" pos="1.7 0.35 2.35" rot="0.0 180.0 0.0" drive="1" steer="1">
+						<vox id_="1775019776" pos="0.1 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_l1"/>
+					</wheel>
+					<wheel id_="1182734848" pos="1.7 0.35 1.15" rot="0.0 180.0 0.0" drive="1" steer="0.5">
+						<vox id_="1821356544" pos="0.1 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_l1"/>
+					</wheel>
+					<wheel id_="1112082688" pos="1.6 0.35 0.05" rot="0.0 180.0 0.0" drive="1" steer="0">
+						<vox id_="1921108480" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_l1"/>
+					</wheel>
+					<wheel id_="788642816" pos="1.6 0.35 -1.15" rot="0.0 180.0 0.0" drive="1" steer="-0.5">
+						<vox id_="798211648" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_l1"/>
+					</wheel>
+					<wheel id_="2112812928" pos="1.6 0.35 -2.35" rot="0.0 180.0 0.0" drive="1" steer="-1">
+						<vox id_="995224896" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_l1"/>
+					</wheel>
+					<wheel id_="844679552" pos="-1.7 0.35 2.35" rot="0.0 -180.0 0.0" drive="1" steer="1">
+						<vox id_="1376929920" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_r1"/>
+					</wheel>
+					<wheel id_="1063124352" pos="-1.7 0.35 1.15" rot="0.0 -180.0 0.0" drive="1" steer="0.5">
+						<vox id_="1494705280" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_r1"/>
+					</wheel>
+					<wheel id_="186788992" pos="-1.7 0.35 -0.05" rot="0.0 -180.0 0.0" drive="1" steer="0">
+						<vox id_="247020256" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_r1"/>
+					</wheel>
+					<wheel id_="1296577792" pos="-1.7 0.35 -1.25" rot="0.0 -180.0 0.0" drive="1" steer="-0.5">
+						<vox id_="242104768" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_r1"/>
+					</wheel>
+					<wheel id_="1258368000" pos="-1.7 0.35 -2.45" rot="0.0 -180.0 0.0" drive="1" steer="-1">
+						<vox id_="2012012416" pos="0.0 -0.55 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/vox/excavator_big.vox" object="wheel_r1"/>
+					</wheel>
+				</vox>
+				<vox id_="1064762816" pos="0.0 0.6 0.5" density="4" strength="4" file="LEVEL/vox/excavator_big.vox" object="body_upper">
+					<location id_="1187126016" tags="exhaust" pos="-0.8 2.4 -2.1" rot="-20.0 180.0 0.0"/>
+					<location id_="27723420" tags="player" pos="1.2 1.4 1.8" rot="0.0 0.0 0.0"/>
+					<light id_="2100360320" pos="1.2 2.25 2.7" rot="0.0 0.0 0.0" type="area" color="1 .8 .6" scale="20" size="0.2 0.1" glare="0.4"/>
+				</vox>
+			</body>
+			<body id_="871419840" pos="0.0 2.3 -1.9" rot="-40.0 -180.0 0.0" dynamic="true">
+				<vox id_="454192192" pos="0.0 0.01 2.71" rot="0.0 0.0 0.0" density="3" strength="8" file="LEVEL/vox/excavator_big.vox" object="arm_1">
+					<joint id_="116267960" pos="-0.3 0.0 -2.7" rot="0.0 270.0 0.0" type="hinge" rotstrength="0" rotspring="0" limits="-50 30"/>
+					<joint id_="1388530432" pos="0.3 0.0 -2.7" rot="0.0 270.0 0.0" type="hinge" rotstrength="0" rotspring="0" limits="-50 30"/>
+					<light id_="75436544" pos="0.5 0.7 -1.1" rot="20.0 0.0 0.0" type="cone" color="1 .8 .6" scale="10" angle="120" penumbra="30" size="0.2 0.1" glare="0.3"/>
+					<light id_="393829856" pos="-0.5 0.7 -1.1" rot="20.0 0.0 0.0" type="cone" color="1 .8 .6" scale="10" angle="120" penumbra="30" size="0.2 0.1" glare="0.3"/>
+				</vox>
+			</body>
+			<body id_="222377216" pos="0.0 6.6 -5.6" rot="40.0 -180.0 0.0" dynamic="true">
+				<vox id_="1240934400" pos="0.0 -0.19 2.18" rot="0.0 0.0 0.0" density="2" strength="8" file="LEVEL/vox/excavator_big.vox" object="arm_2">
+					<joint id_="1008988288" pos="-0.2 0.3 -2.2" rot="0.0 270.0 0.0" type="hinge" rotstrength="0" rotspring="0" limits="-50 40"/>
+					<joint id_="1445746816" pos="0.2 0.3 -2.2" rot="0.0 270.0 0.0" type="hinge" rotstrength="0" rotspring="0" limits="-50 40"/>
+				</vox>
+			</body>
+			<body id_="974973056" pos="0.0 4.0 -9.0" rot="30.0 180.0 0.0" dynamic="true">
+				<vox id_="756987008" pos="0.0 -1.7 0.34" rot="0.0 0.0 0.0" density="2" strength="16" file="LEVEL/vox/excavator_big.vox" object="shovel">
+					<joint id_="415654688" pos="-0.2 1.7 -0.3" rot="0.0 270.0 0.0" type="hinge" rotstrength="0" rotspring="0" limits="-20 70"/>
+					<joint id_="1681428736" pos="0.2 1.7 -0.3" rot="0.0 270.0 0.0" type="hinge" rotstrength="0" rotspring="0" limits="-20 70"/>
+				</vox>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

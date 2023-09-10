@@ -1,0 +1,140 @@
+<scene id_="1307391872" open_="true" version="0.7.4" shadowVolume="350 31 350">
+	<group id_="1619952128" open_="true" name="scripts" pos="23.7 -0.2 -21.7">
+		<script id_="412508768" pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" file="main.lua"/>
+		<group id_="617845568" open_="true" name="avf_ai" layer="avf_ai">
+			<script id_="1883095296" file="MOD/scripts/AVF_AI_V3.lua" param0="map=figureEight"/>
+		</group>
+	</group>
+	<body id_="1101399680" open_="true" name="scene" tags="scenebody" pos="23.7 0.0 -21.7">
+		<group id_="1336753792" open_="true" name="ground" pos="-0.1 14.3 -0.1" rot="0.0 0.0 0.0">
+			<voxscript id_="1703777792" pos="-199.90001 0.0 -151.39999" rot="0.0 0.0 0.0" texture="6" file="MOD/voxscript/ground.lua">
+				<parameters scale="256" hollow="0" file="MOD/images/BlueTide-Ring.png"/>
+			</voxscript>
+		</group>
+		<group id_="263667424" open_="true" name="gates" pos="-24.5 9.2 -12.9" rot="0.0 0.0 0.0">
+			<group id_="1900659968" open_="true" name="gate 1" pos="50.90001 14.0 123.10002" rot="0.0 -179.0 0.0">
+				<trigger id_="211235424" name="gate 1" tags="gate=1 uipos=red" pos="0.0 2.0 0.0" size="2"/>
+			</group>
+			<group id_="1332887040" open_="true" name="gate 2" pos="15.50002 16.2 125.6" rot="0.0 22.0 0.0">
+				<trigger id_="1003679552" name="gate 2" tags="gate=2 uipos=red" pos="0.1 0.0 0.0" size="2"/>
+			</group>
+			<group id_="670867456" open_="true" name="gate 3" pos="-47.69996 16.3 123.0" rot="0.0 21.0 0.0">
+				<trigger id_="105912640" name="gate 3" tags="gate=3 uipos=red" pos="0.0 0.0 0.0" size="2"/>
+			</group>
+			<group id_="246168240" open_="true" name="gate 4" pos="-86.70004 13.1 134.2" rot="0.0 0.0 0.0">
+				<trigger id_="1993333504" name="gate 4" tags="gate=4 uipos=red" pos="0.1 2.1 0.1" size="2"/>
+			</group>
+		</group>
+		<group id_="368334784" name="cars" pos="110.60001 15.2 -14.1" rot="0.0 40.0 0.0">
+			<group id_="1143345280" name="VEHICLES" pos="-28.00001 0.0 17.5" rot="0.0 130.0 0.0">
+				<instance id_="1869331840" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="530677376" name="VEHICLES" pos="-20.7 0.0 16.8" rot="0.0 130.0 0.0">
+				<instance id_="887935936" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="1278292224" open_="true" name="VEHICLES" pos="-12.50001 0.0 16.8" rot="0.0 130.0 0.0">
+				<instance id_="1457740672" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="771667968" open_="true" name="VEHICLES" pos="-2.2 0.0 9.0" rot="0.0 130.0 0.0">
+				<instance id_="489452736" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="68358224" open_="true" name="VEHICLES" pos="-17.7 0.0 9.70001" rot="0.0 130.0 0.0">
+				<instance id_="2132212864" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="2005655040" open_="true" name="VEHICLES" pos="-10.39999 0.0 9.0" rot="0.0 130.0 0.0">
+				<instance id_="140190064" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="1254763264" open_="true" name="VEHICLES" pos="7.69999 0.0 0.2" rot="0.0 130.0 0.0">
+				<instance id_="62918400" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="387275872" open_="true" name="VEHICLES" pos="-7.80001 0.0 0.90001" rot="0.0 130.0 0.0">
+				<instance id_="1390758784" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="889836608" open_="true" name="VEHICLES" pos="-0.5 0.0 0.2" rot="0.0 130.0 0.0">
+				<instance id_="863358400" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="431908608" open_="true" name="VEHICLES" pos="28.09999 0.0 -17.3" rot="0.0 130.0 0.0">
+				<group id_="759346432" open_="true" name="instance=MOD/prefabs/racinCarAI.xml" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0">
+					<vehicle id_="1853602304" open_="true" tags="cfg=ai" pos="0.07 0.0 0.07" rot="0.0 0.0 0.0" driven="false" sound="racingcar" spring="1.2" topspeed="120" acceleration="8" strength="8" antispin="0" antiroll="0.2" difflock=".1" steerassist="0.4" friction="1.9">
+						<body id_="1661897728" open_="true" pos="-0.05002 0.3 -0.45" rot="0.0 0.0 0.0" dynamic="true">
+							<vox id_="765310592" open_="true" pos="0.05 -0.2 0.45" rot="0 180 0" density="1.5" strength="5" file="MOD/raceCar/racingcar.vox" object="body">
+								<light id_="1921305088" pos="0.65 0.45 -2.3" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.3" glare="0.2"/>
+								<light id_="499021568" pos="-0.55 0.45 -2.3" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.3" glare="0.2"/>
+								<light id_="926342336" pos="0.7 0.55 -2.3" rot="0.0 180.0 0.0" type="area" color="1 1 1" size="0.2 0.1" unshadowed="0.2"/>
+								<light id_="1049164288" pos="-0.6 0.55 -2.3" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.2"/>
+								<light id_="2111174528" pos="0.9 0.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+								<light id_="248855376" pos="-0.8 0.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+								<location id_="1125452928" tags="exhaust" pos="0.5 0.1 -2.4" rot="-180.0 360.0 -180.0"/>
+								<location id_="884921088" tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+								<location id_="670998528" tags="player" pos="0.35 1.0 -0.05" rot="0.0 0.0 0.0"/>
+							</vox>
+							<wheel id_="1530227968" name="bl" pos="-0.64999 0.05 1.8" drive="1" travel="-0.1 0.1">
+								<vox id_="698263168" pos="-0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/raceCar/racingcar.vox" object="wheel_bl"/>
+							</wheel>
+							<wheel id_="426665408" name="br" pos="0.75001 0.05 1.8" drive="1" travel="-0.1 0.1">
+								<vox id_="1061354752" pos="0.1 -0.35 -0.05" rot="0 180 0" file="MOD/raceCar/racingcar.vox" object="wheel_br"/>
+							</wheel>
+							<wheel id_="447441568" name="fl" pos="-0.64999 0.05 -1.1" drive="1" steer="0.7" travel="-0.1 0.1">
+								<vox id_="1538223744" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/raceCar/racingcar.vox" object="wheel_fl"/>
+							</wheel>
+							<wheel id_="823772288" name="fr" pos="0.75001 0.05 -1.1" drive="1" steer="0.7" travel="-0.1 0.1">
+								<vox id_="1894761344" pos="0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/raceCar/racingcar.vox" object="wheel_fr"/>
+							</wheel>
+						</body>
+					</vehicle>
+				</group>
+			</group>
+			<group id_="870633344" open_="true" name="VEHICLES" pos="12.59999 0.0 -16.59999" rot="0.0 130.0 0.0">
+				<instance id_="139469120" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="491287840" open_="true" name="VEHICLES" pos="19.9 0.0 -17.3" rot="0.0 130.0 0.0">
+				<instance id_="1590590208" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="288113856" open_="true" name="VEHICLES" pos="18.19999 0.0 -8.5" rot="0.0 130.0 0.0">
+				<instance id_="1966200064" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="677618048" open_="true" name="VEHICLES" pos="10.0 0.0 -8.5" rot="0.0 130.0 0.0">
+				<instance id_="715565696" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+			<group id_="1470979712" open_="true" name="VEHICLES" pos="2.69999 0.0 -7.79999" rot="0.0 130.0 0.0">
+				<instance id_="866307712" file="MOD/prefabs/racinCarAI.xml"/>
+			</group>
+		</group>
+	</body>
+	<group id_="1804119552" name="water" pos="23.7 0.0 -21.7">
+		<water id_="91166144" pos="0.0 2.5 0.0" rot="0.0 0.0 0.0"/>
+		<water id_="530742912" pos="150.39999 11.9 3.3" rot="0.0 0.0 0.0" type="polygon">
+			<vertex pos="-8.7 -1.3"/>
+			<vertex pos="-3.7 -9.1"/>
+			<vertex pos="4.9 -8.2"/>
+			<vertex pos="8.0 -3.5"/>
+			<vertex pos="7.9 8.6"/>
+			<vertex pos="4.0 14.8"/>
+			<vertex pos="-8.1 7.5"/>
+		</water>
+		<water id_="1757258496" pos="128.8 11.9 22.4" rot="0.0 0.0 0.0" type="polygon">
+			<vertex pos="-9.5 9.8"/>
+			<vertex pos="0.0 0.5"/>
+			<vertex pos="7.3 2.1"/>
+			<vertex pos="9.1 10.3"/>
+			<vertex pos="0.8 21.9"/>
+			<vertex pos="-9.2 22.0"/>
+			<vertex pos="-12.5 16.1"/>
+		</water>
+	</group>
+	<body id_="208744896" open_="true" name="world anchor" tags="unbreakable" pos="38.1 8.2 -27.4" rot="0.0 0.0 0.0">
+		<voxbox id_="1628996736" color="0.0 0.0 0.0"/>
+	</body>
+	<spawnpoint id_="1200823936" name="Playerspawn (not used since start in car)" pos="-24.80001 4.5 28.0" rot="0.0 -133.0 0.0"/>
+	<boundary id_="913889792" name="Boundary to keep player in the environment" pos="23.7 -6.1 -21.7" rot="0.0 0.0 0.0">
+		<vertex pos="-235.0 -47.5"/>
+		<vertex pos="-207.7 -187.60001"/>
+		<vertex pos="156.5 -155.40001"/>
+		<vertex pos="193.60001 204.0"/>
+		<vertex pos="-235.0 125.0"/>
+	</boundary>
+	<layers>
+		<layer name="avf_ai" visible="true"/>
+	</layers>
+</scene>
+

@@ -1,0 +1,77 @@
+<prefab version="0.5.3">
+	<group id_="2052254080" open_="true" pos="-5.6 0.2 -23.3" rot="0.0 0.0 0.0">
+		<vehicle id_="2086007168" open_="true" name="t72" tags="cfg=vehicle t72" pos="0.1 -0.2 1.1" rot="0.0 0.0 0.0" driven="false" sound="dumptruck" spring="1" damping="0.8" topspeed="50" acceleration="2" strength="50" antispin="1" antiroll="0.2" difflock="1" steerassist="2" friction="2">
+			<body id_="469004224" open_="true" tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="993914112" open_="true" tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" texture="8 .4" density="20" strength="10" file="LEVEL/t72.vox" object="body">
+					<light id_="1100678784" pos="0.8 1.35 3.4" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+					<light id_="633902848" pos="-0.8 1.35 3.4" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+					<location id_="1738120832" tags="exhaust" pos="2.2 	1.6 	-1.7" rot="0 60 0 "/>
+					<location id_="445344288" tags="exhaust" pos="2.1 	1.6 	-1.8" rot="-20 60 0 "/>
+					<location id_="238827760" tags="exhaust" pos="2.1  	1.6 	-1.5" rot="20 80 0 "/>
+					<location id_="1819914752" tags="exhaust" pos="2.2  	1.6 	-1.9" rot="-10 130 0 "/>
+					<location id_="1225270272" tags="exhaust" pos="2.2  	1.6 	-2" rot="10 160 0 "/>
+					<location id_="604082176" tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+					<location id_="2110781184" tags="player" pos="-0.05 1.47 1.8" rot="0.0 0.0 0.0"/>
+				</vox>
+				<vox id_="624465152" open_="true" tags="component=turret turretGroup=mainTurret" pos="0 1.4 .5" rot="0.0 180 0" texture="7 0.4" density="1.2" strength="10" prop="true" file="LEVEL/t72.vox" object="altTurret">
+					<joint id_="200093616" name="turretjoint" tags="component=turretJoint" pos="0.0 0.0 0.0" rot="90 0 0" type="hinge" size="0.5" rotstrength="14" rotspring="0" sound="true"/>
+					<vox id_="1868545408" open_="true" tags="component=gun weaponType=D81 group=primary   interact=mountedGun" pos="-0.1 0.2 3.7" rot="0.0 0 0" texture="7 .5" density="1.2" strength="50" prop="true" file="LEVEL/t72.vox" object="altGun">
+						<joint id_="1533111680" name="gunjoint" tags="component=gunJoint" pos="-0.1 0.2 -2.5" rot="0 90 0" type="hinge" size="0.1" rotstrength=".5" rotspring="0" limits="-14 5" sound="true"/>
+					</vox>
+				</vox>
+				<vox id_="789101568" tags="t72Trigger hook" pos="0 1 3" file="LEVEL/t72.vox" object="trigger">
+					<joint id_="486437888" tags="t72triggerJoint" pos="0.0   0 0 " rot="0 90 0" type="ball" size=".1" rotstrength=".5" rotspring="0" sound="true"/>
+				</vox>
+				<wheel id_="1216422400" name="runner03" pos="1.1 0.6 -2.9" drive="1" steer="0.1" travel="-0.1 0">
+					<vox id_="356209888" pos="0.45 -0.25 -0.05" rot="0.0 0 0.0" file="LEVEL/t72.vox" object="runner03"/>
+				</wheel>
+				<wheel id_="1928842240" name="whr1" pos="1.1 0.2 -2.3" rot="0.0 0 0.0" drive="1" steer="0.66" travel="-0.1 0">
+					<vox id_="955048896" pos="0.5 -0.5 -0.05" file="LEVEL/t72.vox" object="whr1"/>
+				</wheel>
+				<wheel id_="147268384" name="whr2" pos="1.1 0.27 -1.35" rot="0.0 0 0.0" drive="1" steer="0.44" travel="-0.1 0.1">
+					<vox id_="913103296" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr2"/>
+				</wheel>
+				<wheel id_="243939872" name="whr3" pos="1.1 0.27 -.3" drive="1" steer="0.33" travel="-0.1 0.1">
+					<vox id_="2029839360" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr3"/>
+				</wheel>
+				<wheel id_="1601994240" name="whr4" pos="1.1 0.27 .65" drive="1" steer="-0.33" travel="-0.1 0.1">
+					<vox id_="2146697216" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr4"/>
+				</wheel>
+				<wheel id_="307579232" name="whr5" pos="1.1 0.27 1.7" drive="1" steer="-0.33" travel="-0.1 0.1">
+					<vox id_="1892139776" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr5"/>
+				</wheel>
+				<wheel id_="30738260" name="whr6" pos="1.1 0.25 2.7" drive="1" steer="-0.66" travel="-0.1 0.1">
+					<vox id_="1106315264" pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whr6"/>
+				</wheel>
+				<wheel id_="2122316288" name="runner04" pos="1.1 0.6 3.3" drive="1" steer="-0.1" travel="-0.1 0.1">
+					<vox id_="237582496" pos="0.45 -0.25 -0.05" rot="0.0 0 0.0" file="LEVEL/t72.vox" object="runner04"/>
+				</wheel>
+				<wheel id_="458648928" name="runner01" pos="-2.1 0.6 -2.9" drive="1" steer="0.1" travel="-0.1 0">
+					<vox id_="1521511040" pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner01"/>
+				</wheel>
+				<wheel id_="1438078720" name="whl1" pos="-2.1 0.2 -2.3" drive="1" steer="0.66" travel="-0.1 0">
+					<vox id_="811516288" pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl1"/>
+				</wheel>
+				<wheel id_="408772992" name="whl2" pos="-2.1 0.27 -1.35" drive="1" steer="0.44" travel="-0.1 0.1">
+					<vox id_="652581760" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl2"/>
+				</wheel>
+				<wheel id_="1550741888" name="whl3" pos="-2.1 0.27 -.3" drive="1" steer="0.33" travel="-0.1 0.1">
+					<vox id_="979822976" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl3"/>
+				</wheel>
+				<wheel id_="2130377728" name="whl4" pos="-2.1 0.27 .65" drive="1" steer="-0.33" travel="-0.1 0.1">
+					<vox id_="1194925312" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl4"/>
+				</wheel>
+				<wheel id_="1481072896" name="whl5" pos="-2.1 0.27 1.7" drive="1" steer="-0.33" travel="-0.1 0.1">
+					<vox id_="615224000" pos="0.5 -0.55 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl5"/>
+				</wheel>
+				<wheel id_="1241327616" name="whl6" pos="-2.1 0.25 2.7" drive="1" steer="-0.66" travel="-0.1 0.1">
+					<vox id_="1593801728" pos="0.5 -0.5 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="whl6"/>
+				</wheel>
+				<wheel id_="1674219264" name="runner02" pos="-2.1 0.6 3.3" drive="1" steer="0.1" travel="-0.1 0">
+					<vox id_="1373915008" pos="0.5 -0.3 -0.05" rot="0.0 0.0 0.0" file="LEVEL/t72.vox" object="runner02"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

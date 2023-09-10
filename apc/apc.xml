@@ -1,0 +1,32 @@
+<prefab version="0.6.2">
+	<group id_="497972928" open_="true" name="instance=MOD/apc/apc.xml" pos="0.0 0.1 0.6" rot="0.0 0.0 0.0">
+		<vehicle id_="574130432" open_="true" tags="cfg=ai" pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" driven="false" sound="electric1" spring="0.6" damping="0.8" topspeed="100" acceleration="12" strength="12" antispin="0" antiroll="0.4" steerassist="0.5">
+			<body id_="1735826944" open_="true" pos="-0.05 0.1 -1.5" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="1101989504" open_="true" pos="0.05 -0.3 0.5" rot="0 180 0" density="1.5" strength="4" file="MOD/apc/APC.vox" object="body">
+					<light id_="300304288" pos="0.8 0.15 2.5" type="area" color="0.0 0.67 0.99" scale="25" angle="90" penumbra="30" size="0.5 0.1" unshadowed="0.2" glare="0.35"/>
+					<light id_="1897710720" pos="-0.7 0.15 2.5" type="area" color="0.0 0.67 0.99" scale="25" angle="90" penumbra="30" size="0.5 0.1" unshadowed="0.2" glare="0.35"/>
+					<light id_="1345667328" pos="1.05 0.95 -2.6" rot="-180.0 0.0 -180.0" type="area" color="1 .1 .1" scale="2" size=".3 .1" unshadowed="0.2" glare="0.2"/>
+					<light id_="211497584" pos="-0.35 0.55 -2.9" rot="180.0 0.0 180.0" type="area" color="1 1 1" scale="4" size=".1 .1" unshadowed="0.2"/>
+					<light id_="533757760" pos="0.45 0.55 -2.9" rot="180.0 0.0 180.0" type="area" color="1 1 1" scale="4" size=".1 .1" unshadowed="0.2"/>
+					<location id_="2116221056" tags="exhaust" pos="-0.45788 0.1 -1.96243" rot="180.0 0.0 180.0"/>
+					<location id_="130883376" tags="vital" pos="0.45186 0.6 0.86641"/>
+					<location id_="840812672" tags="player" pos="-0.2 1.2 -0.05" rot="0.0 0.0 0.0"/>
+					<light id_="2020139392" pos="-0.95 0.95 -2.6" rot="-180.0 0.0 -180.0" type="area" color="1 .1 .1" scale="2" size=".3 .1" unshadowed="0.2" glare="0.2"/>
+				</vox>
+				<wheel id_="2006834816" open_="true" name="bl" pos="-1.05 -0.05 2.55" drive="1" travel="-0.2 0.1">
+					<vox id_="1369982592" pos="0.0 -0.45 -0.05" rot="0.0 180.0 0.0" file="MOD/apc/APC.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="391339328" open_="true" name="br" pos="1.15 -0.05 2.55" drive="1" travel="-0.2 0.1">
+					<vox id_="441936224" pos="0.0 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/apc/APC.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="1726126976" open_="true" name="fl" pos="-1.05 -0.05 -0.55" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+					<vox id_="1265839616" pos="0.0 -0.45 -0.05" rot="0.0 180.0 0.0" file="MOD/apc/APC.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="509966752" open_="true" name="fr" pos="1.15 -0.05 -0.55" drive="1" steer="1" travel="-0.2 0.1">
+					<vox id_="1175066624" pos="0.0 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/apc/APC.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

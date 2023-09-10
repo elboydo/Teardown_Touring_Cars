@@ -1,0 +1,4 @@
+name = Teardown Touring Cars (Ai Racing)
+author = elboydo
+description = A full racing mode with multiple levels and vehicles, featuring full racing AI vehicles against the player. It's time to prove yourself as the best racer in lockelle! [noupload] 
+tags = Gameplay,Map

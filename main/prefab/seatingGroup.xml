@@ -1,0 +1,15 @@
+<prefab version="0.5.3">
+	<group id_="629315072" name="seating group" pos="14.62275 0.5 1.65339" rot="0.0 90.0 0.0">
+		<vox id_="621122560" pos="-1.99999 0.0 0.0" rot="0.0 0.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="large_table"/>
+		<vox id_="535396256" pos="-1.6 0.0 -0.5" rot="0.0 0.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="815448704" pos="-2.49999 0.0 -0.5" rot="0.0 0.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="735948672" pos="-2.4 0.0 0.4" rot="0.0 -180.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="1572763392" pos="-1.5 0.0 0.4" rot="0.0 -180.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="437151808" pos="-0.4 0.0 0.4" rot="0.0 -180.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="2021319168" pos="0.50001 0.0 0.4" rot="0.0 -180.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="1200561664" pos="0.4 0.0 -0.5" rot="0.0 0.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="1152979712" pos="-0.5 0.0 -0.5" rot="0.0 0.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="chair_2"/>
+		<vox id_="159327744" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" prop="true" file="LEVEL/vox/furniture/diningroom_bright.vox" object="large_table"/>
+	</group>
+</prefab>
+

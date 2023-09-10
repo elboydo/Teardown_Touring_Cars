@@ -1,0 +1,222 @@
+<prefab version="0.6.2">
+	<group id_="1662356608" open_="true" name="instance=MOD/assets/racingTrack/standsLarge2.xml" pos="-35.3 1.6 -144.2" rot="0.0 120.0 0.0">
+		<group id_="1481597184" open_="true" name="stand1" pos="0.0 0.0 -15.7">
+			<voxbox id_="307579232" pos="-5.8 0.0 7.2" rot="0.0 90.0 0.0" size="170 32 4" brush="MOD/assets/industrial/wall-metal-red.vox"/>
+			<voxbox id_="1023210496" pos="-5.6 2.1 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1111558400" pos="-3.9 2.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="880398848" pos="-2.4 2.7 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1655605888" pos="-0.9 3.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1755882112" pos="5.1 0.3 -9.5" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="124263840" pos="-3.9 2.8 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="835241728" pos="-2.4 3.3 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="346706592" pos="5.1 0.3 6.4" rot="-90.0 -180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="607162560" pos="5.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1921960448" pos="0.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1616281984" pos="0.1 2.2 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1565619456" pos="5.1 3.8 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1620804224" pos="5.1 2.2 6.4" rot="-90.0 -180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1081868800" pos="4.8 3.9 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="441346368" pos="3.8 5.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1013117312" pos="2.3 4.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="867094208" pos="0.8 3.8 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="816038528" pos="-0.9 3.8 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1592687488" pos="5.1 0.3 -6.0" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="998501888" pos="0.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="714254912" pos="5.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1566799232" pos="4.8 3.9 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1504405120" pos="5.1 0.3 0.3" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="681288320" pos="0.1 2.2 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="714975872" pos="5.1 2.2 0.3" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1770497536" pos="5.1 1.4 -9.1" rot="-90.0 -90.0 0.0" size="162 8 44" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1773184640" pos="4.8 3.9 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1333607936" pos="-0.9 3.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="1416319360" pos="0.8 4.3 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="655268928" pos="2.3 4.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="1032648256" pos="-3.9 2.6 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="1992809216" pos="-2.4 3.2 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="489387168" pos="-3.00001 3.1 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="456223936" pos="-1.50001 3.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1462590592" pos="0.19999 4.2 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="604475392" pos="1.69999 4.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="306202880" pos="3.19999 5.4 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="60952200" pos="-4.50001 2.7 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="201797664" pos="-3.00001 3.0 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1797827712" pos="-4.50001 2.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="2064313344" pos="-1.50001 3.8 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1091830912" pos="3.19999 5.3 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1436243584" pos="1.69999 4.5 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1292186624" pos="0.19999 4.2 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1291400192" pos="-0.9 4.1 -9.8" rot="0.0 0.0 0.0" size="21 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1257843712" pos="1.0 4.5 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="101980240" pos="2.5 5.0 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1767548288" pos="-0.9 4.1 7.0" rot="0.0 0.0 0.0" size="21 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="636131264" pos="1.0 4.5 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="277692992" pos="2.5 5.0 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="894686528" pos="-2.4 3.3 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="132390800" pos="-3.9 2.8 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+		</group>
+		<group id_="1891943168" open_="true" name="stand2" pos="0.0 0.0 1.3">
+			<voxbox id_="176761376" pos="-5.8 0.0 7.2" rot="0.0 90.0 0.0" size="170 32 4" brush="MOD/assets/industrial/wall-metal-blue.vox"/>
+			<voxbox id_="1209540736" pos="-5.6 2.1 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1551921664" pos="-3.9 2.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="788839424" pos="-2.4 2.7 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1668124032" pos="-0.9 3.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1891287808" pos="5.1 0.3 -9.5" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1490641792" pos="-3.9 2.8 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="446982784" pos="-2.4 3.3 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="255278304" pos="5.1 0.3 6.4" rot="-90.0 -180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="793230592" pos="5.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="313084576" pos="0.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="654547968" pos="0.1 2.2 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1391152000" pos="5.1 3.8 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1728551936" pos="5.1 2.2 6.4" rot="-90.0 -180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="724413632" pos="4.8 3.9 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1165235712" pos="3.8 5.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1239426944" pos="2.3 4.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1821553280" pos="0.8 3.8 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="932044352" pos="-0.9 3.8 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="881709632" pos="5.1 0.3 -6.0" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="2116221056" pos="0.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="274350432" pos="5.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="986180352" pos="4.8 3.9 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1315518848" pos="5.1 0.3 0.3" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="2017190144" pos="0.1 2.2 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="877842752" pos="5.1 2.2 0.3" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1548906880" pos="5.1 1.4 -9.1" rot="-90.0 -90.0 0.0" size="162 8 44" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1957745280" pos="4.8 3.9 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1257778176" pos="-0.9 3.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="950395520" pos="0.8 4.3 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="1912653824" pos="2.3 4.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="49744860" pos="-3.9 2.6 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="208417200" pos="-2.4 3.2 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="547652224" pos="-3.0 3.1 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1629979776" pos="-1.5 3.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="995093824" pos="0.2 4.2 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1614381312" pos="1.7 4.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="67244040" pos="3.2 5.4 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="453143552" pos="-4.5 2.7 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1629062272" pos="-3.0 3.0 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1997265920" pos="-4.5 2.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="541360384" pos="-1.5 3.8 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="945152320" pos="3.2 5.3 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1981339776" pos="1.7 4.5 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="660905344" pos="0.2 4.2 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="510884288" pos="-0.9 4.1 -9.8" rot="0.0 0.0 0.0" size="21 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="2018697600" pos="1.0 4.5 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1305032448" pos="2.5 5.0 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="60755580" pos="-0.9 4.1 7.0" rot="0.0 0.0 0.0" size="21 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1628800128" pos="1.0 4.5 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="649632512" pos="2.5 5.0 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1794550784" pos="-2.4 3.3 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="288376000" pos="-3.9 2.8 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+		</group>
+		<group id_="1771415168" open_="true" name="stand2" pos="0.00003 0.0 35.3">
+			<voxbox id_="726379840" pos="-5.8 0.0 7.2" rot="0.0 90.0 0.0" size="170 32 4" brush="MOD/assets/industrial/wall-metal-blue.vox"/>
+			<voxbox id_="427910656" pos="-5.6 2.1 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="222049520" pos="-3.9 2.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="765572736" pos="-2.4 2.7 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1973540480" pos="-0.9 3.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="239941936" pos="5.1 0.3 -9.5" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1793764224" pos="5.1 0.3 6.4" rot="-90.0 -180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="506886368" pos="5.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1559131008" pos="0.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="731950720" pos="0.1 2.2 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="552633280" pos="5.1 3.8 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1458985984" pos="5.1 2.2 6.4" rot="-90.0 -180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="74912224" pos="4.8 3.9 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="418603968" pos="3.8 5.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="560432512" pos="2.3 4.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="528711168" pos="0.8 3.8 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1664912640" pos="-0.9 3.8 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="278741632" pos="5.1 0.3 -6.0" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1187781376" pos="0.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="829736384" pos="5.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="827376960" pos="4.8 3.9 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="2078863232" pos="5.1 0.3 0.3" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1620017664" pos="0.1 2.2 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1015476736" pos="5.1 2.2 0.3" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1162482944" pos="5.1 1.4 -9.1" rot="-90.0 -90.0 0.0" size="162 8 44" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1705809536" pos="4.8 3.9 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1651870208" pos="-0.9 3.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="1752932864" pos="0.8 4.3 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="1589148416" pos="2.3 4.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="717531904" pos="-3.9 2.6 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="591301888" pos="-2.4 3.2 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="690136192" pos="-3.0 3.1 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="2045896704" pos="-1.5 3.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="247675664" pos="0.2 4.2 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1854388736" pos="1.7 4.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="414999296" pos="3.2 5.4 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="286213184" pos="-4.5 2.7 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="149103504" pos="-3.0 3.0 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1844164480" pos="-4.5 2.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1283404288" pos="-1.5 3.8 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1849538816" pos="3.2 5.3 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1564570880" pos="1.7 4.5 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="762099136" pos="0.2 4.2 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chairB"/>
+			<voxbox id_="1058667648" pos="-0.9 4.1 7.0" rot="0.0 0.0 0.0" size="21 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1871035904" pos="1.0 4.5 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="2045699968" pos="2.5 5.0 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="845269376" pos="-2.4 3.3 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1105856384" pos="-3.9 2.8 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+		</group>
+		<group id_="386423840" open_="true" name="stand1" pos="0.0 0.0 18.3">
+			<voxbox id_="1980553216" pos="-5.8 0.0 7.2" rot="0.0 90.0 0.0" size="170 32 4" brush="MOD/assets/industrial/wall-metal-red.vox"/>
+			<voxbox id_="1591901056" pos="-5.6 2.1 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="795983296" pos="-3.9 2.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="108730864" pos="-2.4 2.7 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="694068608" pos="-0.9 3.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="35981460" pos="5.1 0.3 -9.5" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="250559424" pos="-3.9 2.8 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="608735488" pos="-2.4 3.3 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1255025408" pos="5.1 0.3 6.4" rot="-90.0 -180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1581414656" pos="5.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="516651808" pos="0.1 2.2 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="2091643520" pos="0.1 2.2 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="336023584" pos="5.1 3.8 6.4" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1287140096" pos="5.1 2.2 6.4" rot="-90.0 -180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="826590464" pos="4.8 3.9 -9.5" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1995627520" pos="3.8 5.1 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="777697664" pos="2.3 4.4 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="126098960" pos="0.8 3.8 7.2" rot="0.0 90.0 0.0" size="170 7 15" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="1942474496" pos="-0.9 3.8 7.2" rot="0.0 90.0 0.0" size="170 3 32" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+			<voxbox id_="636196800" pos="5.1 0.3 -6.0" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1345273984" pos="0.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1594129408" pos="5.1 2.2 -6.0" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1519872640" pos="4.8 3.9 -6.0" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1020916608" pos="5.1 0.3 0.3" rot="-90.0 180.0 0.0" size="108 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1871756800" pos="0.1 2.2 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="27395720" pos="5.1 2.2 0.3" rot="-90.0 180.0 0.0" size="51 8 19" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1756799744" pos="5.1 1.4 -9.1" rot="-90.0 -90.0 0.0" size="162 8 44" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1204166400" pos="4.8 3.9 0.3" rot="-90.0 180.0 0.0" size="26 8 10" brush="MOD/assets/industrial/components.vox" object="bars-rusty-small"/>
+			<voxbox id_="1764729984" pos="-0.9 3.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="383540096" pos="0.8 4.3 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="789036032" pos="2.3 4.9 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="1041627200" pos="-3.9 2.6 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="413688480" pos="-2.4 3.2 -0.2" rot="0.0 90.0 0.0" size="19 2 8" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="107420064" pos="-3.00001 3.1 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1186274048" pos="-1.50001 3.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="593595776" pos="0.19999 4.2 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1175197696" pos="1.69999 4.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1068433088" pos="3.19999 5.4 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="1255156480" pos="-4.50001 2.7 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="713206272" pos="-3.00001 3.0 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="211235424" pos="-4.50001 2.7 6.6" rot="0.0 90.0 0.0" size="64 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="360797696" pos="-1.50001 3.8 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="355882208" pos="3.19999 5.3 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="250297264" pos="1.69999 4.5 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="515996416" pos="0.19999 4.2 -2.4" rot="0.0 90.0 0.0" size="72 9 6" brush="MOD/assets/racingTrack/trackAssets.vox" object="chair"/>
+			<voxbox id_="34277420" pos="-0.9 4.1 -9.8" rot="0.0 0.0 0.0" size="21 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1119488768" pos="1.0 4.5 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="406675712" pos="2.5 5.0 -9.8" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="192818688" pos="-0.9 4.1 7.0" rot="0.0 0.0 0.0" size="21 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1728486400" pos="1.0 4.5 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1115621888" pos="2.5 5.0 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="2081878144" pos="-2.4 3.3 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="1757324032" pos="-3.9 2.8 7.0" rot="0.0 0.0 0.0" size="15 8 2" brush="MOD/assets/industrial/components.vox" object="railing-plain-wood"/>
+			<voxbox id_="506099872" pos="-5.50004 0.0 26.7" rot="0.0 90.0 0.0" size="27 24 16" brush="MOD/assets/industrial/components.vox" object="stairs-industrial-metal"/>
+			<voxbox id_="2047862784" pos="-4.10001 0.0 -46.4" rot="0.0 -90.0 0.0" size="27 24 16" brush="MOD/assets/industrial/components.vox" object="stairs-industrial-metal"/>
+		</group>
+	</group>
+</prefab>
+

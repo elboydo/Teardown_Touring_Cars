@@ -1,0 +1,724 @@
+<prefab version="0.8.0">
+	<group id_="1616150912" open_="true" name="instance=MOD/bangers/banger_ai_pack.xml" pos="-238.10001 -2.6 207.10001" rot="0.0 0.0 0.0">
+		<group id_="855690240" open_="true" name="ai3_bangers" pos="-26.7 0.1 0.8" rot="0.0 90.0 0.0" layer="ai3_bangers" prop0="strength=4">
+			<group id_="188230880" open_="true" pos="-3.0 0.0 -5.2" rot="0.0 -10.0 0.0">
+				<vehicle id_="1208885248" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="952820544" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="816038528" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body">
+							<light id_="1507682176" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="521501792" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1931988096" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="410149312" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="1577416704" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1595702400" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="1340292992" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="622236736" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="1764926720" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1549103488" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="1674743680" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="231421744" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="969533248" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1656785664" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="553550848" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="990571584" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="771471360" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="328945248" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1595505792" open_="true" pos="0.5 0.0 4.8" rot="0.0 0.0 0.0">
+				<vehicle id_="11600580" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="480014976" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1189354368" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_no_bumper_p2">
+							<light id_="1361790080" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="1299461632" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="602574784" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="679453184" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="83891200" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1781573760" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="1581283584" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="472543392" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="1162482944" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="484668288" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="1304180480" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1672056448" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="604475392" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1822864000" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="84153360" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1995430784" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="2064641024" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="4391180" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1392724992" open_="true" pos="6.1 0.0 16.2" rot="0.0 0.0 0.0">
+				<vehicle id_="392715680" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="1137905536" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="905893888" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_no_bumper_p3">
+							<light id_="556827840" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="1655605888" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="2087645568" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="507082976" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="245447296" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="322260192" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="1048967680" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="572491904" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="1419793024" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="674144448" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="996208000" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="164374320" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1580103808" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="185281584" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="195178112" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="616076032" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="932372032" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="413098624" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1798089856" open_="true" pos="-4.6 0.0 31.8" rot="0.0 0.0 0.0">
+				<vehicle id_="1416057216" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="1570731648" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="543261056" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_p1">
+							<light id_="2089153024" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="2076831488" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="2293900" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1963906048" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="923851840" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1521642240" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="251870224" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="1071710080" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="24970740" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="872009728" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="1190599680" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="46730020" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1762436096" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1841936128" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1794550784" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="2070998400" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1936706944" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="182332288" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="516913984" open_="true" pos="6.6 0.0 31.9" rot="0.0 0.0 0.0">
+				<vehicle id_="1460427776" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="509573504" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1582856576" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_no_bumper_p4">
+							<light id_="1929956352" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="870305664" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1049426496" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="421291136" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="857066560" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1541435264" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="1649707392" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="1571845760" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="1273245568" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1455708928" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="2065951872" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1875099392" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="2063199232" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="226899488" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="721005568" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1043790016" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1089340288" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1173428224" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="2080370688" open_="true" pos="6.6 0.0 58.3" rot="0.0 0.0 0.0">
+				<vehicle id_="373840160" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="1421497088" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1047132608" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_no_bumper_p6">
+							<light id_="1803398656" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="1515153664" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1315780992" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="138486016" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="1348616576" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="781630016" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="1777379200" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="149562272" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="1114180" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="147137296" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="618632064" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1809756032" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1261513984" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1036252928" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1813819520" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1741594368" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1437947648" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1232610816" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1829417984" open_="true" pos="-3.5 0.0 58.3" rot="0.0 0.0 0.0">
+				<vehicle id_="1906624128" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="351425472" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1839183488" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_no_bumper_p5">
+							<light id_="1509910528" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="925359232" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1753522688" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="718777152" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="231683904" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="528317952" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="1365394816" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="47844200" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="1697682560" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="895538560" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="216937408" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1691652992" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1554870912" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1693946880" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1900659968" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1051851456" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="428107264" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="827508032" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1159074944" open_="true" pos="0.7 0.0 31.8" rot="0.0 0.0 0.0">
+				<vehicle id_="1838986880" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="1603698304" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="2006441600" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_no_bumper">
+							<light id_="234764288" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="1995824128" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="557089984" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1979308032" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="877777216" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1573680896" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="612274688" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="1961808768" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="205074656" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1879293952" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="167389152" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="1836496384" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1975310080" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="703899584" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="916380288" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="592678208" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="956752896" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1755619968" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="620532736" open_="true" pos="5.948 0.0 5.178" rot="0.0 0.0 0.0">
+				<vehicle id_="13697860" open_="true" tags="cfg=ai" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="110" acceleration="10" strength="8" antiroll="0.4" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="193736240" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1884733824" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/coupe_banger.vox" object="body2">
+							<location id_="2002050432" tags="exhaust" pos="0.4 0.0 -1.5" rot="0.00001 180.0 -0.00001"/>
+							<location id_="1673236224" tags="vital" pos="0.1 0.6 1.0" rot="0.00001 180.0 -0.00001"/>
+							<light id_="1980618752" pos="0.7 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1702139392" pos="-0.6 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1566209408" pos="-0.45 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="935845632" pos="0.55 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1691128576" pos="-0.6 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="1623819008" pos="0.7 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="2078863232" tags="player" pos="0.4 1.0 -0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1679331456" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="couple_rollcage"/>
+						</vox>
+						<wheel id_="1958073088" open_="true" name="bl" pos="-0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="92149240" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="343953920" open_="true" name="br" pos="0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="1250568704" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1236280960" open_="true" name="fl" pos="-0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="1227564160" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1910425472" open_="true" name="fr" pos="0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="1753915904" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="583699264" open_="true" pos="0.848 0.0 15.678" rot="0.0 0.0 0.0">
+				<vehicle id_="919132928" open_="true" tags="cfg=ai" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="110" acceleration="10" strength="8" antiroll="0.4" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="163260144" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="711895488" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/coupe_banger.vox" object="body3">
+							<location id_="1520724608" tags="exhaust" pos="0.4 0.0 -1.5" rot="0.00001 180.0 -0.00001"/>
+							<location id_="910678272" tags="vital" pos="0.1 0.6 1.0" rot="0.00001 180.0 -0.00001"/>
+							<light id_="889443328" pos="0.7 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1082655232" pos="-0.6 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="281035520" pos="-0.45 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1778296832" pos="0.55 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1509910528" pos="-0.6 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="1249913344" pos="0.7 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="1549693312" tags="player" pos="0.4 1.0 -0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1915603072" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="couple_rollcage"/>
+						</vox>
+						<wheel id_="1305294592" open_="true" name="bl" pos="-0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="1356415872" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="475951488" open_="true" name="br" pos="0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="1807462144" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="403464256" open_="true" name="fl" pos="-0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="1935199616" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1919273344" open_="true" name="fr" pos="0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="1835316608" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="777763200" open_="true" pos="6.148 0.0 24.878" rot="0.0 0.0 0.0">
+				<vehicle id_="2142633728" open_="true" tags="cfg=ai" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="110" acceleration="10" strength="8" antiroll="0.4" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="1755488896" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1942998784" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/coupe_banger.vox" object="body5">
+							<location id_="1394166912" tags="exhaust" pos="0.4 0.0 -1.5" rot="0.00001 180.0 -0.00001"/>
+							<location id_="2058939136" tags="vital" pos="0.1 0.6 1.0" rot="0.00001 180.0 -0.00001"/>
+							<light id_="462777952" pos="0.7 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="2033968384" pos="-0.6 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1228875008" pos="-0.45 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1632077056" pos="0.55 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="2015617152" pos="-0.6 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="1898235008" pos="0.7 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="2115238016" tags="player" pos="0.4 1.0 -0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1157764096" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="couple_rollcage"/>
+						</vox>
+						<wheel id_="492795264" open_="true" name="bl" pos="-0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="593530240" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="51645520" open_="true" name="br" pos="0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="1988549120" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1836692992" open_="true" name="fl" pos="-0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="972744704" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="282542944" open_="true" name="fr" pos="0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="633575168" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="140583296" open_="true" pos="-4.552 0.0 23.878" rot="0.0 0.0 0.0">
+				<vehicle id_="1009381568" open_="true" tags="cfg=ai" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="110" acceleration="10" strength="8" antiroll="0.4" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="1335049856" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1364739456" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/coupe_banger.vox" object="body4">
+							<location id_="226178544" tags="exhaust" pos="0.4 0.0 -1.5" rot="0.00001 180.0 -0.00001"/>
+							<location id_="1952829824" tags="vital" pos="0.1 0.6 1.0" rot="0.00001 180.0 -0.00001"/>
+							<light id_="245250688" pos="0.7 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="809550080" pos="-0.6 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="584813440" pos="-0.45 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="187968720" pos="0.55 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="2107438720" pos="-0.6 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="541229312" pos="0.7 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="371873952" tags="player" pos="0.4 1.0 -0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="286213184" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="couple_rollcage"/>
+						</vox>
+						<wheel id_="2022760960" open_="true" name="bl" pos="-0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="737783808" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1293890688" open_="true" name="br" pos="0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="368072640" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1533635968" open_="true" name="fl" pos="-0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="2100163712" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="193539616" open_="true" name="fr" pos="0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="1726454656" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="2121267584" open_="true" pos="0.948 0.0 48.678" rot="0.0 0.0 0.0">
+				<vehicle id_="1520265856" open_="true" tags="cfg=ai" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="110" acceleration="10" strength="8" antiroll="0.4" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="798080576" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="371546272" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/coupe_banger.vox" object="body4">
+							<location id_="205926688" tags="exhaust" pos="0.4 0.0 -1.5" rot="0.00001 180.0 -0.00001"/>
+							<location id_="1572566784" tags="vital" pos="0.1 0.6 1.0" rot="0.00001 180.0 -0.00001"/>
+							<light id_="2039014912" pos="0.7 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="848480832" pos="-0.6 0.65 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1800383744" pos="-0.45 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="971958208" pos="0.55 0.5 1.6" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="910285056" pos="-0.6 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="1353073280" pos="0.7 0.55 -1.7" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="999550528" tags="player" pos="0.4 1.0 -0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1407733632" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="couple_rollcage"/>
+						</vox>
+						<wheel id_="692167936" open_="true" name="bl" pos="-0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="287720608" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="416047936" open_="true" name="br" pos="0.55 -0.1 1.3" rot="0.0 0.0 0.0" drive="0" travel="-0.1 0.1">
+							<vox id_="508459328" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1763353728" open_="true" name="fl" pos="-0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="615682752" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1412386944" open_="true" name="fr" pos="0.55 -0.1 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+							<vox id_="1011872064" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/coupe_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="495482400" open_="true" name="station wagon" pos="6.7 0.0 -3.0" rot="0.0 0.0 0.0">
+				<vehicle id_="748401280" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="stationwagon1" spring="0.6" damping="0.7" topspeed="150" acceleration="9" strength="11" antispin="0" antiroll="0.2" steerassist="0.0">
+					<body id_="1227498624" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="2097083392" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/stationwagon_banger_paint_1.vox" object="body_p2">
+							<location id_="364664576" tags="exhaust" pos="0.4 0.0 -2.1" rot="0.00001 180.0 -0.00001"/>
+							<location id_="2093019904" tags="vital" pos="0.1 0.6 1.5" rot="0.00001 180.0 -0.00001"/>
+							<light id_="170272928" pos="0.7 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1477533824" pos="-0.6 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="329731744" pos="-0.45 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="433088320" pos="0.55 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="565610176" pos="-0.6 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="726707520" pos="0.7 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="609390912" tags="player" pos="0.4 1.1 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1067515520" pos="0.1 0.2 0.2" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="station_wagon_rollcage"/>
+						</vox>
+						<wheel id_="424699200" name="bl" pos="-0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="584813440" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1875427072" name="br" pos="0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="1607106304" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="287392896" name="fl" pos="-0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="669884352" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="373315840" name="fr" pos="0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="1502963328" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="248462144" open_="true" name="station wagon" pos="-5.2 0.0 16.1" rot="0.0 0.0 0.0">
+				<vehicle id_="188886272" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="stationwagon1" spring="0.6" damping="0.7" topspeed="150" acceleration="9" strength="11" antispin="0" antiroll="0.2" steerassist="0.0">
+					<body id_="669753280" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="2136669568" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/stationwagon_banger_paint_2.vox" object="body">
+							<location id_="109124096" tags="exhaust" pos="0.4 0.0 -2.1" rot="0.00001 180.0 -0.00001"/>
+							<location id_="1201806976" tags="vital" pos="0.1 0.6 1.5" rot="0.00001 180.0 -0.00001"/>
+							<light id_="1135414912" pos="0.7 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="129572576" pos="-0.6 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1874181888" pos="-0.45 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1162745088" pos="0.55 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1578399872" pos="-0.6 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="1082327552" pos="0.7 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="1721932416" tags="player" pos="0.4 1.1 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="176564768" pos="0.1 0.2 0.2" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="station_wagon_rollcage"/>
+						</vox>
+						<wheel id_="1357857664" open_="true" name="bl" pos="-0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="1832498432" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1933298944" open_="true" name="br" pos="0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="1262955776" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1423594368" open_="true" name="fl" pos="-0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="1395412096" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1451252224" open_="true" name="fr" pos="0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="593137024" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1673498368" open_="true" pos="1.6 0.0 -3.9" rot="0.0 -10.0 0.0">
+				<vehicle id_="1208885248" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="0.5" damping="1.5" topspeed="110" acceleration="7" strength="8" antiroll="0.1" difflock="0.2" steerassist="0.4" friction="1.6">
+					<body id_="2044127104" open_="true" pos="-0.05002 0.35 0.25" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1659210624" open_="true" pos="0.05 -0.15 -0.25" rot="0 180 0" density="1" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="body_2">
+							<light id_="2014437376" pos="-0.6 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1714723072" pos="0.5 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="1992547072" pos="-0.4 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="1214325120" pos="0.7 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1293497472" pos="-0.6 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<light id_="132915120" pos="0.7 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<location id_="460287424" tags="exhaust" pos="-0.5 0.1 -2.00001" rot="-180.0 360.0 -180.0"/>
+							<location id_="2014961792" tags="vital" pos="0.05 0.55 1.3" rot="-180.0 360.0 -180.0"/>
+							<location id_="854838208" tags="player" pos="0.4 1.15 -0.35" rot="0.0 0.0 0.0"/>
+							<vox id_="1813229696" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="hyundai_rollcage"/>
+						</vox>
+						<wheel id_="210580016" open_="true" name="bl" pos="-0.94999 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="724741312" pos="0.1 -0.35 0.05" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="790215808" open_="true" name="br" pos="0.65001 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="491615552" pos="0.2 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="1487430272" open_="true" name="fl" pos="-0.64999 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="2041439872" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFL"/>
+						</wheel>
+						<wheel id_="781498944" open_="true" name="fr" pos="0.65001 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="1415926144" pos="0.2 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFR"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="333729664" open_="true" pos="-4.9 0.0 4.4" rot="0.0 -10.0 0.0">
+				<vehicle id_="1841936128" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="0.5" damping="1.5" topspeed="110" acceleration="7" strength="8" antiroll="0.1" difflock="0.2" steerassist="0.4" friction="1.6">
+					<body id_="1457412992" open_="true" pos="-0.05002 0.35 0.25" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="860081408" open_="true" pos="0.05 -0.15 -0.25" rot="0 180 0" density="1" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="body_3">
+							<light id_="462384704" pos="-0.6 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1558475648" pos="0.5 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="304826528" pos="-0.4 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="246823648" pos="0.7 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1801366912" pos="-0.6 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<light id_="675651840" pos="0.7 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<location id_="1542090624" tags="exhaust" pos="-0.5 0.1 -2.00001" rot="-180.0 360.0 -180.0"/>
+							<location id_="421028960" tags="vital" pos="0.05 0.55 1.3" rot="-180.0 360.0 -180.0"/>
+							<location id_="1403539072" tags="player" pos="0.4 1.15 -0.35" rot="0.0 0.0 0.0"/>
+							<vox id_="778615168" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="hyundai_rollcage"/>
+						</vox>
+						<wheel id_="508918112" open_="true" name="bl" pos="-0.94999 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="489387168" pos="0.1 -0.35 0.05" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="1513711872" open_="true" name="br" pos="0.65001 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="869322560" pos="0.2 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="2088825344" open_="true" name="fl" pos="-0.64999 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="1258499072" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFL"/>
+						</wheel>
+						<wheel id_="721071104" open_="true" name="fr" pos="0.65001 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="419193856" pos="0.2 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFR"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1153897216" open_="true" pos="0.8 0.0 24.1" rot="0.0 0.0 0.0">
+				<vehicle id_="1306933120" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="0.5" damping="1.5" topspeed="110" acceleration="7" strength="8" antiroll="0.1" difflock="0.2" steerassist="0.4" friction="1.6">
+					<body id_="1909049088" open_="true" pos="-0.05002 0.35 0.25" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="776714560" open_="true" pos="0.05 -0.15 -0.25" rot="0 180 0" density="1" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="body_4">
+							<light id_="241842592" pos="-0.6 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1116408320" pos="0.5 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="677749120" pos="-0.4 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="823182400" pos="0.7 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1703384576" pos="-0.6 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<light id_="623809728" pos="0.7 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<location id_="902420288" tags="exhaust" pos="-0.5 0.1 -2.00001" rot="-180.0 360.0 -180.0"/>
+							<location id_="556958912" tags="vital" pos="0.05 0.55 1.3" rot="-180.0 360.0 -180.0"/>
+							<location id_="595168768" tags="player" pos="0.4 1.15 -0.35" rot="0.0 0.0 0.0"/>
+							<vox id_="1105463168" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="hyundai_rollcage"/>
+						</vox>
+						<wheel id_="982051328" open_="true" name="bl" pos="-0.94999 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="425813376" pos="0.1 -0.35 0.05" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="1471831808" open_="true" name="br" pos="0.65001 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="2000608512" pos="0.2 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="125378016" open_="true" name="fl" pos="-0.64999 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="1327119488" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFL"/>
+						</wheel>
+						<wheel id_="19924160" open_="true" name="fr" pos="0.65001 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="977070336" pos="0.2 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFR"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<location id_="60952200" name="TrackInfo" tags="trackinfo=Crownzygot"/>
+			<group id_="48499600" open_="true" pos="-4.6 0.0 40.3" rot="0.0 0.0 0.0">
+				<vehicle id_="273760576" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="100" acceleration="8" strength="6" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+					<body id_="1991367424" open_="true" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="2103571840" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" file="MOD/bangers/salooncar_banger.vox" object="body_no_bumper_p2">
+							<light id_="14222180" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="553550848" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="760264000" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+							<light id_="1020195648" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+							<light id_="1089078144" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1829090304" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<location id_="249445248" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+							<location id_="143008288" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+							<location id_="1222452096" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+							<vox id_="1231824256" pos="0.1 0.2 0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="saloon_rollcage"/>
+						</vox>
+						<wheel id_="1595964544" open_="true" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="955442112" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="776976704" open_="true" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+							<vox id_="2074996352" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="695182784" open_="true" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1141248000" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/bangers/salooncar.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="408052032" open_="true" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+							<vox id_="1076822144" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/salooncar_banger.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="2093216512" open_="true" pos="0.7 0.0 40.3" rot="0.0 0.0 0.0">
+				<vehicle id_="1208885248" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="small1 0.8" spring="0.5" damping="1.5" topspeed="110" acceleration="7" strength="8" antiroll="0.1" difflock="0.2" steerassist="0.4" friction="1.6">
+					<body id_="2044127104" open_="true" pos="-0.05002 0.35 0.25" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1659210624" open_="true" pos="0.05 -0.15 -0.25" rot="0 180 0" density="1" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="body">
+							<light id_="2014437376" pos="-0.6 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1714723072" pos="0.5 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="1992547072" pos="-0.4 0.65 -1.9" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+							<light id_="1214325120" pos="0.7 0.65 -1.9" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1293497472" pos="-0.6 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<light id_="132915120" pos="0.7 0.75 1.7" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+							<location id_="460287424" tags="exhaust" pos="-0.5 0.1 -2.00001" rot="-180.0 360.0 -180.0"/>
+							<location id_="2014961792" tags="vital" pos="0.05 0.55 1.3" rot="-180.0 360.0 -180.0"/>
+							<location id_="854838208" tags="player" pos="0.4 1.15 -0.35" rot="0.0 0.0 0.0"/>
+							<vox id_="297354976" pos="0.1 0.2 -0.1" rot="0.0 90.0 0.0" file="MOD/bangers/rollcages/rollcages.vox" object="hyundai_rollcage"/>
+						</vox>
+						<wheel id_="210580016" open_="true" name="bl" pos="-0.94999 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="724741312" pos="0.1 -0.35 0.05" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="790215808" open_="true" name="br" pos="0.65001 0.1 1.2" drive="1" travel="-0.1 0.1">
+							<vox id_="491615552" pos="0.2 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelBR"/>
+						</wheel>
+						<wheel id_="1487430272" open_="true" name="fl" pos="-0.64999 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="2041439872" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFL"/>
+						</wheel>
+						<wheel id_="781498944" open_="true" name="fr" pos="0.65001 0.1 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+							<vox id_="1415926144" pos="0.2 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/bangers/Hyundai_i20_Coupe_banger.vox" object="wheelFR"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="438790304" open_="true" pos="6.6 0.0 40.4" rot="0.0 0.0 0.0">
+				<vehicle id_="748401280" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="stationwagon1" spring="0.6" damping="0.7" topspeed="150" acceleration="9" strength="11" antispin="0" antiroll="0.2" steerassist="0.0">
+					<body id_="1227498624" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="2097083392" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/stationwagon_banger_paint_3.vox" object="body">
+							<location id_="364664576" tags="exhaust" pos="0.4 0.0 -2.1" rot="0.00001 180.0 -0.00001"/>
+							<location id_="2093019904" tags="vital" pos="0.1 0.6 1.5" rot="0.00001 180.0 -0.00001"/>
+							<light id_="170272928" pos="0.7 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1477533824" pos="-0.6 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="329731744" pos="-0.45 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="433088320" pos="0.55 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="565610176" pos="-0.6 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="726707520" pos="0.7 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="609390912" tags="player" pos="0.4 1.1 0.1" rot="0.0 0.0 0.0"/>
+						</vox>
+						<wheel id_="424699200" open_="true" name="bl" pos="-0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="584813440" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_3.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1875427072" open_="true" name="br" pos="0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="1607106304" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_3.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="287392896" open_="true" name="fl" pos="-0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="669884352" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_3.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="373315840" open_="true" name="fr" pos="0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="1502963328" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_3.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="989654016" open_="true" pos="6.6 0.0 48.8" rot="0.0 0.0 0.0">
+				<vehicle id_="1352876672" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="stationwagon1" spring="0.6" damping="0.7" topspeed="150" acceleration="9" strength="11" antispin="0" antiroll="0.2" steerassist="0.0">
+					<body id_="1665240320" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="795262336" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="body2">
+							<location id_="48499600" tags="exhaust" pos="0.4 0.0 -2.1" rot="0.00001 180.0 -0.00001"/>
+							<location id_="1422742272" tags="vital" pos="0.1 0.6 1.5" rot="0.00001 180.0 -0.00001"/>
+							<light id_="1566537088" pos="0.7 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1585150464" pos="-0.6 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="161293936" pos="-0.45 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1073807360" pos="0.55 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1810214784" pos="-0.6 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="1471897344" pos="0.7 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="1873133184" tags="player" pos="0.4 1.1 0.1" rot="0.0 0.0 0.0"/>
+						</vox>
+						<wheel id_="1473601408" open_="true" name="bl" pos="-0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="149300128" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="209531376" open_="true" name="br" pos="0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="37947660" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="276840960" open_="true" name="fl" pos="-0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="59313700" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1273114496" open_="true" name="fr" pos="0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="1584363904" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="1137053440" open_="true" pos="-4.6 0.0 48.8" rot="0.0 0.0 0.0">
+				<vehicle id_="1449613696" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="stationwagon1" spring="0.6" damping="0.7" topspeed="150" acceleration="9" strength="11" antispin="0" antiroll="0.2" steerassist="0.0">
+					<body id_="851168000" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1531079936" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="body">
+							<location id_="2056186368" tags="exhaust" pos="0.4 0.0 -2.1" rot="0.00001 180.0 -0.00001"/>
+							<location id_="498890496" tags="vital" pos="0.1 0.6 1.5" rot="0.00001 180.0 -0.00001"/>
+							<light id_="233256864" pos="0.7 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1500341632" pos="-0.6 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1732025600" pos="-0.45 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1600748928" pos="0.55 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="2047272960" pos="-0.6 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="686924736" pos="0.7 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="1196825984" tags="player" pos="0.4 1.1 0.1" rot="0.0 0.0 0.0"/>
+						</vox>
+						<wheel id_="879022464" open_="true" name="bl" pos="-0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="2004213248" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="650025728" open_="true" name="br" pos="0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="702457728" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1043921152" open_="true" name="fl" pos="-0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="1978390400" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1187257088" open_="true" name="fr" pos="0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="701998912" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+			<group id_="299583328" open_="true" pos="1.6 0.0 58.6" rot="0.0 0.0 0.0">
+				<vehicle id_="1211179264" open_="true" tags="cfg=ai" rot="0.0 0.0 0.0" driven="false" sound="stationwagon1" spring="0.6" damping="0.7" topspeed="150" acceleration="9" strength="11" antispin="0" antiroll="0.2" steerassist="0.0">
+					<body id_="1465343360" open_="true" pos="0.0 0.4 -0.3" rot="0.0 0.0 0.0" dynamic="true">
+						<vox id_="1428706432" open_="true" pos="0.05 -0.2 0.3" rot="0.0 -179.99998 0.0" density="1.5" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="body3">
+							<location id_="1423856512" tags="exhaust" pos="0.4 0.0 -2.1" rot="0.00001 180.0 -0.00001"/>
+							<location id_="963438016" tags="vital" pos="0.1 0.6 1.5" rot="0.00001 180.0 -0.00001"/>
+							<light id_="857328768" pos="0.7 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="414474944" pos="-0.6 0.65 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+							<light id_="1441814400" pos="-0.45 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="1648855296" pos="0.55 0.5 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+							<light id_="111024760" pos="-0.6 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<light id_="1026553024" pos="0.7 0.55 -2.3" rot="0.00001 180.0 -0.00001" type="area" color="1 .8 .7" scale="3" size="0.2 0.1" unshadowed="0.2"/>
+							<location id_="1872477824" tags="player" pos="0.4 1.1 0.1" rot="0.0 0.0 0.0"/>
+						</vox>
+						<wheel id_="1395805440" open_="true" name="bl" pos="-0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="5636440" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_bl"/>
+						</wheel>
+						<wheel id_="1474060160" open_="true" name="br" pos="0.55 -0.1 1.5" rot="0.0 0.0 0.0" drive="0" travel="-0.2 0.1">
+							<vox id_="1080361344" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_br"/>
+						</wheel>
+						<wheel id_="1437488768" open_="true" name="fl" pos="-0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="345264704" pos="-0.1 -0.3 0.0" rot="0.0 -179.99998 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_fl"/>
+						</wheel>
+						<wheel id_="1497785600" open_="true" name="fr" pos="0.55 -0.1 -1.2" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+							<vox id_="1307916288" pos="0.2 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/bangers/stationwagon_banger_paint_4.vox" object="wheel_fr"/>
+						</wheel>
+					</body>
+				</vehicle>
+			</group>
+		</group>
+	</group>
+</prefab>
+

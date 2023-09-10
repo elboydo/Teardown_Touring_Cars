@@ -1,0 +1,155 @@
+<prefab version="0.8.0">
+	<group id_="607817984" open_="true" name="race cars" pos="-49.1 10.6 47.3" rot="0.0 -90.0 0.0">
+		<group id_="998764032" name="salooncar" pos="-0.1 0.1 -0.2" rot="0.0 -180.0 0.0" layer="car1">
+			<vehicle id_="1208885248" tags="car=1" rot="0.0 0.0 0.0" driven="true" sound="small1 0.8" spring="1.0" damping="1.5" topspeed="90" acceleration="6" strength="4" antiroll="0.2" difflock="0.2" steerassist="0.4" friction="1.8">
+				<body id_="952820544" pos="0.0 0.4 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="816038528" pos="0.05 -0.3 0.15" rot="0 180 0" density="1.2" strength="2" file="MOD/vox/salooncar.vox" object="body">
+						<light id_="1507682176" pos="0.6 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+						<light id_="521501792" pos="0.75 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+						<light id_="1931988096" pos="-0.65 0.65 -2.1" rot="0 180 0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+						<light id_="410149312" pos="-0.5 0.65 -2.1" rot="0 180 0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.3" glare="0.2"/>
+						<light id_="1577416704" pos="-0.5 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+						<light id_="1595702400" pos="0.6 0.55 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+						<location id_="1340292992" tags="exhaust" pos="0.45 0.15 -2.05" rot="180.0 0.0 180.0"/>
+						<location id_="622236736" tags="vital" pos="0.05 0.55 1.35" rot="180.0 0.0 180.0"/>
+						<location id_="1764926720" tags="player" pos="0.35 1.15 0.1" rot="0.0 0.0 0.0"/>
+					</vox>
+					<wheel id_="1674743680" name="bl" pos="-0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+						<vox id_="231421744" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/vox/salooncar.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="969533248" name="br" pos="0.65 -0.1 1.45" drive="1" travel="-0.1 0.1">
+						<vox id_="1656785664" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/vox/salooncar.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="553550848" name="fl" pos="-0.65 -0.1 -1.15" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.1 0.1">
+						<vox id_="990571584" pos="-0.1 -0.3 0.0" rot="0.0 180.0 0.0" file="MOD/vox/salooncar.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="771471360" name="fr" pos="0.65 -0.1 -1.15" drive="0" steer="1" travel="-0.1 0.1">
+						<vox id_="328945248" pos="0.1 -0.3 0.0" rot="0.0 -180.0 0.0" file="MOD/vox/salooncar.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+			<environment id_="2129001344" name="Some nice sunny weather" template="sunny" skyboxrot="45" fogParams="250 400 0.75 9" nightlight="false"/>
+		</group>
+		<group id_="2126707456" open_="true" name="musclecar" pos="-0.2 0.1 -0.1" rot="0.0 180.0 0.0" layer="car2">
+			<vehicle id_="1311193216" tags="car=2" pos="0.1 0.0 0.2" rot="0.0 0.0 0.0" driven="true" sound="musclecar" spring="0.8" damping="0.6" topspeed="90" acceleration="8" strength="8" antiroll="0.0" difflock="0.5" steerassist="0.4" friction="1.5">
+				<body id_="561612288" pos="-0.1 0.45 -0.75" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="480866976" pos="0.05 -0.15 0.55" rot="0.0 180.0 0.0" density="2" strength="3" file="MOD/vox/muscle_car.vox" object="body">
+						<location id_="1586723456" tags="exhaust" pos="0.5 0.1 -2.5" rot="0.0 180.0 0.0"/>
+						<light id_="94246520" pos="0.5 0.55 -2.5" rot="180.0 0.0 180.0" type="area" color="1 .1 .1" size="0.6 0.1" unshadowed="0.3" glare=".2"/>
+						<light id_="1955975808" pos="-0.4 0.55 -2.5" rot="180.0 0.0 180.0" type="area" color="1 .1 .1" size="0.6 0.1" unshadowed="0.3" glare=".2"/>
+						<light id_="1008267392" pos="0.85 0.5 -2.5" rot="180.0 0.0 180.0" type="area" size="0.1 0.2" unshadowed="0.3"/>
+						<light id_="642160896" pos="-0.75 0.5 -2.5" rot="180.0 0.0 180.0" type="area" size="0.1 0.2" unshadowed="0.3"/>
+						<light id_="1807331072" pos="-0.75 0.5 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.3" glare=".3"/>
+						<light id_="2094986112" pos="0.85 0.5 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.3" glare=".3"/>
+						<location id_="481391296" tags="vital" pos="0.05 0.5 1.7"/>
+						<location id_="476148096" tags="player" pos="0.45 1.0 -0.05" rot="0.0 0.0 0.0"/>
+					</vox>
+					<wheel id_="889115648" name="bl" pos="-0.75 -0.1 1.9" drive="1" travel="-0.1 0.2">
+						<vox id_="1150161408" pos="-0.1 -0.35 -0.05" rot="0.0 180.0 0.0" file="MOD/vox/muscle_car.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="1750704512" name="br" pos="0.7 -0.1 1.9" drive="1" travel="-0.1 0.2">
+						<vox id_="696362496" pos="0.2 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/muscle_car.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="882889344" name="fl" pos="-0.75 -0.1 -1.1" steer="1" travel="-0.1 0.2">
+						<vox id_="1793567616" pos="-0.1 -0.35 -0.05" rot="0.0 180.0 0.0" file="MOD/vox/muscle_car.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="920443776" name="fr" pos="0.75 -0.1 -1.1" steer="1" travel="-0.1 0.2">
+						<vox id_="1703515648" pos="0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/muscle_car.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+			<environment id_="36899020" name="Some nice sunset weather" template="sunset" skyboxrot="45"/>
+		</group>
+		<group id_="1176639616" open_="true" name="pickup1" pos="0.0 0.1 0.0" rot="0.0 -180.0 0.0" layer="car3">
+			<vehicle id_="574130432" tags="car=3" rot="0.0 0.0 0.0" driven="true" sound="pickup" spring="0.6" damping="0.8" topspeed="75" acceleration="5" strength="5" antispin="0" antiroll="0.4" steerassist="0.5">
+				<body id_="1735826944" pos="-0.05 0.6 -0.5" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1101989504" pos="0.05 -0.3 0.5" rot="0 180 0" density="1.5" strength="4" file="MOD/vox/pickup1.vox" object="body">
+						<light id_="300304288" pos="0.8 0.75 2.5" type="cone" color="1 .9 .8" scale="25" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+						<light id_="780712448" pos="-0.7 0.75 2.5" type="cone" color="1 .9 .8" scale="25" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+						<light id_="1928580096" pos="-0.7 0.75 -2.6" rot="-180.0 0.0 -180.0" type="area" color="1 .1 .1" scale="2" size=".2 .1" unshadowed="0.2" glare="0.2"/>
+						<light id_="1345667328" pos="0.8 0.75 -2.6" rot="-180.0 0.0 -180.0" type="area" color="1 .1 .1" scale="2" size=".2 .1" unshadowed="0.2" glare="0.2"/>
+						<light id_="211497584" pos="-0.75 0.65 -2.6" rot="180.0 0.0 180.0" type="area" color="1 1 1" scale="4" size=".1 .1" unshadowed="0.2"/>
+						<light id_="533757760" pos="0.85 0.65 -2.6" rot="180.0 0.0 180.0" type="area" color="1 1 1" scale="4" size=".1 .1" unshadowed="0.2"/>
+						<location id_="2116221056" tags="exhaust" pos="0.54212 0.1 -2.46243" rot="180.0 0.0 180.0"/>
+						<location id_="130883376" tags="vital" pos="0.05186 0.7 1.46641"/>
+						<location id_="840812672" tags="player" pos="0.5 1.3 -0.05" rot="0.0 0.0 0.0"/>
+					</vox>
+					<wheel id_="2006834816" name="bl" pos="-0.75 -0.15 2.05" drive="1" travel="-0.2 0.1">
+						<vox id_="1369982592" pos="-0.1 -0.45 -0.05" rot="0.0 180.0 0.0" file="MOD/vox/pickup1.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="391339328" name="br" pos="0.75 -0.15 2.05" drive="1" travel="-0.2 0.1">
+						<vox id_="441936224" pos="0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/pickup1.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="1726126976" name="fl" pos="-0.75 -0.15 -1.15" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.2 0.1">
+						<vox id_="1265839616" pos="-0.1 -0.45 -0.05" rot="0.0 180.0 0.0" file="MOD/vox/pickup1.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="509966752" name="fr" pos="0.75 -0.15 -1.15" drive="1" steer="1" travel="-0.2 0.1">
+						<vox id_="1175066624" pos="0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/pickup1.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+			<environment id_="2109077248" name="Some nice sunriseweather" template="sunrise" skyboxrot="45"/>
+		</group>
+		<group id_="630167104" open_="true" name="sportscar" pos="0.0 0.1 -0.3" rot="0.0 180.0 0.0" layer="car4">
+			<vehicle id_="144056928" tags="car=4" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="true" sound="sportscar" spring="1.2" topspeed="120" acceleration="12" strength="8" antispin="0" antiroll="0.1" difflock=".1" steerassist="0.3" friction="1.9">
+				<body id_="1108346880" pos="-0.05002 0.35 0.25" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="1049164288" pos="0.05 -0.15 -0.25" rot="0 180 0" density="2" strength="2" file="MOD/vox/sportscar.vox" object="body">
+						<light id_="1411338368" pos="0.4 0.55 -2.1" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+						<light id_="558859584" pos="-0.3 0.55 -2.1" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+						<light id_="1125321856" pos="0.6 0.55 -2.1" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+						<light id_="1748410624" pos="-0.5 0.55 -2.1" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+						<light id_="641374464" pos="0.7 0.35 1.9" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+						<light id_="1037104960" pos="-0.6 0.35 1.9" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+						<location id_="877384000" tags="exhaust" pos="0.5 0.1 -2.1" rot="-180.0 360.0 -180.0"/>
+						<location id_="1117260416" tags="vital" pos="0.05 0.55 -1.4" rot="-180.0 360.0 -180.0"/>
+						<location id_="938467264" tags="player" pos="0.4 0.75 0.15" rot="0.0 0.0 0.0"/>
+					</vox>
+					<wheel id_="103553200" name="bl" pos="-0.64999 -0.0 1.2" drive="1" travel="-0.1 0.1">
+						<vox id_="1693815808" pos="-0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/sportscar.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="758625472" name="br" pos="0.65001 -0.0 1.2" drive="1" travel="-0.1 0.1">
+						<vox id_="1124731904" pos="0.2 -0.35 -0.05" rot="0 180 0" file="MOD/vox/sportscar.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="544506304" name="fl" pos="-0.64999 -0.0 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+						<vox id_="730115584" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/vox/sportscar.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="1619886592" name="fr" pos="0.65001 -0.0 -1.4" drive="1" steer="0.7" travel="-0.1 0.1">
+						<vox id_="1044117760" pos="0.2 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/sportscar.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+			<environment id_="1871035904" name="Some nice night weather" template="night" skybox="moonlit.dds" skyboxrot="45"/>
+		</group>
+		<group id_="1591049088" open_="true" name="racingcar" pos="0.0 0.1 0.0" rot="0.0 -180.0 0.0" layer="car5">
+			<vehicle id_="1725209472" tags="car=5" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0" driven="true" sound="racingcar" spring="1.2" topspeed="120" acceleration="8" strength="8" antispin="0" antiroll="0.2" difflock=".1" steerassist="0.4" friction="1.9">
+				<body id_="797097472" pos="-0.05002 0.3 -0.45" rot="0.0 0.0 0.0" dynamic="true">
+					<vox id_="489977024" pos="0.05 -0.2 0.45" rot="0 180 0" density="1.5" strength="2" file="MOD/vox/racingcar.vox" object="body">
+						<light id_="76681800" pos="0.65 0.45 -2.3" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.3" glare="0.2"/>
+						<light id_="1711773696" pos="-0.55 0.45 -2.3" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.3" glare="0.2"/>
+						<light id_="1076756608" pos="0.7 0.55 -2.3" rot="0.0 180.0 0.0" type="area" color="1 1 1" size="0.2 0.1" unshadowed="0.2"/>
+						<light id_="49023920" pos="-0.6 0.55 -2.3" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.2"/>
+						<light id_="648387200" pos="0.9 0.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+						<light id_="52956320" pos="-0.8 0.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+						<location id_="835307328" tags="exhaust" pos="0.5 0.1 -2.4" rot="-180.0 360.0 -180.0"/>
+						<location id_="1033303616" tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+						<location id_="1364870528" tags="player" pos="0.35 1.0 -0.05" rot="0.0 0.0 0.0"/>
+					</vox>
+					<wheel id_="1721145984" name="bl" pos="-0.64999 0.05 1.8" drive="1" travel="-0.1 0.1">
+						<vox id_="202715216" pos="-0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/racingcar.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="1762305024" name="br" pos="0.75001 0.05 1.8" drive="1" travel="-0.1 0.1">
+						<vox id_="486896672" pos="0.1 -0.35 -0.05" rot="0 180 0" file="MOD/vox/racingcar.vox" object="wheel_br"/>
+					</wheel>
+					<wheel id_="1191058432" name="fl" pos="-0.64999 0.05 -1.1" drive="1" steer="0.7" travel="-0.1 0.1">
+						<vox id_="1141051392" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/vox/racingcar.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="907597952" name="fr" pos="0.75001 0.05 -1.1" drive="1" steer="0.7" travel="-0.1 0.1">
+						<vox id_="1452497536" pos="0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vox/racingcar.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+			<environment id_="2122447360" name="Some nice rainy weather" template="rain" skyboxrot="45" nightlight="false"/>
+		</group>
+	</group>
+</prefab>
+

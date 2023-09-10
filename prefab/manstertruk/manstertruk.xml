@@ -1,0 +1,28 @@
+<prefab version="0.6.2">
+	<group id_="454388832" open_="true" name="instance=MOD/prefab/manstertruk/manstertruk.xml" pos="7.0 0.0 -3.2" rot="0.0 0.0 0.0">
+		<vehicle id_="766293696" open_="true" name="manstertruk" tags="cfg=ai" pos="0.0 0.0 0.0" rot="0.0 0 0.0" driven="false" sound="musclecar" spring="0.5" damping="0.9" topspeed="70" acceleration="6" strength="10" antispin="1" antiroll="1" difflock="0.9" steerassist="0.3" friction="2.2">
+			<body id_="320621696" open_="true" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="957670464" open_="true" pos="0.05 -0.2 0.25" rot="0 180 0" strength="2" file="MOD/prefab/manstertruk/manstertruk.vox" object="body">
+					<light id_="1887683072" pos="0.8 1.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+					<light id_="682336960" pos="-0.75 1.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+					<location id_="360863232" tags="exhaust" pos="-0.3 0.6 -2.0" rot="-180.0 360.0 -180.0"/>
+					<location id_="1022817216" tags="vital" pos="0.05 1.2 1.3" rot="-180.0 360.0 -180.0"/>
+					<location id_="853789568" tags="player" pos="0.45 1.8 0.25" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel id_="699573952" open_="true" name="bl" pos="-0.95 -0.15 2.0" drive="1" travel="-0.1 0.2">
+					<vox id_="590515392" pos="-0.1 -0.85 -0.05" rot="0.0 -180.0 0.0" file="MOD/prefab/manstertruk/manstertruk.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="635082624" open_="true" name="br" pos="1.05 -0.15 2.0" drive="1" travel="-0.1 0.2">
+					<vox id_="1973147264" pos="0.1 -0.85 -0.05" rot="0 180 0" file="MOD/prefab/manstertruk/manstertruk.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="1335901824" open_="true" name="fl" pos="-1.15 -0.15 -1.6" drive="1" steer="1.6" travel="-0.1 0.2">
+					<vox id_="880136640" pos="0.1 -0.85 -0.05" rot="0 180 0" file="MOD/prefab/manstertruk/manstertruk.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="20251860" open_="true" name="fr" pos="1.05 -0.15 -1.6" drive="1" steer="1.6" travel="-0.1 0.2">
+					<vox id_="1834857856" pos="0.1 -0.85 -0.05" rot="0 180 0" file="MOD/prefab/manstertruk/manstertruk.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

@@ -1,0 +1,24 @@
+<prefab version="0.5.3">
+	<group id_="1097794944" open_="true" pos="-3.8 4.2 5.3">
+		<compound id_="1804643840" open_="true" name="ladder" pos="0.5 0.2 0.6" rot="0.0 -180.0 0.0">
+			<voxbox id_="1746772096" name="hole" pos="-0.2 3.4 0.0" rot="0.0 0.0 0.0" size="13 4 12" brush="MOD/vox/hole.vox"/>
+			<voxbox id_="450653056" pos="0.1 -0.2 0.8" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="563381824" pos="0.1 0.2 0.7" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="670539712" pos="0.1 0.6 0.6" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="517897088" pos="0.1 1.0 0.5" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="1323907968" pos="0.1 1.4 0.4" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="666476288" pos="0.1 1.8 0.3" rot="0.0 0.0 0.0" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="753382272" pos="0.1 2.2 0.2" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="1328299136" pos="0.1 2.6 0.1" rot="0.0 0.0 0.0" size="7 6 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="1894040448" pos="0.1 3.1 -0.0" size="7 5 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="1482711424" pos="0.1 3.5 -0.1" rot="0.0 0.0 0.0" size="7 4 1" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="ladder"/>
+			<voxbox id_="1232020864" pos="0.7 2.4 -0.1" rot="0.0 0.0 0.0" size="1 1 3" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="metalBlock"/>
+			<voxbox id_="392912288" pos="0.7 0.5 -0.1" rot="0.0 0.0 0.0" size="1 1 8" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="metalBlock"/>
+			<voxbox id_="1122569088" pos="0.1 0.5 -0.1" rot="0.0 0.0 0.0" size="1 1 9" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="metalBlock"/>
+			<voxbox id_="1430738176" pos="0.1 1.5 -0.1" rot="0.0 0.0 0.0" size="1 1 5" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="metalBlock"/>
+			<voxbox id_="538738816" pos="0.7 1.5 -0.1" rot="0.0 0.0 0.0" size="1 1 5" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="metalBlock"/>
+			<voxbox id_="947577344" pos="0.1 2.4 -0.1" rot="0.0 0.0 0.0" size="1 1 3" brush="MOD/MEBuildings/furniture/ME_fixings.vox" object="metalBlock"/>
+		</compound>
+	</group>
+</prefab>
+

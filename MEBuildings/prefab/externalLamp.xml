@@ -1,0 +1,8 @@
+<prefab version="0.6.0">
+	<group id_="1707382528" open_="true" name="instance=MOD/MEBuildings/prefab/externalLamp.xml" pos="7.2 2.5 13.1" rot="0.0 0.0 0.0">
+		<vox id_="1333476864" open_="true" pos="0.0 0.0 0.0" file="MOD/MEBuildings/furniture/ME_fixings.vox" object="lamp_1">
+			<light id_="20645100" tags="night" pos="0.0 0.1 0.2" color="0.61 0.59 0.23"/>
+		</vox>
+	</group>
+</prefab>
+

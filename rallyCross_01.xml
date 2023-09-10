@@ -1,0 +1,749 @@
+<scene id_="1307391872" open_="true" version="0.8.0" shadowVolume="390 100 390">
+	<group id_="1619952128" open_="true" name="scripts" pos="0.0 -0.2 0.0">
+		<script id_="412508768" pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" file="main.lua"/>
+		<group id_="617845568" open_="true" name="avf_ai" layer="avf_ai">
+			<script id_="1883095296" file="MOD/scripts/AVF_AI_V3.lua" param0="map=moriSawa"/>
+		</group>
+		<group id_="948101632" open_="true" name="PLAYER" tags="player" layer="player playerstate">
+			<location id_="12059360" name="player state" tags="player=true"/>
+		</group>
+	</group>
+	<body id_="1101399680" open_="true" name="scene" tags="scenebody" pos="0.0 26.8 0.5">
+		<group id_="1336753792" open_="true" name="ground" pos="-0.1 0.0 -0.1" rot="0.0 0.0 0.0">
+			<voxscript id_="1703777792" pos="-199.89999 0.0 -199.89999" rot="0.0 0.0 0.0" texture="6" file="MOD/voxscript/groundRallyCross.lua">
+				<parameters scale="256" hollow="0" file="MOD/images/rallyCross_01.png"/>
+			</voxscript>
+			<water id_="971827136" name="pond" pos="-88.6 1.3 124.8" type="polygon" size="25 25">
+				<vertex pos="-21.7 -19.4"/>
+				<vertex pos="-8.3 -17.5"/>
+				<vertex pos="17.5 -12.1"/>
+				<vertex pos="21.5 -2.5"/>
+				<vertex pos="16.1 16.4"/>
+				<vertex pos="-0.3 15.6"/>
+				<vertex pos="-6.5 13.4"/>
+				<vertex pos="-15.9 5.3"/>
+				<vertex pos="-26.0 2.2"/>
+			</water>
+		</group>
+		<group id_="263667424" open_="true" name="gates" pos="-24.5 -5.1 17.3" rot="0.0 0.0 0.0">
+			<group id_="1900659968" open_="true" name="gate 1" pos="135.60001 5.1 -154.30002" rot="0.0 -179.0 0.0">
+				<trigger id_="211235424" name="gate 1" tags="gate=1 uipos=red" pos="0.0 2.0 0.0" size="2"/>
+			</group>
+			<group id_="1332887040" open_="true" name="gate 2" pos="119.80003 10.2 -60.60001" rot="0.0 22.0 0.0">
+				<trigger id_="1003679552" name="gate 2" tags="gate=2 uipos=red" pos="0.1 -2.7 0.0" size="5"/>
+			</group>
+			<group id_="670867456" name="gate 3" pos="59.89999 10.2 28.89998" rot="0.0 21.0 0.0">
+				<trigger id_="105912640" name="gate 3" tags="gate=3 uipos=red" pos="0.0 -2.1 3.0" size="5"/>
+			</group>
+			<group id_="246168240" name="gate 4" pos="-107.40002 5.1 46.6" rot="0.0 0.0 0.0">
+				<trigger id_="1993333504" name="gate 4" tags="gate=4 uipos=red" pos="0.0 2.0 0.0" size="2"/>
+			</group>
+			<group id_="884658944" open_="true" name="gate 5" pos="70.90001 3.4 -123.30002" rot="0.0 30.0 0.0">
+				<trigger id_="60034640" name="gate 5" tags="gate=5 uipos=red" pos="0.0 3.0 0.0" size="3"/>
+			</group>
+		</group>
+		<group id_="978839872" name="cars" pos="-66.59996 1.8 -35.0" rot="0.0 -145.0 0.0" layer="main">
+			<location id_="1804316160" name="TrackInfo" tags="trackinfo=moriSawa" pos="-0.0577 0.1 -8.87677"/>
+			<instance id_="860540224" pos="-13.36002 0.1 -3.28002" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="934338240" pos="-13.36002 0.1 2.41999" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="877973824" pos="-13.36001 0.1 8.72" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="1812049920" pos="-1.86001 0.1 8.71999" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="590646464" pos="-1.86002 0.1 -3.28003" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="1374111616" pos="-1.86002 0.1 2.41998" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="1825682176" pos="10.63999 0.1 8.71997" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="515209952" pos="10.63998 0.1 -3.28005" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="1749524736" pos="10.63998 0.1 2.41996" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="446327392" pos="26.93999 0.1 8.71995" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="1470193280" pos="26.93998 0.1 -3.28007" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+			<instance id_="444557824" pos="26.93998 0.1 2.41994" rot="0.0 90.0 0.0" file="MOD/vehicles/wacky/Roaring_Plenty.xml"/>
+		</group>
+		<group id_="1603894912" name="cars" pos="-66.59996 1.8 -35.0" rot="0.0 -145.0 0.0" layer="suvRace">
+			<location id_="159852064" name="TrackInfo" tags="trackinfo=moriSawa" pos="-0.0577 0.1 -8.87677"/>
+			<instance id_="612602368" pos="-13.36 0.1 -3.28" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="369514528" pos="-13.35998 0.1 8.32" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="964421120" pos="-13.35999 0.1 2.02" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="1339572096" pos="0.84001 0.1 2.02" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="1168512640" pos="0.84 0.1 -3.28" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="1379944704" pos="0.84002 0.1 8.32" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="307185984" pos="11.54001 0.1 2.01998" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="1444173952" pos="11.54 0.1 -3.28002" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="1850915200" pos="11.54002 0.1 8.31998" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="1996413952" pos="22.04 0.1 -3.28003" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="327044608" pos="22.04001 0.1 2.01997" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+			<instance id_="1474912128" pos="22.04002 0.1 8.31997" rot="0.0 -90.0 0.0" file="MOD/vehicles/racingSUV_Fast.xml"/>
+		</group>
+		<group id_="2115369088" open_="true" name="cars" pos="-57.0 1.6 -34.9" rot="0.0 -145.0 0.0" layer="racerallyRace rallycross">
+			<location id_="2143158016" name="TrackInfo" tags="trackinfo=moriSawa" pos="7.7488 0.1 -3.28852"/>
+			<instance id_="975038592" pos="-5.45349 -0.1 12.50825" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_dima.xml"/>
+			<instance id_="1980684288" pos="-5.45001 -0.1 2.51" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_Spexta.xml"/>
+			<instance id_="2131753984" pos="9.35 -0.1 4.30998" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_Spexta.xml"/>
+			<instance id_="1765713152" pos="9.3465 -0.1 12.90823" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_dima.xml"/>
+			<instance id_="1024717888" pos="27.75 -0.1 4.30996" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_Spexta.xml"/>
+			<instance id_="1334459904" pos="72.95 -0.1 4.30999" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_Spexta.xml"/>
+			<instance id_="323898688" pos="27.7465 -0.1 12.90821" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_dima.xml"/>
+			<instance id_="1255156480" pos="38.35001 -0.1 12.70996" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_Spexta.xml"/>
+			<instance id_="2018828672" pos="53.14651 -0.1 2.50819" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_dima.xml"/>
+			<instance id_="625907008" pos="71.55003 -0.1 14.50992" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_Spexta.xml"/>
+			<instance id_="1271672576" pos="84.4465 -0.1 12.90826" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_dima.xml"/>
+			<instance id_="997125568" pos="51.24651 -0.1 12.5083" rot="0.0 90.0 0.0" file="MOD/vehicles/rally/rally_dima.xml"/>
+		</group>
+		<group id_="1202462336" open_="true" name="cars" pos="-66.59996 1.8 -35.0" rot="0.0 -145.0 0.0" layer="raceCarRace">
+			<location id_="2063592448" name="TrackInfo" tags="trackinfo=moriSawa" pos="-0.0577 0.1 -8.87677"/>
+			<instance id_="56495480" pos="-13.36 0.1 -3.28" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="482046688" pos="-13.35999 0.1 9.32" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1363035392" pos="-13.36 0.1 2.52" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1000271488" pos="-0.96 0.1 2.51999" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="120659136" pos="-0.95999 0.1 9.31999" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="962323840" pos="-0.96 0.1 -3.28001" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1627096064" pos="11.54 0.1 2.51999" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="645569024" pos="11.54001 0.1 9.31998" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="914151936" pos="11.54 0.1 -3.28001" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="2045568896" pos="25.74 0.1 2.51997" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="200552400" pos="25.74001 0.1 9.31996" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1543335936" pos="25.74 0.1 -3.28003" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+		</group>
+		<water id_="942923968" pos="-0.0 -18.4 30.2" depth="50" wave="0.9" ripple="0.7" motion="1"/>
+		<group id_="751284992" name="obtascles" pos="-0.0 0.0 30.2"/>
+		<group id_="721529856" name="jump" pos="36.2 -4.3 52.19999">
+			<voxbox id_="707897536" name="hole" pos="11.40056 5.17427 -13.95666" rot="0.0 -101.0 5.0" texture="6" size="53 11 160" brush="hole"/>
+			<voxbox id_="1052703488" name="ramp" pos="11.30239 5.17427 -13.97574" rot="0.0 -101.0 5.0" texture="6" size="53 9 161" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+			<voxbox id_="1476222976" name="hole" pos="10.25222 5.63456 -8.78268" rot="0.0 -101.0 9.5" texture="6" size="53 11 160" brush="hole"/>
+			<voxbox id_="94049904" name="ramp" pos="10.25222 5.63456 -8.78268" rot="0.0 -101.0 9.5" texture="6" size="53 9 161" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+			<voxbox id_="196030144" name="ramp" pos="9.24831 6.49933 -3.82767" rot="0.0 -101.0 2.7" texture="6" size="45 9 157" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+			<voxbox id_="1917176064" name="hole" pos="8.37427 7.02937 0.45924" rot="0.0 -101.0 -6.8" texture="6" size="53 9 156" brush="hole"/>
+			<voxbox id_="1339703168" name="ramp" pos="8.32215 6.73148 0.41292" rot="0.0 -101.0 -6.8" texture="6" size="53 9 155" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+			<voxbox id_="1372538624" name="hole" pos="7.33366 6.13827 5.28865" rot="0.0 -101.0 -6.8" texture="6" size="53 11 158" brush="hole"/>
+			<voxbox id_="1652918784" name="ramp" pos="7.33366 6.13827 5.28865" rot="0.0 -101.0 -6.8" texture="6" size="53 9 157" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+			<voxbox id_="585010048" name="hole" pos="6.34465 5.55443 10.16703" rot="0.0 -101.0 -4.8" texture="6" size="22 11 152" brush="hole"/>
+			<voxbox id_="1285698176" name="ramp" pos="6.34465 5.55443 10.16703" rot="0.0 -101.0 -4.8" texture="6" size="22 9 153" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+			<voxbox id_="1360741504" name="hole" pos="5.88487 5.36088 12.32271" rot="0.0 -101.0 -2.4" texture="6" size="22 11 146" brush="hole"/>
+			<voxbox id_="1502242304" name="ramp" pos="5.88487 5.36088 12.32271" rot="0.0 -101.0 -2.4" texture="6" size="22 9 149" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+			<voxbox id_="906942528" name="hole" pos="5.42429 5.26833 14.48257" rot="0.0 -101.0 -2.4" texture="6" size="22 11 144" brush="hole"/>
+			<voxbox id_="760460608" name="ramp" pos="5.42429 5.26833 14.48257" rot="0.0 -101.0 -2.4" texture="6" size="22 9 143" brush="MOD/assets/racingTrack/roadsegments_dirtSand.vox"/>
+		</group>
+		<group id_="141566400" open_="true" name="Track_Objects" pos="-0.0 0.0 30.2">
+			<voxbox id_="247479040" pos="98.97 1.8 -158.14" rot="0.0 20.0 0.0" prop="false" size="37 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+			<group id_="1012330816" open_="true" pos="103.6 1.8 -168.39999" prop0="density=2">
+				<voxbox id_="172894528" pos="-14.13 -0.0 -12.63998" rot="0.0 -15.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+			</group>
+			<voxbox id_="715893440" pos="103.27 1.8 -159.34" rot="0.0 0.0 0.0" prop="false" size="37 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+			<voxbox id_="214577952" pos="107.2 1.8 -50.04" rot="0.0 35.0 0.0" prop="false" size="100 12 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+			<group id_="983558784" open_="true" pos="98.1 1.8 16.9">
+				<voxbox id_="1573156608" pos="-11.89752 -0.0 68.71003" rot="0.0 -65.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1081016704" pos="0.57 0.0 -61.04" rot="0.0 35.0 0.0" prop="false" size="100 12 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1097336192" pos="-8.23001 -0.0 -29.83999" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1463770368" pos="-2.86874 -0.0 -49.74243" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1714395264" pos="-5.48851 -0.0 -39.83703" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1501193728" pos="-10.86874 -0.0 -19.84243" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="740667520" pos="-13.48851 -0.0 -9.93703" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1757717248" pos="-16.06873 -0.0 0.05757" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="2111567744" pos="-18.68851 -0.0 9.96297" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="941809792" pos="-21.43001 -0.0 19.96001" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="394288640" pos="-24.06873 -0.0 29.95757" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1642432384" pos="-26.68851 -0.0 39.86297" rot="0.0 75.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="717662976" pos="-24.98849 -0.0 40.66297" rot="0.0 -65.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1333607936" pos="-20.62831 -0.0 49.93493" rot="0.0 -65.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1465802112" pos="-16.22336 -0.0 59.28963" rot="0.0 -65.0 0.0" prop="true" size="100 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="932699712" pos="17.47 0.0 -72.84" rot="0.0 35.0 0.0" prop="false" size="108 13 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="989981696" pos="26.23959 0.0 -78.9726" rot="0.0 -145.0 0.0" size="313 13 1" brush="MOD/assets/racingTrack/Woosh_Roadside_sign.vox"/>
+			</group>
+			<group id_="1549889920" open_="true" pos="28.0 1.8 -79.3" rot="0 -3 0">
+				<voxbox id_="1197612416" pos="-1.9849 0.0 4.65463" rot="0.0 75.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="2029511680" pos="3.45573 0.0 -15.75504" rot="0.0 75.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="2133785728" pos="0.72973 0.0 -5.35047" rot="0.0 75.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1950470400" pos="-4.71967 0.0 14.75449" rot="0.0 75.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="70848736" pos="-2.78 0.1 15.09" rot="0.0 75.0 0.0" prop="true" size="417 15 1" brush="MOD/assets/racingTrack/bobBillboard1.vox" object="wrapping" offset="3.5 0 0"/>
+				<joint id_="708487424" pos="-2.7311 0.9 14.76317"/>
+				<joint id_="776452352" pos="-0.39026 0.9 5.92855"/>
+				<joint id_="536575968" pos="-0.04314 0.9 4.90899"/>
+				<joint id_="2129853440" pos="2.38186 0.9 -4.23045"/>
+				<joint id_="520190976" pos="2.63435 0.9 -5.14492"/>
+				<joint id_="614961792" pos="5.06459 0.9 -14.1845"/>
+				<joint id_="970844032" pos="5.39077 0.9 -15.60352"/>
+				<joint id_="1721997952" pos="7.82624 0.9 -24.54324"/>
+				<voxbox id_="1568634368" pos="-222.50182 0.0 129.70987" rot="0.0 35.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1053096704" pos="-213.91479 0.0 123.7308" rot="0.0 35.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="622105664" pos="-205.42793 0.0 117.29929" rot="0.0 35.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1574991744" pos="-196.84091 0.0 111.32021" rot="0.0 35.0 0.0" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+			</group>
+			<group id_="883348096" open_="true" pos="-62.5 1.8 -9.3" rot="0 -3 0">
+				<voxbox id_="1903150464" pos="2.47829 0.0 -16.0119" rot="0.0 65.0 0.0" prop="true" size="100 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="921426880" pos="-12.89528 0.0 20.87377" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1427264640" pos="-24.39 0.0 24.07" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="2009456384" pos="-0.10281 0.0 -5.58363" rot="0.0 75.0 0.0" prop="true" size="100 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1727110144" pos="6.90592 0.0 -25.31703" rot="0.0 65.0 0.0" prop="true" size="54 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1081606656" pos="9.71 0.0 -31.07" rot="0.0 55.0 0.0" prop="true" size="54 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="786480000" pos="12.88 0.0 -35.54" rot="0.0 55.0 0.0" prop="true" size="54 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1989663360" pos="36.30473 0.0 20.87376" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1709414272" pos="24.81 0.0 29.66999" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1756930816" pos="50.60999 0.0 3.46999" rot="0.0 115.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="81597296" pos="44.11 0.0 39.77" rot="0.0 115.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1429361920" pos="41.24344 0.0 -6.17757" rot="0.0 115.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="619418560" pos="122.83907 0.0 -59.72775" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1463573760" pos="112.99757 0.0 -39.30508" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="752005952" pos="109.24904 0.0 -51.67093" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1212555520" pos="145.26703 0.0 -78.94827" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1853995520" pos="143.40498 0.0 -77.79934" rot="0.0 35.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1102251776" pos="141.11261 0.0 -77.90902" rot="0.0 5.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="584092480" pos="147.91664 0.0 -81.89097" rot="0.0 75.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1216946688" pos="146.743 0.0 -80.12717" rot="0.0 55.0 0.0" prop="true" size="19 9 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1489527552" pos="-37.88143 0.0 85.61854" rot="0.0 -5.0 0.0" prop="true" size="100 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1188633472" pos="-27.16338 0.0 86.34957" rot="0.0 -15.0 0.0" prop="true" size="100 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="623744192" pos="-17.23076 0.0 89.09412" rot="0.0 -15.0 0.0" prop="true" size="54 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1210654848" pos="-11.07826 0.0 90.85661" rot="0.0 -25.0 0.0" prop="true" size="54 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1568372224" pos="-6.12571 0.0 93.20224" rot="0.0 -25.0 0.0" prop="true" size="54 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+			</group>
+			<group id_="1045821760" open_="true" pos="-47.8 1.8 -8.7" rot="0.0 167.0 0.0" prop0="prop=false">
+				<voxbox id_="1964364928" pos="-2.07568 0.0 -19.42981" rot="0.0 -105.0 0.0" size="45 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1095501056" pos="-0.36769 0.0 -24.02748" rot="0.0 -110.0 0.0" size="45 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="803061632" pos="-0.87739 0.0 -24.9727" rot="0.0 60.0 0.0" size="100 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1534356992" pos="-1.76506 0.0 -3.91993" rot="0.0 -82.0 0.0" prop="true" size="45 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="893310208" pos="-0.58 0.0 4.73" rot="0.0 -90.0 0.0" prop="true" size="36 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="855821312" pos="-0.62205 0.0 8.54012" rot="0.0 -94.0 0.0" prop="true" size="27 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1419203200" pos="-1.08508 0.0 11.52551" rot="0.0 -95.0 0.0" prop="true" size="27 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="527334848" pos="-1.21 0.0 14.53" rot="0.0 -100.0 0.0" prop="true" size="36 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1346715904" pos="-3.33 0.0 -14.75" rot="0.0 -88.0 0.0" size="54 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1055456128" pos="-2.92471 0.0 -8.99364" rot="0.0 -78.0 0.0" size="45 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="745189824" pos="-1.07506 0.0 0.75007" rot="0.0 -80.0 0.0" prop="true" size="9 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1975899904" pos="-0.85011 0.0 1.72444" rot="0.0 -80.0 0.0" prop="true" size="9 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1437685504" pos="-0.82003 0.0 2.7438" rot="0.0 -80.0 0.0" prop="true" size="9 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1333804544" pos="-0.71501 0.0 3.64323" rot="0.0 -80.0 0.0" prop="true" size="9 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+			</group>
+			<group id_="1574795136" open_="true" pos="25.0 1.8 22.7" rot="0 2 0">
+				<group id_="32704460" open_="true" pos="5.00408 -0.1 -16.11674" rot="0.0 2.0 0.0">
+					<voxbox id_="1581480192" name="metalRailing" pos="-1.48 0.06 -11.55" rot="0.0 -63.0 0.0" size="82 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="1567520128" name="metalRailing" pos="-1.05 1.17 8.53" rot="0.0 -105.0 4.0" size="33 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="1897317504" name="metalRailing" pos="1.58 0.06 -1.33" rot="0.0 -105.0 6.0" size="105 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="1919601024" name="metalRailing" pos="2.25 0.06 -4.24" rot="0.0 -103.0 0.0" size="30 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="963831232" name="metalRailing" pos="-2.26 0.1 -11.76" rot="0.0 -15.0 0.0" size="8 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				</group>
+				<group id_="1386498688" open_="true" pos="21.72627 -0.1 -10.72986" rot="0.0 2.0 0.0">
+					<voxbox id_="580618880" name="metalRailing" pos="2.02 0.06 -4.3" rot="0.0 27.0 0.0" size="82 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="775338176" name="metalRailing" pos="-2.19 1.3 11.86" rot="0.0 75.0 -2.0" size="33 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="684499776" name="metalRailing" pos="-1.33 1.16 8.79" rot="0.0 75.0 -6.0" size="105 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="1896399872" name="metalRailing" pos="1.35 0.06 -1.4" rot="0.0 77.0 0.0" size="29 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="324750688" name="metalRailing" pos="-1.95 1.3 12.36" rot="0.0 115.0 0.0" size="6 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+					<voxbox id_="1973933696" name="metalRailing" pos="9.31 0.1 -8.04" rot="0.0 -5.0 0.0" size="8 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				</group>
+				<voxbox id_="340808000" name="metalRailing" pos="3.64 1.27 -4.49" rot="0.0 -145.0 0.0" size="6 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+			</group>
+			<group id_="1834202496" open_="true" pos="41.2 1.8 0.3" rot="0 2 0">
+				<voxbox id_="1356350336" pos="9.57626 0.0 2.90705" rot="0.0 30.0 0.0" prop="true" size="36 11 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<voxbox id_="1851701632" pos="6.41079 0.0 4.79621" rot="0.0 30.0 0.0" prop="true" size="36 11 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1706399488" pos="-9.86405 0.0 0.92587" rot="0.0 120.0 0.0" prop="true" size="36 11 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1654491776" pos="-11.75321 0.0 -2.23961" rot="0.0 120.0 0.0" prop="true" size="36 11 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				<vox id_="1622508288" pos="-14.22 1.2 14.61" rot="0.0 -15.0 0.0" file="MOD/assets/racingTrack/tdr-flag.vox"/>
+				<vox id_="1191910400" pos="5.43 1.2 19.2" rot="0.0 165.0 0.0" file="MOD/assets/racingTrack/tdr-flag.vox"/>
+				<vox id_="352867360" pos="-16.06332 1.2 21.5499" rot="0.0 -15.0 0.0" file="MOD/assets/racingTrack/tdr-flag.vox"/>
+				<vox id_="1977669504" pos="3.58668 1.2 26.1399" rot="0.0 165.0 0.0" file="MOD/assets/racingTrack/tdr-flag.vox"/>
+				<vox id_="309021088" pos="-12.04196 0.3 6.68119" rot="0.0 -15.0 0.0" file="MOD/assets/racingTrack/tdr-flag.vox"/>
+				<vox id_="1047656896" pos="7.78698 0.3 11.8778" rot="0.0 165.0 0.0" file="MOD/assets/racingTrack/tdr-flag.vox"/>
+			</group>
+			<group id_="1942736640" open_="true" name="cones" pos="-35.3 1.8 -71.9" rot="0.0 35.0 0.0">
+				<vox id_="1983961344" pos="0.0 -0.0 0.6" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="1837807104" pos="-4.4 0.0 0.6" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="644323712" pos="-14.1 0.0 0.60001" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="264126208" pos="-9.7 0.0 0.60001" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="1849997568" pos="-23.3 0.0 0.60002" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="1468030464" pos="-18.9 0.0 0.60002" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="2129066880" pos="-18.90002 0.0 -29.19998" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="1423135616" pos="-0.00002 0.0 -29.2" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="533233440" pos="-4.40002 0.0 -29.2" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="2107504256" pos="-14.10002 0.0 -29.19999" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="1796844672" pos="-9.70002 0.0 -29.19999" prop="true" file="MOD/assets/props/pylone.vox"/>
+				<vox id_="1582594432" pos="-23.30002 0.0 -29.19998" prop="true" file="MOD/assets/props/pylone.vox"/>
+			</group>
+			<group id_="1948307584" open_="true" name="metalBarriers">
+				<voxbox id_="1219502720" pos="-12.77999 1.8 -124.11487" rot="0.0 -147.5 0.0" size="728 12 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				<voxbox id_="157558160" pos="33.91 1.8 -156.25999" rot="0.0 -145.5 0.0" size="570 12 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				<voxbox id_="1484808704" pos="91.07 1.8 -197.56" rot="0.0 -132.0 0.0" size="137 12 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				<voxbox id_="1390365568" pos="81.97 1.8 -187.56" rot="0.0 -147.0 0.0" size="569 12 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				<voxbox id_="1348682112" pos="115.57 1.8 -224.45999" rot="0.0 -129.0 0.0" size="233 12 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				<voxbox id_="1356022656" pos="116.77 1.8 -230.06" rot="0.0 -102.0 0.0" size="59 12 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+				<voxbox id_="1991695104" pos="-74.26 1.8 -84.95" rot="0.0 -146.0 0.0" size="1238 13 3" brush="MOD/assets/racingTrack/fundaments.vox" object="road_barrier"/>
+			</group>
+			<group id_="1641187200" open_="true" name="stands">
+				<instance id_="2097935360" pos="-31.0 1.6 -148.09999" rot="0.0 120.0 0.0" file="MOD/assets/racingTrack/standsLarge2.xml"/>
+			</group>
+			<group id_="1142493312" open_="true" name="barriers" pos="80.9 1.8 -176.90001">
+				<voxbox id_="453536800" pos="-8.8 0.0 9.30001" rot="0.0 130.0 0.0" size="90 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier"/>
+				<voxbox id_="1459313664" pos="40.0 0.0 82.6" rot="0.0 77.0 0.0" size="451 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier"/>
+				<group id_="174598560" open_="true" name="everyTideBarrier" pos="40.2 0.0 96.8">
+					<voxbox id_="658021632" pos="-2.31476 0.0 12.0616" rot="0.0 77.0 0.0" size="181 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier"/>
+					<voxbox id_="128786096" pos="-3.35203 0.0 11.60169" rot="0.0 77.0 0.0" prop="true" size="188 13 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<voxbox id_="936107840" pos="0.88 0.0 -6.69" rot="0.0 -103.0 0.0" size="190 13 1" brush="MOD/assets/racingTrack/evertides_wrapping.vox" object="wrapping2"/>
+				</group>
+				<group id_="1635091968" open_="true" name="everyTideBarrier" pos="41.0 0.0 87.50002" rot="0.0 30.0 0.0">
+					<voxbox id_="798080576" pos="-0.40903 0.0 4.31335" rot="0.0 77.0 0.0" size="90 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier"/>
+					<voxbox id_="924048448" pos="-1.17115 0.0 2.25279" rot="0.0 77.0 0.0" prop="true" size="81 13 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<voxbox id_="724413632" pos="0.79 0.0 -6.5766" rot="0.0 -103.0 0.0" size="91 13 1" brush="MOD/assets/racingTrack/evertides_wrapping.vox" object="wrapping2" offset="3.5 0 0"/>
+				</group>
+				<voxbox id_="697148992" pos="-14.65148 0.0 2.44944" rot="0.0 -50.0 0.0" prop="true" size="90 9 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_2.vox"/>
+				<voxbox id_="1501652480" pos="49.14 0.0 35.32" rot="0.0 -103.2 0.0" size="470 16 1" brush="MOD/assets/racingTrack/crestaad.vox"/>
+				<voxbox id_="1273900928" pos="38.38 0.0 81.45" rot="0.0 77.0 0.0" size="414 12 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+				<voxbox id_="1685492224" pos="58.28 0.0 -5.25" rot="0.0 147.0 0.0" size="316 12 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+				<voxbox id_="1381976448" pos="31.84336 0.0 -22.36546" rot="0.0 -33.0 0.0" size="316 12 1" brush="MOD/assets/racingTrack/marina_bluetide_WRAPPING.vox" object="wrapping5"/>
+				<voxbox id_="111942320" pos="62.33727 0.0 -4.67988" rot="0.0 147.0 0.0" size="361 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier"/>
+				<voxbox id_="1672843008" pos="50.0 0.0 38.4" rot="0.0 77.0 0.0" size="451 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier"/>
+				<voxbox id_="1443518464" pos="58.48555 0.0 -5.05141" rot="0.0 -103.0 0.0" size="415 12 1" brush="MOD/assets/racingTrack/marina_bluetide_WRAPPING.vox" object="wrapping5"/>
+				<voxbox id_="292636096" pos="47.78 0.0 41.05" rot="0.0 77.0 0.0" size="486 12 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+				<group id_="262291072" open_="true" name="endOfTrackWhiteBarriers">
+					<voxbox id_="987687808" pos="31.54 0.0 -24.68" rot="0.0 47.0 0.0" size="136 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier_White"/>
+					<voxbox id_="1308768256" pos="41.64 0.0 -34.08" rot="0.0 137.0 0.0" size="136 39 5" brush="MOD/assets/racingTrack/fundaments.vox" object="Large_barrier_White"/>
+				</group>
+				<group id_="1620869760" open_="true" name="mainStretchBarrier">
+					<voxbox id_="878170432" pos="-93.79 0.0 52.54" rot="0.0 -147.5 0.0" size="361 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					<voxbox id_="1024390208" pos="-63.49 0.0 31.64" rot="0.0 -145.4 0.0" size="369 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					<voxbox id_="1404784384" pos="-46.77177 0.0 20.10941" rot="0.0 -145.40001 0.0" size="204 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					<voxbox id_="311118368" pos="9.93 0.0 -20.79" rot="0.0 -131.5 0.0" size="130 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					<voxbox id_="396648064" pos="1.33 0.0 -11.09" rot="0.0 -147.03 0.0" size="574 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					<voxbox id_="1541238656" pos="34.33 0.0 -47.49" rot="0.0 -130.0 0.0" size="227 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					<voxbox id_="197734176" pos="-124.19 0.0 71.94" rot="0.0 -147.5 0.0" size="360 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					<voxbox id_="290604352" pos="-92.74095 0.0 54.83643" rot="0.0 -147.5 0.0" size="549 15 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<voxbox id_="1337540352" pos="-120.641 0.0 113.23601" rot="0.0 -145.5 0.0" size="549 15 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<voxbox id_="1156060032" pos="-139.02673 0.0 84.32997" rot="0.0 32.5 0.0" size="525 15 1" brush="MOD/assets/racingTrack/ntcWrapper.vox"/>
+					<group id_="516389664" open_="true" pos="-184.39999 0.0 111.2" rot="0 1. 0">
+						<voxbox id_="270942368" pos="30.31526 0.0 -19.46344" rot="0.0 -147.5 0.0" size="361 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+						<voxbox id_="806928512" pos="-0.49 0.0 0.23" rot="0.0 -147.0 0.0" size="902 39 4" brush="MOD/assets/racingTrack/fundaments.vox" object="Chain_Link"/>
+					</group>
+					<voxbox id_="671981632" pos="-43.73416 0.0 20.94383" rot="0.0 -145.5 0.0" size="594 15 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<voxbox id_="1565160704" pos="-6.31092 0.0 -3.14824" rot="0.0 -147.5 0.0" size="440 15 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<voxbox id_="116071344" pos="-4.99282 0.0 -4.41539" rot="0.0 -147.5 0.0" size="18 15 18" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<voxbox id_="263667424" pos="-2.46546 0.0 -7.13855" rot="0.0 -147.5 0.0" size="36 15 9" brush="MOD/assets/racingTrack/villa_racing_tirestack_blue.vox"/>
+					<group id_="114563920" open_="true" pos="-69.2 0.0 38.5" rot="0 2.3 0">
+						<voxbox id_="1611104256" pos="24.94377 0.0 -15.78788" rot="0.0 30.5 0.0" texture="6" size="218 15 1" brush="MOD/assets/racingTrack/bobsjunkyard.vox"/>
+						<voxbox id_="1140330496" pos="48.99615 0.0 -29.99811" rot="0.0 30.3 0.0" texture="6" size="87 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="1046215040" pos="43.77 0.0 -26.9" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="767473408" pos="56.50542 0.0 -34.37997" rot="0.0 30.0 0.0" texture="6" size="92 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="1667009920" pos="11.73451 0.0 -7.51841" rot="0.0 32.2 0.0" texture="6" size="156 15 1" brush="MOD/assets/racingTrack/marina_lee_sign.vox" object="wrapper"/>
+						<voxbox id_="128786096" pos="-26.23001 0.0 16.63" rot="0.0 32.5 0.0" size="295 14 1" brush="MOD/assets/racingTrack/evertides_wrapping.vox" object="wrapping2"/>
+						<voxbox id_="1147081088" pos="-1.36106 0.0 0.77718" rot="0.0 32.5 0.0" size="156 15 1" brush="MOD/assets/racingTrack/marina_lee_sign.vox" object="wrapper"/>
+						<group id_="2054482432" open_="true" pos="82.03668 0.0 -53.02737" rot="0 5 0">
+							<voxbox id_="1160910080" pos="-18.7881 0.0 12.52592" rot="0.0 40.0 0.0" texture="6" size="90 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						</group>
+						<voxbox id_="2086793600" pos="-195.40092 0.0 156.94978" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="1223500672" pos="-190.17477 0.0 153.85168" rot="0.0 30.3 0.0" texture="6" size="87 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="1129319680" pos="-220.51929 0.0 171.85374" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="1550741888" pos="-215.29314 0.0 168.75565" rot="0.0 30.3 0.0" texture="6" size="87 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="1373259648" pos="-207.80821 0.0 164.35783" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="1599438208" pos="-202.58206 0.0 161.25974" rot="0.0 30.3 0.0" texture="6" size="87 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="1063976384" pos="-182.69203 0.0 149.44844" rot="0.0 40.3 0.0" texture="6" size="74 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="2039145984" pos="-195.58832 0.0 154.14" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="1026356416" pos="-190.36217 0.0 151.0419" rot="0.0 30.3 0.0" texture="6" size="87 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="2037376384" pos="-220.70668 0.0 169.04396" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="570853376" pos="-215.48053 0.0 165.94586" rot="0.0 30.3 0.0" texture="6" size="87 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="1380403456" pos="-207.99561 0.0 161.54805" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+						<voxbox id_="2030953472" pos="-202.76945 0.0 158.44995" rot="0.0 30.3 0.0" texture="6" size="87 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+						<voxbox id_="1566143872" pos="-182.87724 0.0 146.64409" rot="0.0 20.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+					</group>
+				</group>
+				<group id_="261373520" open_="true" name="roadsideBanner_TD" pos="-52.3 -0.1 67.1" rot="0.0 -20.0 0.0">
+					<voxbox id_="1824240384" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+					<voxbox id_="1194007680" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+				</group>
+				<group id_="1495557248" open_="true" name="roadsideBanner_TD" pos="-75.0 -0.1 105.1" rot="0.0 10.0 0.0">
+					<voxbox id_="321473696" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+					<voxbox id_="402153440" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+				</group>
+				<group id_="1852619136" open_="true" name="roadsideBanner_TD" pos="-65.3 -0.1 87.29999" rot="0.0 -10.0 0.0">
+					<voxbox id_="811319680" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Woosh_Roadside_sign.vox"/>
+					<voxbox id_="1055390592" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Woosh_Roadside_sign.vox"/>
+				</group>
+				<group id_="1154487040" open_="true" name="roadsideBanner_TD" pos="-93.10001 -0.1 132.39999" rot="0.0 0.0 0.0">
+					<voxbox id_="247020256" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+					<voxbox id_="1449548160" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+				</group>
+				<group id_="1778755584" open_="true" name="roadsideBanner_TD" pos="-126.80001 -0.1 126.2" rot="0.0 0.0 0.0">
+					<voxbox id_="261701216" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+					<voxbox id_="1702532608" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+				</group>
+				<group id_="593792384" open_="true" name="roadsideBanner_TD" pos="-84.70002 -0.1 119.69999" rot="0.0 10.0 0.0">
+					<voxbox id_="941088832" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Woosh_Roadside_sign.vox"/>
+					<voxbox id_="530021984" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Woosh_Roadside_sign.vox"/>
+				</group>
+				<group id_="761640320" open_="true" name="roadsideBanner_TD" pos="-100.40002 -0.1 157.3" rot="0.0 20.0 0.0">
+					<voxbox id_="2039670400" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+					<voxbox id_="837994432" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Teardown_Roadside_Sign.vox"/>
+				</group>
+				<group id_="374036768" open_="true" name="roadsideBanner_TD" pos="-98.80002 -0.1 143.8" rot="0.0 20.0 0.0">
+					<voxbox id_="523009216" pos="2.57 0.1 1.0" rot="-20.0 157.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Woosh_Roadside_sign.vox"/>
+					<voxbox id_="1915865344" pos="-2.53 0.1 -0.4" rot="-20.0 -23.0 0.0" size="52 12 1" brush="MOD/assets/racingTrack/Woosh_Roadside_sign.vox"/>
+				</group>
+				<group id_="792771840" open_="true" name="joker area">
+					<voxbox id_="2064116736" pos="-146.47725 0.0 204.64409" rot="0.0 40.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+					<voxbox id_="899470976" pos="-157.27725 0.0 212.34409" rot="0.0 30.3 0.0" texture="6" size="61 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper2"/>
+					<voxbox id_="1851242880" pos="-151.99203 0.0 209.34845" rot="0.0 40.3 0.0" texture="6" size="74 15 1" brush="MOD/assets/racingTrack/wrapping.vox" object="wrapper1"/>
+					<voxbox id_="517372768" pos="-149.541 0.0 208.92001" rot="0.0 45.0 0.0" strength="5" prop="true" size="100 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+					<voxbox id_="809746688" pos="-157.01901 0.0 212.71701" rot="0.0 25.0 0.0" strength="5" prop="true" size="81 15 19" brush="MOD/assets/racingTrack/villa_racing_tirestack_1.vox"/>
+				</group>
+			</group>
+			<group id_="1313683712" open_="true" name="cornerBumps" pos="113.8 0.0 -177.89999" prop0="tags=nocull">
+				<voxbox id_="2082074752" pos="-16.75209 1.8 1.90456" rot="0.0 10.0 0.0" size="69 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+				<group id_="1077870848" open_="true" name="cornerBumps" pos="-8.9 1.8 1.0" rot="0.0 -10.0 0.0">
+					<voxbox id_="514095744" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="24 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+					<group id_="1025242240" open_="true" name="cornerBumps" pos="2.33431 0.0 -0.2079" rot="0.0 -10.0 0.0">
+						<voxbox id_="1107101696" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="45 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+						<group id_="389307584" open_="true" name="cornerBumps" pos="4.38944 0.0 -0.62565" rot="0.0 -10.0 0.0">
+							<voxbox id_="581536448" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="43 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+							<group id_="1859173120" open_="true" name="cornerBumps" pos="4.21624 0.0 -0.52565" rot="0.0 -10.0 0.0">
+								<voxbox id_="1715443968" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="26 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+								<group id_="1554018944" open_="true" name="cornerBumps" pos="2.41206 0.0 -0.18663" rot="0.0 -10.0 0.0">
+									<voxbox id_="853199744" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="26 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+									<group id_="999419456" open_="true" name="cornerBumps" pos="2.41206 0.0 -0.18663" rot="0.0 -10.0 0.0">
+										<voxbox id_="704423936" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="44 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+										<group id_="502101952" open_="true" name="cornerBumps" pos="4.2245 0.0 -0.52586" rot="0.0 -10.0 0.0">
+											<voxbox id_="724741312" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="53 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+											<group id_="619811776" open_="true" name="cornerBumps" pos="5.14726 0.0 -0.72209" rot="0.0 -10.0 0.0">
+												<voxbox id_="984279744" pos="-1.18703 -0.0 -0.09483" rot="0.0 10.0 0.0" size="53 1 7" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+												<group id_="582191808" open_="true" name="cornerBumps" pos="5.14726 0.0 -0.72209" rot="0.0 -10.0 0.0">
+													<voxbox id_="269893728" pos="-1.16967 0.0 0.00365" rot="0.0 10.0 0.0" size="12 1 6" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+													<group id_="1068957376" open_="true" name="cornerBumps" pos="1.24726 0.0 -0.02209" rot="0.0 -10.0 0.0">
+														<voxbox id_="1668582912" pos="-1.25079 0.0 0.11949" rot="0.0 10.0 0.0" size="12 1 5" brush="MOD/assets/racingTrack/trackEdge.vox"/>
+													</group>
+												</group>
+											</group>
+										</group>
+									</group>
+								</group>
+							</group>
+						</group>
+					</group>
+				</group>
+			</group>
+		</group>
+		<group id_="1246374144" name="trackOutside" pos="-0.0 0.0 30.2"/>
+		<group id_="1479893248" open_="true" name="scenary">
+			<group id_="1299920384" open_="true" name="trees" pos="7.3 1.5 -2.9">
+				<group id_="785562432" open_="true" name="tree clusters" pos="0.0 0.0 0.0">
+					<group id_="873648192" name="treeline_cluster" pos="-39.2 -0.0 190.2">
+						<vox id_="135995504" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="1201806976" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="596414016" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="1283863040" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="455437472" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1124142080" name="treeline_cluster" pos="130.40001 0.0 173.7" rot="0.0 20.0 0.0">
+						<vox id_="1203838720" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="1361921152" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="1771546240" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="1329347840" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1791994624" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1570928256" name="treeline_cluster" pos="152.90001 0.0 150.8" rot="0.0 20.0 0.0">
+						<vox id_="1488282368" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="444951072" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="1017705088" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1567323520" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1809035136" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="447244960" name="treeline_cluster" pos="122.80001 0.0 154.90001" rot="0.0 20.0 0.0">
+						<vox id_="1563325568" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-scotspine.vox"/>
+						<vox id_="221197504" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="1277636736" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="1094714624" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-mediumlarge.vox"/>
+						<vox id_="791198848" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-mediumlarge.vox"/>
+					</group>
+					<group id_="682664640" name="treeline_cluster" pos="107.20001 0.0 190.00002" rot="0.0 20.0 0.0">
+						<vox id_="436693024" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="680108608" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="1881260160" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="804831232" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="482767648" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="832620160" name="treeline_cluster" pos="165.20001 0.0 123.30001" rot="0.0 20.0 0.0">
+						<vox id_="390159616" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="59117080" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="384719808" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="83891200" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-mediumlarge.vox"/>
+						<vox id_="1864154240" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1788193408" open_="true" name="treeline_cluster" pos="8.9 0.0 189.59999" rot="0.0 160.0 0.0">
+						<vox id_="1675792256" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="394419712" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="208941520" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="1926220544" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1377847424" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="81662840" name="treeline_cluster" pos="-79.2 0.0 191.39999" rot="0.0 140.0 0.0">
+						<vox id_="251804672" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="1373718400" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="752137024" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="452815872" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1449613696" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1149571584" name="treeline_cluster" pos="-124.60443 0.0 175.51265" rot="0.0 -20.0 0.0">
+						<vox id_="1666878848" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="683844352" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="54136040" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="40307100" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1830073472" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1404391168" name="treeline_cluster" pos="-150.80443 0.0 172.21265" rot="0.0 -20.0 0.0">
+						<vox id_="969467648" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="1261513984" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="360601088" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="515144384" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1604484736" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1056832512" name="treeline_cluster" pos="-63.40443 0.0 -145.98737" rot="0.0 -10.0 0.0">
+						<vox id_="219690080" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="662806016" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="1015542272" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="962520448" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="353391680" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="2058873600" name="treeline_cluster" pos="175.09557 0.0 -74.48736" rot="0.0 60.0 0.0">
+						<vox id_="1249520128" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="645765632" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="2147090432" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="2090791552" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="912054656" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1913702400" name="treeline_cluster" pos="-184.50444 0.0 -107.38736" rot="0.0 60.0 0.0">
+						<vox id_="566200064" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="377051616" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="1163531648" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="138486016" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="753251200" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="979822976" name="treeline_cluster" pos="14.42795 0.0 -178.85318" rot="0.0 10.0 0.0">
+						<vox id_="446786176" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="962323840" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="710519168" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="227423808" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="676897152" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="1691194112" name="treeline_cluster" pos="61.69304 0.0 -187.79655" rot="0.0 170.0 0.0">
+						<vox id_="138027232" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="1206591360" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="526089568" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="1479958784" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="672178240" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="629184000" name="treeline_cluster" pos="-24.75597 0.0 -170.72549" rot="0.0 150.0 0.0">
+						<vox id_="996404608" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="274743680" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="1525574528" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="913234368" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="1801432448" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+					<group id_="2162820" name="treeline_cluster" pos="-72.22943 0.0 -178.48708" rot="0.0 -10.0 0.0">
+						<vox id_="1303525120" pos="-1.3 0.1 -3.3" file="MOD/assets/nature/tree-medium.vox"/>
+						<vox id_="413950656" pos="5.7 0.1 2.1" file="MOD/assets/nature/tree-small-variant.vox"/>
+						<vox id_="321473696" pos="12.3 0.1 3.3" file="MOD/assets/nature/tree-birch.vox"/>
+						<vox id_="1846851712" pos="18.2 0.1 -3.8" file="MOD/assets/nature/tree-large.vox"/>
+						<vox id_="673292416" pos="4.0 0.1 5.4" file="MOD/assets/nature/tree-large.vox"/>
+					</group>
+				</group>
+				<group id_="1731435776" open_="true" name="blending">
+					<voxbox id_="684565312" pos="9.9 11.6 198.00002" rot="90.0 -180.0 0.0" size="477 29 126" brush="MOD/main/vox/forest_blanket.vox"/>
+					<voxbox id_="736931776" pos="-84.49999 11.6 194.60001" rot="90.0 170.0 0.0" size="704 29 126" brush="MOD/main/vox/forest_blanket.vox"/>
+				</group>
+			</group>
+			<group id_="140124512" open_="true" name="buildings">
+				<group id_="387341408" open_="true" name="building" pos="110.3 3.2 14.0">
+					<group id_="1508140928" open_="true" name="voxbox" pos="-4.4 -1.6 11.5">
+						<voxbox id_="1228743936" pos="3.9395 0.0 -38.05148" rot="0.0 -10.0 0.0" size="119 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1744347136" pos="4.24 0.0 -37.851" rot="0.0 -105.0 0.0" size="641 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1993923456" pos="15.25155 6.3 -34.90047" rot="0.0 -105.0 0.0" size="641 3 115" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+						<voxbox id_="939188224" pos="15.252 6.3 -35.9" rot="0.0 -100.0 0.0" size="13 3 115" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+						<voxbox id_="839043072" pos="15.69882 0.0 -35.91693" rot="0.0 -105.0 0.0" size="651 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="132521880" pos="-12.29858 0.0 23.87165" rot="0.0 -105.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="0" pos="-12.29858 0.0 23.87165" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1575057280" pos="-15.09858 0.0 34.77165" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+					</group>
+					<vox id_="1743822720" pos="2.1 0.0 -25.9" rot="0.0 -10.0 0.0" file="MOD/assets/industrial/components.vox" object="window-industrial-medium"/>
+					<vox id_="2105275904" pos="8.1 0.0 -24.9" rot="0.0 -10.0 0.0" file="MOD/assets/industrial/components.vox" object="window-industrial-medium"/>
+					<group id_="2033902848" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0"/>
+					<group id_="1863892096" open_="true" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0">
+						<compound id_="219100224" name="door" pos="0.0 -0.1 0.1">
+							<voxbox id_="650222336" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="61410980" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="1079443840" name="door" pos="0.00003 -0.1 8.4">
+							<voxbox id_="1943392128" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="2133851264" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="245250688" name="door" pos="0.34359 -0.1 26.80956">
+							<voxbox id_="1041823872" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="233322400" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="317016992" name="door" pos="0.34356 -0.1 18.50956">
+							<voxbox id_="522419328" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="1258630144" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="887083904" name="door" pos="0.65956 -0.1 45.123">
+							<voxbox id_="555320448" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="1281110400" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="919067392" name="door" pos="0.65953 -0.1 36.82299">
+							<voxbox id_="1456626560" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="79631104" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+					</group>
+				</group>
+				<group id_="561350080" open_="true" name="building" pos="186.60001 3.2 9.8">
+					<group id_="1443452928" open_="true" name="voxbox" pos="-4.4 -1.6 11.5">
+						<group id_="854903744" open_="true" name="hanger" pos="-4.96 0.0 -38.151" rot="0.0 -10.0 0.0">
+							<voxbox id_="1845999616" rot="10 0 0 " size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="1380927744" pos="0.0 3.44683 0.60777" rot="30.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="1588689664" pos="0.0 6.47792 2.35777" rot="50.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="133111744" pos="0.0 8.72767 5.03892" rot="70.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="693872000" pos="0.0 9.92474 8.32785" rot="90.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="1892598528" pos="0.0 9.92474 11.82785" rot="110.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="1284649600" pos="0.0 8.72767 15.11677" rot="130.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="520256512" pos="0.0 6.47791 17.79793" rot="150.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="303777888" pos="0.0 3.44682 19.54793" rot="170.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						</group>
+						<group id_="391470432" open_="true" name="hanger" pos="0.54 0.0 -62.651" rot="0.0 -10.0 0.0">
+							<voxbox id_="1027667200" rot="10 0 0 " size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="1210851456" pos="0.0 3.44683 0.60777" rot="30.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="1897317504" pos="0.0 6.47792 2.35777" rot="50.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="440690944" pos="0.0 8.72767 5.03892" rot="70.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="1881129088" pos="0.0 9.92474 8.32785" rot="90.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="46795560" pos="0.0 9.92474 11.82785" rot="110.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="885642048" pos="0.0 8.72767 15.11677" rot="130.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="750170816" pos="0.0 6.47791 17.79793" rot="150.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+							<voxbox id_="2003164544" pos="0.0 3.44682 19.54793" rot="170.0 0.0 0.0" size="209 34 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						</group>
+					</group>
+					<group id_="1858845440" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0"/>
+					<group id_="895341952" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0"/>
+				</group>
+				<group id_="1854781952" open_="true" name="building" pos="-151.20001 3.2 -184.40001" rot="0.0 120.0 0.0">
+					<group id_="753775552" open_="true" name="voxbox" pos="-4.4 -1.6 11.5">
+						<voxbox id_="1935920512" pos="3.9395 0.0 -38.05148" rot="0.0 -10.0 0.0" size="119 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="841468032" pos="4.24 0.0 -37.851" rot="0.0 -105.0 0.0" size="641 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="983165568" pos="15.25155 6.3 -34.90047" rot="0.0 -105.0 0.0" size="641 3 115" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+						<voxbox id_="561153472" pos="15.252 6.3 -35.9" rot="0.0 -100.0 0.0" size="13 3 115" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+						<voxbox id_="1091503104" pos="15.69882 0.0 -35.91693" rot="0.0 -105.0 0.0" size="651 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="665951936" pos="-12.29858 0.0 23.87165" rot="0.0 -105.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="495875648" pos="-12.29858 0.0 23.87165" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="270024800" pos="-15.09858 0.0 34.77165" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+					</group>
+					<vox id_="130752304" pos="2.1 0.0 -25.9" rot="0.0 -10.0 0.0" file="MOD/assets/industrial/components.vox" object="window-industrial-medium"/>
+					<vox id_="262815392" pos="8.1 0.0 -24.9" rot="0.0 -10.0 0.0" file="MOD/assets/industrial/components.vox" object="window-industrial-medium"/>
+					<group id_="1414943104" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0"/>
+					<group id_="904976320" open_="true" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0">
+						<compound id_="1962660864" name="door" pos="0.0 -0.1 0.1">
+							<voxbox id_="1950404864" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="1232283136" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="2017583360" name="door" pos="0.00003 -0.1 8.4">
+							<voxbox id_="710191424" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="999484992" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="680829504" name="door" pos="0.34359 -0.1 26.80956">
+							<voxbox id_="2043406080" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="237189264" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="119020640" name="door" pos="0.34356 -0.1 18.50956">
+							<voxbox id_="1349206400" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="357651776" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="1806937856" name="door" pos="0.65956 -0.1 45.123">
+							<voxbox id_="574589184" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="381180640" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+						<compound id_="1633387904" name="door" pos="0.65953 -0.1 36.82299">
+							<voxbox id_="2013519872" pos="-0.1 0.0 -2.5" rot="0.0 0.0 0.0" size="5 37 50" brush="hole"/>
+							<vox id_="1146491264" pos="0.1 0.1 0.0" rot="0.0 90.0 0.0" file="MOD/assets/industrial/components.vox" object="archfence-metal-50x36x3"/>
+						</compound>
+					</group>
+				</group>
+				<group id_="1663143040" open_="true" name="building" pos="-179.60001 3.2 -56.0" rot="0.0 140.0 0.0">
+					<group id_="44829360" open_="true" name="voxbox" pos="-4.4 -1.6 11.5">
+						<voxbox id_="196030144" pos="3.9395 0.0 -38.05148" rot="0.0 -10.0 0.0" size="119 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="10945180" pos="4.24 0.0 -37.851" rot="0.0 -105.0 0.0" size="641 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1635157504" pos="4.24 6.2 -37.851" rot="0.0 -105.0 0.0" size="641 51 3" brush="MOD/assets/industrial/components.vox" object="archfence-metal-58x50x6"/>
+						<voxbox id_="1559065472" pos="15.25155 6.3 -34.90047" rot="0.0 -105.0 0.0" size="641 3 115" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+						<voxbox id_="352670752" pos="15.252 6.3 -35.9" rot="0.0 -100.0 0.0" size="13 3 115" brush="MOD/assets/industrial/innerfloors.vox" object="concrete"/>
+						<voxbox id_="1252993664" pos="15.69882 0.0 -35.91693" rot="0.0 -105.0 0.0" size="651 69 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="29951780" pos="-12.29858 0.0 23.87165" rot="0.0 -105.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1047132608" pos="-12.29858 0.0 23.87165" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1680183424" pos="-15.09858 0.0 34.77165" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="2003492224" pos="-3.06083 0.0 -34.66008" rot="0.0 -105.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1299527168" pos="-3.06083 0.0 -34.66008" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="327831072" pos="-5.86083 0.0 -23.76008" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1647151232" pos="-13.55711 0.0 0.12495" rot="0.0 -105.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="721136640" pos="-13.55711 0.0 0.12495" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="1257516032" pos="-16.35711 0.0 11.02495" rot="0.0 -15.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="2001394944" pos="-4.10877 0.0 -45.39888" rot="0.0 -85.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="577210752" pos="-3.01189 0.0 -34.19857" rot="0.0 5.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+						<voxbox id_="563840640" pos="-4.10877 0.0 -45.39888" rot="0.0 5.0 0.0" size="116 136 3" brush="MOD/assets/industrial/components.vox" object="wall-corrugated-light"/>
+					</group>
+					<vox id_="466710336" pos="2.1 0.0 -25.9" rot="0.0 -10.0 0.0" file="MOD/assets/industrial/components.vox" object="window-industrial-medium"/>
+					<vox id_="119479424" pos="8.1 0.0 -24.9" rot="0.0 -10.0 0.0" file="MOD/assets/industrial/components.vox" object="window-industrial-medium"/>
+					<group id_="660970880" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0"/>
+					<group id_="342708672" pos="-2.0 -1.6 -20.5" rot="0.0 -16.0 0.0"/>
+				</group>
+			</group>
+		</group>
+		<group id_="718187328" open_="true" name="start details">
+			<instance id_="695248320" pos="-140.90001 1.8 21.8" file="MOD/assets/vehicles/land/van.xml"/>
+			<instance id_="1239361408" pos="-159.90001 1.8 8.5" rot="0.0 -60.0 0.0" file="MOD/assets/vehicles/land/van.xml"/>
+			<instance id_="533298976" pos="-171.40001 1.8 18.1" rot="0.0 110.0 0.0" file="MOD/assets/vehicles/land/semitruck-us.xml"/>
+			<instance id_="124919240" pos="-155.60001 1.8 37.2" rot="0.0 10.0 0.0" file="MOD/assets/vehicles/land/taskmaster-4wd.xml"/>
+		</group>
+	</body>
+	<group id_="1804119552" name="water">
+		<water id_="91166144" pos="0.0 2.5 0.0" rot="0.0 0.0 0.0"/>
+		<water id_="530742912" pos="150.39999 11.9 3.3" rot="0.0 0.0 0.0" type="polygon">
+			<vertex pos="-8.7 -1.3"/>
+			<vertex pos="-3.7 -9.1"/>
+			<vertex pos="4.9 -8.2"/>
+			<vertex pos="8.0 -3.5"/>
+			<vertex pos="7.9 8.6"/>
+			<vertex pos="4.0 14.8"/>
+			<vertex pos="-8.1 7.5"/>
+		</water>
+		<water id_="1757258496" pos="128.8 11.9 22.4" rot="0.0 0.0 0.0" type="polygon">
+			<vertex pos="-9.5 9.8"/>
+			<vertex pos="0.0 0.5"/>
+			<vertex pos="7.3 2.1"/>
+			<vertex pos="9.1 10.3"/>
+			<vertex pos="0.8 21.9"/>
+			<vertex pos="-9.2 22.0"/>
+			<vertex pos="-12.5 16.1"/>
+		</water>
+	</group>
+	<body id_="208744896" open_="true" name="world anchor" tags="unbreakable" pos="14.4 8.2 -5.7" rot="0.0 0.0 0.0">
+		<voxbox id_="1628996736" pos="0.0 -3.0 0.0" color="0.0 0.0 0.0"/>
+	</body>
+	<spawnpoint id_="1200823936" name="Playerspawn (not used since start in car)" pos="-48.5 4.5 49.7" rot="0.0 -133.0 0.0"/>
+	<environment id_="1380010240" template="sunny" fogParams="200 500 0.4 0.4"/>
+	<boundary id_="1991564032" name="Boundary to keep player in the environment" pos="26.4 28.9 0.0">
+		<vertex pos="-188.3 27.3"/>
+		<vertex pos="-182.2 4.9"/>
+		<vertex pos="-154.3 -27.5"/>
+		<vertex pos="-98.8 -107.5"/>
+		<vertex pos="-39.3 -144.40001"/>
+		<vertex pos="-17.0 -132.8"/>
+		<vertex pos="87.6 -194.3"/>
+		<vertex pos="156.90001 -178.40001"/>
+		<vertex pos="98.9 -30.2"/>
+		<vertex pos="73.1 2.2"/>
+		<vertex pos="52.9 88.5"/>
+		<vertex pos="67.6 120.9"/>
+		<vertex pos="44.7 192.3"/>
+		<vertex pos="-14.8 185.2"/>
+		<vertex pos="-137.5 145.40001"/>
+		<vertex pos="-204.90001 106.1"/>
+	</boundary>
+	<instance id_="821347264" file="MOD/prefabs/weatherTypes.xml"/>
+	<layers>
+		<layer name="rallycross" visible="true"/>
+		<layer name="racerallyRace" visible="true"/>
+		<layer name="night" visible="false"/>
+		<layer name="raceCarRace" visible="false"/>
+		<layer name="sunrise" visible="false"/>
+		<layer name="suvRace" visible="false"/>
+		<layer name="avf_ai" visible="true"/>
+		<layer name="sunset" visible="false"/>
+		<layer name="playerstate" visible="false"/>
+		<layer name="player" visible="false"/>
+		<layer name="main" visible="false"/>
+		<layer name="rain" visible="false"/>
+	</layers>
+</scene>
+

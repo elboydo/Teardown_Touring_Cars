@@ -1,0 +1,76 @@
+<prefab version="0.5.3">
+	<group id_="779467200" name="zsu23" pos="13 0.2 68" rot="0 0 0">
+		<vehicle id_="1069022912" name=" ZSU-23-4  shilka" tags="cfg=vehicle name=shilka" pos="-00 0 -0" rot="0.0 -90.0 0.0" driven="false" sound="dumptruck" spring="1" damping="0.8" topspeed="50" acceleration=".25" strength="50" antispin="1" antiroll="0.2" difflock="1" steerassist="2" friction="2">
+			<body id_="1358251008" tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="790805632" tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" texture="8 .4" density="20" strength="10" file="LEVEL/ZSU-23-4.vox" object="body">
+					<light id_="2082074752" pos="0.8 1.35 3.4" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+					<light id_="1193876608" pos="-0.8 1.35 3.4" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.2" unshadowed="0.2" glare="0.35"/>
+					<light id_="1456757632" pos="1.35 1.45 -4.0" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.2" glare="0.1"/>
+					<light id_="20055240" pos="-1.35 1.45 -4.0" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.2" glare="0.1"/>
+					<location id_="841074816" tags="exhaust" pos="2.2 	1.6 	-2.4" rot="0 60 0 "/>
+					<location id_="446655104" tags="exhaust" pos="2.1 	1.6 	-2.3" rot="-20 60 0 "/>
+					<location id_="217199552" tags="exhaust" pos="2.1  	1.6 	-2.3" rot="20 80 0 "/>
+					<location id_="428107264" tags="exhaust" pos="2.2  	1.6 	-2.3" rot="-10 130 0 "/>
+					<location id_="1415795072" tags="exhaust" pos="2.2  	1.6 	-2.2" rot="10 160 0 "/>
+					<location id_="544768512" tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+					<location id_="718580544" tags="player" pos="-0.05 1.47 1.8" rot="0.0 0.0 0.0"/>
+				</vox>
+				<vox id_="1373456256" tags="component=turret turretGroup=mainTurret" pos="0.1 1.3 .1" rot="0.0 180 0" texture="7 0.4" density="1.2" strength="10" prop="true" file="LEVEL/ZSU-23-4.vox" object="turret">
+					<joint id_="345920128" tags="component=turretJoint " pos="0.0  0 0" rot="90 0 0" type="hinge" size=".5" rotstrength="14" rotspring="0" sound="true"/>
+					<vox id_="1178212608" tags="component=gun weaponType=2A7 group=primary ZSU-23-shilkaGun interact=mountedGun" pos="-.1 .38 1.85" rot="0.0 0 0" texture="7 .5" density="1.2" prop="true" file="LEVEL/ZSU-23-4.vox" object="gun">
+						<joint id_="527465920" tags="component=gunJoint" pos="0.2  .34 -.6" rot="0 90 0" type="hinge" size=".5" rotstrength=".5" rotspring="0" limits="-85 4" sound="true"/>
+					</vox>
+				</vox>
+				<wheel id_="1990777472" name="whrSprocketF" pos=".5 0.45 -2.15" drive="1" steer="0.33" travel="-0.1 0">
+					<vox id_="27002480" pos="0.7 -0.3 0.025" rot="0.0 0.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whrSprocketF"/>
+				</wheel>
+				<wheel id_="1130368384" name="whr1" pos="0.7 0.15 -1.5" drive="1" steer="0.66" travel="-0.1 0.1">
+					<vox id_="1491297152" pos=".6 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whr1"/>
+				</wheel>
+				<wheel id_="1071841152" name="whr2" pos="0.7 0.15 -0.7" drive="1" steer="0.44" travel="-0.1 0">
+					<vox id_="746172928" pos="0.6 -0.325 0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whr2"/>
+				</wheel>
+				<wheel id_="2036327808" name="whr3" pos="0.7 0.15 0.1" drive="1" steer="0.33" travel="-0.1 0">
+					<vox id_="878825856" pos=".6 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whr3"/>
+				</wheel>
+				<wheel id_="1362707712" name="whr4" pos="0.7 0.15 0.9" drive="1" steer="-0.33" travel="-0.1 0">
+					<vox id_="943907072" pos=".6 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whr4"/>
+				</wheel>
+				<wheel id_="350442368" name="whr5" pos="0.7 0.15 1.7" drive="1" steer="-0.33" travel="-0.1 0">
+					<vox id_="712092096" pos=".6 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whr5"/>
+				</wheel>
+				<wheel id_="90838440" name="whr6" pos="0.7 0.15 2.4" drive="1" steer="-0.33" travel="-0.1 0">
+					<vox id_="130227984" pos=".6 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whr6"/>
+				</wheel>
+				<wheel id_="1415401856" name="whlSprocketR" pos=".7 0.45 2.95" drive="1" steer="0.33" travel="-0.1 0">
+					<vox id_="190393696" pos=".7 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whlSprocketR"/>
+				</wheel>
+				<wheel id_="150217680" name="whlSprocketF" pos="-.7 0.45 -2.15" drive="1" steer="0.33" travel="-0.1 0">
+					<vox id_="2107307648" pos="-0.5 -0.3 0.025" rot="0.0 0.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whlSprocketF"/>
+				</wheel>
+				<wheel id_="398089952" name="whl1" pos="-0.7 0.15 -1.5" drive="1" steer="0.66" travel="-0.1 0.1">
+					<vox id_="1608089472" pos="-.4 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whl1"/>
+				</wheel>
+				<wheel id_="133046200" name="whl2" pos="-0.7 0.15 -0.7" drive="1" steer="0.44" travel="-0.1 0">
+					<vox id_="42928700" pos="-0.4 -0.325 0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whl2"/>
+				</wheel>
+				<wheel id_="494237152" name="whl3" pos="-0.7 0.15 0.1" drive="1" steer="0.33" travel="-0.1 0">
+					<vox id_="1108674688" pos="-.4 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whl3"/>
+				</wheel>
+				<wheel id_="1932643584" name="whl4" pos="-0.7 0.15 0.9" drive="1" steer="-0.33" travel="-0.1 0">
+					<vox id_="1177032832" pos="-.4 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whl4"/>
+				</wheel>
+				<wheel id_="282149696" name="whl5" pos="-0.7 0.15 1.7" drive="1" steer="-0.33" travel="-0.1 0">
+					<vox id_="1121192832" pos="-.4 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whl5"/>
+				</wheel>
+				<wheel id_="549028608" name="whl6" pos="-0.7 0.15 2.4" drive="1" steer="-0.33" travel="-0.1 0">
+					<vox id_="1836561920" pos="-.4 -0.325 -0.025" rot="0.0 180.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whl6"/>
+				</wheel>
+				<wheel id_="1298281856" name="whlSprocketR" pos="-.7 0.45 2.95" drive="1" steer="0.33" travel="-0.1 0">
+					<vox id_="787332032" pos="-.5 -0.325 -0.025" rot="0.0 0.0 0.0" file="LEVEL/ZSU-23-4.vox" object="whlSprocketR"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

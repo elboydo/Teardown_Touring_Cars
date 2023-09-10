@@ -1,0 +1,27 @@
+<prefab version="0.5.3">
+	<group id_="1600421248" open_="true" name="Hypnodisc" pos="-5.0 0.0 0.0">
+		<script id_="1150685824" open_="true" name="hypnodisc" pos="-0.1 0.5 -1.0" file="MOD/robots/fightingRobot.lua">
+			<vehicle id_="720808896" open_="true" name="hypnodisc" tags="cfg" pos="0.1 0.1 1.0" topspeed="50" acceleration="40" strength="10" antispin=".5" difflock="1" friction="3">
+				<body id_="1988286976" open_="true" dynamic="true">
+					<vox id_="736800704" pos="0.0 0.0 0.0" density="15" strength="5" file="MOD/robots/hypnodisc.vox" object="body"/>
+					<vox id_="181611344" open_="true" pos="-0.1 0.7 -2.6" rot="-10 0 " prop="true" file="MOD/robots/hypnodisc.vox" object="disk">
+						<joint id_="110959216" tags="component=rotating" pos="0.0 0.0 0.0" rot="90 0 0" type="hinge" size="0.15"/>
+					</vox>
+					<wheel id_="1316043264" open_="true" name="wr" pos="1.4 0.0 -2.35" steer="1" travel="-.1 0">
+						<vox id_="783006400" pos="0.0 -0.2 0.05" file="MOD/robots/hypnodisc.vox" object="whr1"/>
+					</wheel>
+					<wheel id_="1296643328" name="wl" pos="-1.5 0.0 -2.35" steer="1" travel="-.1 0">
+						<vox id_="597593728" pos="0.0 -0.2 0.05" file="MOD/robots/hypnodisc.vox" object="whl1"/>
+					</wheel>
+					<wheel id_="1306146688" open_="true" name="wl" pos="-1.5 0.0 2.05" drive="1" travel="-.1 0">
+						<vox id_="1023013888" pos="0.0 -0.2 0.05" file="MOD/robots/hypnodisc.vox" object="whl2"/>
+					</wheel>
+					<wheel id_="1682477312" open_="true" name="wr" pos="1.4 0.0 2.05" drive="1" travel="-.1 0">
+						<vox id_="1608744832" pos="0.0 -0.2 0.05" file="MOD/robots/hypnodisc.vox" object="whr2"/>
+					</wheel>
+				</body>
+			</vehicle>
+		</script>
+	</group>
+</prefab>
+

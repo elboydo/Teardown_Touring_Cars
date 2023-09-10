@@ -1,0 +1,17 @@
+<prefab version="0.5.3">
+	<group id_="510294432" name="shutters" pos="10.6 1.4 -0.1">
+		<compound id_="532709120" open_="true" name="shutterL" pos="-0.9 0.9 -0.85" prop="true">
+			<vox id_="1606057728" open_="true" pos="0.6 -0.9 0.9" prop="true" file="LEVEL/vox/wood_small.vox" object="shuterR">
+				<joint id_="405954752" pos="-0.3 0.2 0.0" size="0.15" collide="true"/>
+				<joint id_="257834368" pos="-0.3 0.9 0.0" size="0.15" collide="true"/>
+			</vox>
+		</compound>
+		<compound id_="1463704832" open_="true" name="shutterR" pos="-0.3 0.9 -0.85" prop="true">
+			<vox id_="411525664" open_="true" pos="0.6 -0.9 0.9" prop="true" file="LEVEL/vox/wood_small.vox" object="shutterL">
+				<joint id_="603557888" pos="0.3 0.2 0.0" size="0.15" collide="true"/>
+				<joint id_="1491297152" pos="0.3 0.9 0.0" size="0.15" collide="true"/>
+			</vox>
+		</compound>
+	</group>
+</prefab>
+

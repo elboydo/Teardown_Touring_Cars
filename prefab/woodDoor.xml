@@ -1,0 +1,11 @@
+<prefab version="0.5.3">
+	<group id_="254688448" open_="true" pos="4.5 -0.1 7.9">
+		<vox id_="1307719680" name="door" pos="0.0 0.1 0.1" rot="0.0 0.0 0.0" file="MOD/MEBuildings/wood_small_ME.vox" object="doorframe">
+			<vox id_="1819783680" open_="true" pos="0.0 0.1 0.1" prop="true" file="MOD/MEBuildings/wood_small_ME.vox" object="doorblade">
+				<joint id_="426337696" pos="0.5 0.3 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.005" rotspring="0" limits="0 130"/>
+				<joint id_="1409830912" pos="0.5 1.6 0.0" rot="-90.0 0.0 0.0" type="hinge" rotstrength="0.005" rotspring="0" limits="0 130"/>
+			</vox>
+		</vox>
+	</group>
+</prefab>
+

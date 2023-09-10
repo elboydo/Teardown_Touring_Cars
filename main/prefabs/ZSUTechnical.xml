@@ -1,0 +1,43 @@
+<prefab version="0.5.3">
+	<group id_="571181120" name="ZU23Technical" pos="13.9 0.0 5.6">
+		<vehicle id_="1760928768" name="ZU23Vehicle" tags="cfg=vehicle" pos="0.1 0.0 -1.6" rot="0.0 0.0 0.0" driven="false" sound="suv2" spring="0.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0" antiroll="0.4" difflock="0.5" steerassist="0.0">
+			<body id_="1520003712" tags="component=body" pos="-0.05 .6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="2088301056" tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="2" strength="3" file="LEVEL/technical.vox" object="body2">
+					<light id_="644192640" pos="0.75 0.55 -2.1" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+					<light id_="1579776128" pos="-0.65 0.55 -2.1" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+					<light id_="698787456" pos="0.65 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+					<light id_="1955451392" pos="-0.55 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+					<location id_="984345280" tags="exhaust" pos="0.5 0.05 -2.1" rot="-180.0 360.0 -180.0"/>
+					<location id_="654679040" tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+					<location id_="1279602944" tags="player" pos="0.35 1.25 0.25" rot="0.0 0.0 0.0"/>
+					<vox id_="1783998848" tags="component=turret turretGroup=mainTurret" pos="0 1.1 -2.2" rot="0.0 180.0 0" density="1.2" strength="5" prop="true" file="LEVEL/technical.vox" object="zu23mount">
+						<joint id_="1085014656" tags="component=turretJoint" pos="0.05  .2 0" rot="90 0 0.0" type="hinge" size="0.5" rotstrength="0.3" rotspring="0" sound="true"/>
+					</vox>
+					<vox id_="1581480192" tags="component=gun weaponType=2A14
+
+
+
+				 group=primary interact=mountedGun" pos="0 1.3 -4.2" rot="0.0 180.0 0" density="1.2" strength="5" prop="true" file="LEVEL/technical.vox" object="zu23Gun">
+						<joint id_="1293628544" tags="component=gunJoint" pos="0.05  .3 -1.8" rot="0 90  0.0" type="hinge" size="1" rotstrength="0.00001" rotspring="0" limits="-45 5" sound="true"/>
+					</vox>
+					<vox id_="1835775360" tags="technicalZU23Trigger hook" pos="0 .8 0.3" rot="-45 0 0" file="LEVEL/technical.vox" object="trigger">
+						<joint id_="987818880" pos="0.0   0 0 " rot="0 90 0" type="ball" size=".1" rotstrength=".001" rotspring="0"/>
+					</vox>
+				</vox>
+				<wheel id_="679256576" name="bl" pos="-0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+					<vox id_="2049108096" pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="LEVEL/technical.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="544375232" name="br" pos="0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+					<vox id_="1538551552" pos="0.1 -0.45 -0.05" rot="0 180 0" file="LEVEL/technical.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="1602911744" name="fl" pos="-0.75 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+					<vox id_="850119360" pos="0.0 -0.45 -0.05" rot="0 180 0" file="LEVEL/technical.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="1594326016" name="fr" pos="0.65 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+					<vox id_="1671401088" pos="0.1 -0.45 -0.05" rot="0 180 0" file="LEVEL/technical.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

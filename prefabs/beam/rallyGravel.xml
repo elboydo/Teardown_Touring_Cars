@@ -1,0 +1,46 @@
+<prefab version="0.6.0">
+	<group id_="975169664" open_="true" name="instance=MOD/prefabs/beam/rallyGravel.xml" pos="1.4 0.0 -0.1" rot="0.0 0.0 0.0">
+		<vehicle id_="33097700" open_="true" name="Hirochi Sunburst rally gravel" tags="cfg=ai" pos="-2.1 0.0 0.0" rot="0.0 0.0 0.0" driven="false" sound="sportscar 2" spring="1.2" damping="0.6" topspeed="150" acceleration="11" strength="50" difflock="0.3" steerassist="0.08" friction="2">
+			<body id_="1956369024" open_="true" pos="0.5 0.3 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="1984616704" open_="true" pos="0.05 -0.05 0.25" rot="0 180 0" density="1.5" strength="2" file="LEVEL/s.vox" object="body">
+					<location id_="1010168000" name="exhaust" tags="exhaust" pos="0.55 0.15 -2.25" rot="180.0 0.0 180.0"/>
+					<location id_="1114966528" name="vital" tags="vital" pos="0.05 0.35 1.45" rot="180.0 0.0 180.0"/>
+					<location id_="1021178752" name="playerpos" tags="player" pos="0.38 1.0 -0.1" rot="0.0 0.0 0.0"/>
+					<light id_="271532224" pos="0.6 0.45 1.8" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<light id_="1530359040" pos="-0.5 0.45 1.8" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<light id_="978774336" pos="-0.6 0.6 -2.0" rot="0.0 -180.0 0.0" type="cone" color="1.0 0.64 0.64" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.25"/>
+					<light id_="1365263744" pos="0.6 0.6 -2.0" rot="0.0 -180.0 0.0" type="cone" color="1.0 0.64 0.64" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.2"/>
+					<vox id_="51645520" pos="0.8 0.0 0.2" rot="0.0 0.0 0.0" density="1.5" strength="0.5" prop="true" file="LEVEL/s.vox" object="door_l"/>
+					<vox id_="125705720" pos="-0.8 0.0 0.2" rot="0.0 0.0 0.0" density="1.5" strength="0.5" prop="true" file="LEVEL/s.vox" object="door_r"/>
+					<vox id_="1499096448" pos="0.0 0.4 -1.8" rot="0.0 0.0 0.0" density="1.5" strength="0.5" prop="true" file="LEVEL/s.vox" object="boot"/>
+					<vox id_="1299658240" pos="0.0 0.6 1.5" rot="0.0 0.0 0.0" density="0.5" strength="0.5" prop="true" file="LEVEL/s.vox" object="hood"/>
+					<vox id_="38406440" pos="0.0 0.6 2.1" rot="0.0 0.0 0.0" density="1.5" strength="0.5" prop="true" file="LEVEL/s.vox" object="rally_lights"/>
+					<vox id_="2058676992" tags="explosive=0.45" pos="0.0 0.1 -1.5" rot="0.0 0.0 0.0" density="1.5" strength="0.34" prop="true" file="LEVEL/s.vox" object="fuel"/>
+				</vox>
+				<wheel id_="151725104" open_="true" name="bl" pos="-0.65 0.03 1.54" drive="0.8" travel="-0.05 0.25">
+					<vox id_="1081541120" pos="0.0 -0.3 0.0" rot="0.0 180.0 0.0" file="LEVEL/s.vox" object="wheel_bl" scale="1"/>
+				</wheel>
+				<wheel id_="1151275648" open_="true" name="br" pos="0.85 0.03 1.54" drive="0.8" travel="-0.05 0.25">
+					<vox id_="1008857216" pos="0.0 -0.3 0.0" rot="0.0 -180.0 0.0" file="LEVEL/s.vox" object="wheel_br" scale="1"/>
+				</wheel>
+				<wheel id_="1376340" open_="true" name="fl" pos="-0.65 0.03 -1.1" rot="0.0 0.0 0.0" drive="0.3" steer="1" travel="-0.05 0.25">
+					<vox id_="1366115712" pos="0.0 -0.3 0.0" rot="0.0 180.0 0.0" file="LEVEL/s.vox" object="wheel_fl" scale="1"/>
+				</wheel>
+				<wheel id_="1875164928" open_="true" name="fr" pos="0.85 0.03 -1.1" drive="0.3" steer="1" travel="-0.05 0.25">
+					<vox id_="1608351616" pos="0.0 -0.3 0.0" rot="0.0 -180.0 0.0" file="LEVEL/s.vox" object="wheel_fr" scale="1"/>
+				</wheel>
+				<wheel id_="1738841728" open_="true" name="wheel" pos="-0.3 0.6 -0.25" rot="-90.0 -180.0 0.0" drive="0" steer="10" travel="0 0">
+					<vox id_="1540058880" pos="-0.05 -0.1 -0.15" rot="90.0 0.0 0.0" file="LEVEL/s.vox" object="wheel"/>
+				</wheel>
+			</body>
+			<joint id_="932896384" name="doorjoint_r" pos="1.4 0.6 -0.7" rot="90 0 0" type="hinge" size="0.2" rotstrength="0.0" rotspring="0.0" limits="-80 0" sound="true"/>
+			<joint id_="3342540" name="doorjoint_l" pos="-0.3 0.7 -0.7" rot="90.0 179.0 0.0" type="hinge" size="0.2" rotstrength="0.0" rotspring="0.0" limits="0 80" sound="true"/>
+			<joint id_="221131968" name="tailgatejoint" pos="0.65 0.9 1.7" rot="90 180 90" type="hinge" size="0.3" rotstrength="0.05" rotspring="0" limits="0 55" sound="true"/>
+			<joint id_="611160512" name="hood joint" pos="0.55 1.0 -0.9" rot="0.0 90.0 0" type="hinge" size="0.2" rotstrength="0" rotspring="0" collide="false" limits="0 92" sound="true"/>
+			<joint id_="496399968" name="doorlock_l" pos="-0.2 0.6 0.4" rot="90.0 179.0 0.0" type="hinge" size="0.15" rotstrength="0.0" rotspring="0.0" collide="false" limits="-40 0"/>
+			<joint id_="1083441792" name="doorlock_r" pos="1.4 0.7 0.4" rot="90.0 179.0 0.0" type="hinge" size="0.15" rotstrength="0.0" rotspring="0.0" collide="false" limits="0 40"/>
+			<joint id_="2077028096" name="light joint" pos="0.55 0.9 -2.0" rot="0.0 90.0 0" type="ball" size="0.1" rotstrength="2" rotspring="0" limits="0 92" sound="true"/>
+		</vehicle>
+	</group>
+</prefab>
+

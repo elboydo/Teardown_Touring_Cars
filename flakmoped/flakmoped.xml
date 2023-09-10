@@ -1,0 +1,24 @@
+<prefab version="0.6.2">
+	<group id_="667590464" open_="true" name="instance=MOD/flakmoped/flakmoped.xml" pos="-0.3 0.0 -0.4" rot="0.0 0.0 0.0">
+		<vehicle id_="168241184" open_="true" name="flakmoped" tags="cfg=ai" pos="0.0 0.6 -0.2" rot="0.0 0 0.0" driven="false" sound="small1 0.8" spring="1" damping="1" topspeed="70" acceleration="6" strength="4" antispin="0.8" antiroll="0.8" difflock="0" steerassist="0.7" friction="1.5">
+			<body id_="75174384" open_="true" dynamic="true">
+				<vox id_="1113065856" open_="true" pos="0.05 -0.3 0.15" rot="0 180 0" texture="11 0.6" density="1.2" strength="2" file="MOD/flakmoped/flakmoped.vox" object="flakmoped">
+					<light id_="1234052608" pos="0.05 0.55 -0.8" rot="0 180 0" type="area" color="1 .1 .1" size="0.1 0.1" unshadowed="0.3" glare="0.1"/>
+					<location id_="1480483072" tags="exhaust" pos="-0.15 0.05 -1.05" rot="180.0 0.0 180.0"/>
+					<location id_="1260858496" tags="vital" pos="0.05 0.2 -0.3" rot="180.0 0.0 180.0"/>
+					<location id_="833537728" tags="player" pos="0.05 1.29 -0.8" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel id_="733654784" open_="true" name="b" pos="0.05 -0.25 1.3" drive="1" travel="-0.1 0.1">
+					<vox id_="844876160" pos="0.0 -0.35 -0.05" rot="0.0 180.0 0.0" file="MOD/flakmoped/flakmoped.vox" object="wheel_b"/>
+				</wheel>
+				<wheel id_="119151720" open_="true" name="fl" pos="-0.65 -0.25 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+					<vox id_="975890624" pos="0.0 -0.35 -0.05" rot="0.0 180.0 0.0" file="MOD/flakmoped/flakmoped.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="193080832" open_="true" name="fr" pos="0.65 -0.25 -0.6" rot="0.0 0.0 0.0" drive="1" steer="1" travel="-0.1 0.1">
+					<vox id_="479031872" pos="0.0 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/flakmoped/flakmoped.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

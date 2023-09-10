@@ -1,0 +1,85 @@
+[h1]Teardown Touring Cars (ai racing)[/h1]
+
+[b]teardown Touring Cars[/b], Features fully active and ready to race ai, that is aggresive and determiend to win. 
+
+In this mod, there are several maps, with multiple racing modes and features, against many vehicles. 
+
+Please note, this is a heavy alpha release 
+
+[h1]Features [/h1]
+
+[list]
+	[*] Full racing AI, with pathfinding and aggressive or custom behaviors
+
+	[*] Many vehicles from racing cars, f1 cars, rally cars, etc. 
+
+	[*] Secret vehicles that are only unlocked to those who risk investigation. 
+
+[/list]
+
+[h1]tracks:[/h1] 
+
+In the current release, there are 4 maps: 
+
+
+[list]
+	[*] Skogs Entrada: A historical track in lockelle, with fantastic hair pins and fast paced straights, a fantastic track for all.
+
+	[*] BlueTide Ring: A race track setup by the bluetride corporation, a track with tight corners and fast straights!
+
+	[*] Norrbotten Hills Raceway: A fast quarter mile styled track, modelled off british banger racing tracks. Fast, quick, tight, be careful to avoid pileups!. 
+	[*] Mori Sawa : A rallycross track built in an old lockelle army airbase, fast corners, and a large jump, a fantastic and muddy track for all to enjoy! Don't forget to pick up a blue tide energy drink while visiting!.
+
+[/list]
+
+
+[h1]Modders resources:[/h1]
+[hr][/hr]
+
+Please feel free to rip and tear all you can at the code of this. It's very clunky and clearly been repurposed from open ai to racing ai. I also included the stages to achieving this ai (such as clustering and so on). While pathfinding is around the corner, i hope this helps others develop their own vehicle based solutions. 
+
+I heavily advise ripping the PID code for vehicles, it can be heavily modified and will work with the new ai (to my belief), it will conrol your vehicles provided you modify it proper. Give me a shout in the discord for help. 
+
+
+[h1]Notes [/h1]
+This is a year of effort, I thank the devs for their amazing support and adding the features to make this possible. 
+
+
+I also thank users from the discord, too many to mention, for help. 
+
+
+
+We have classics for coding like rubikow, or thomasims. 
+
+For models, I must give thanks to both current and future feature creators: 
+
+
+current: 
+[list]
+	[*] Spexta: rally car / hyundai model 
+
+	[*] Dima: rally cars and the wonderful sprint cars, also the top secret "Resident" car
+
+	[*] secret contributor for other secret car
+
+[/list]
+
+not yet implemented: 
+[list]
+	[*] cresta: Gotta make the milk round 
+
+	[*] Dima: A fantastic f1 car, i've yet to tweak correctly
+
+	[*] other secret stuff
+
+[/list]
+
+
+[h1]Updates:[/h1]
+[hr][/hr]
+
+will happen, this is a year in the making for many small tweaks. Largely now is more cars and maps, but hopefully this provides the tools to many active modders too!
+
+[h1]Issues / Contact [/h1]
+
+For the time being if you have any questions or issues then feel free to leave a comment below or message me in the teardown discord server. 

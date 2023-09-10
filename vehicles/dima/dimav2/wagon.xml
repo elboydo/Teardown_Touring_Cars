@@ -1,0 +1,40 @@
+<prefab version="0.6.2">
+	<group id_="1236412160" open_="true" name="instance=MOD/vehicles/dima/dimav2/wagon.xml" pos="3.3 0.0 2.7" rot="0.0 0.0 0.0">
+		<group id_="2127035136" open_="true" prop0="texture=6 0.66">
+			<vehicle id_="1484087808" open_="true" name="carriage-b-horse" tags="cfg=ai" pos="0.0 0.0 -4.6" rot="0.0 0.0 0.0" driven="false" sound="suv2" spring="2.8" damping="0.8" topspeed="60" acceleration="2" strength="5" antispin="0.5" antiroll="0.4" difflock="0.5" steerassist="0" friction="2">
+				<body id_="831178304" open_="true" pos="0 0 0" rot="0.0 270 0.0" dynamic="true">
+					<vox id_="894686528" open_="true" pos="0 0 0" rot="0 0 0" density="2" strength="2" file="MOD/vehicles/dima/dimav2/wagon.vox" object="horse">
+						<location id_="2022236672" tags="vital" pos="0 0 0" rot="0 0 0"/>
+						<location id_="271663296" tags="player" pos="-1 3 1" rot="0.0 0 0.0"/>
+						<joint id_="2123823744" pos="3 1 -0.05" rot="90 0.0 0.0" type="hinge" size="0.3" rotstrength="0.5" rotspring="0.1" sound="true"/>
+					</vox>
+					<wheel id_="1202790144" name="hfl" pos="-2 0 1.5" rot="0.0 90 0.0" drive="1" steer="1" travel="-0.1 0.2">
+						<vox id_="1379289344" pos="0.1 -0.2 0.1" rot="0.0 90 0.0" file="MOD/vehicles/dima/dimav2/wagon.vox" object="wheel_hfl"/>
+					</wheel>
+					<wheel id_="1494705280" name="hfr" pos="-2 0 -1.3" rot="0.0 90 0.0" drive="1" steer="1" travel="-0.1 0.2">
+						<vox id_="156509520" pos="0.1 -0.1 0.1" rot="0.0 90 0.0" file="MOD/vehicles/dima/dimav2/wagon.vox" object="wheel_hfr"/>
+					</wheel>
+					<wheel id_="1097598336" name="fl" pos="2.4 0.8 1.8" rot="0.0 -90 0.0" drive="-1" steer="-0.4" travel="-0.1 0.2">
+						<vox id_="945873280" pos="-0 -0.85 0.1" rot="0.0 90 0.0" file="MOD/vehicles/dima/dimav2/wagon.vox" object="wheel_fl"/>
+					</wheel>
+					<wheel id_="1221075712" name="fr" pos="2.4 0.8 -1.7" rot="0.0 -90 0.0" drive="-1" steer="-0.4" travel="-0.1 0.2">
+						<vox id_="2129394560" pos="0 -0.85 0.1" rot="0.0 90 0.0" file="MOD/vehicles/dima/dimav2/wagon.vox" object="wheel_fr"/>
+					</wheel>
+				</body>
+			</vehicle>
+			<vehicle id_="283722656" name="carriage-a" tags="nodrive" pos="0 0.8 0.6" rot="0.0 -90 0.0" driven="false" spring="0.8" damping="0.8" topspeed="0" acceleration="0" strength="0" antispin="0.5" antiroll="0" difflock="0.5" steerassist="1.0">
+				<body id_="1046804864" pos="0 0 0" rot="0.0 0 0.0" dynamic="true">
+					<vox id_="1233135104" pos="0.0 0.0 0" rot="0 0 0" density="1" strength="2" file="MOD/vehicles/dima/dimav2/wagon.vox" object="body"/>
+					<vox id_="1941753600" pos="0 1.2 0" rot="0.0 0 0.0" prop="true" file="MOD/vehicles/dima/dimav2/wagon.vox" object="luggage"/>
+					<wheel id_="1070726976" name="bl" pos="1.95 0.05 -1.5" rot="0.0 90 0.0" drive="0" travel="-0.1 0.2">
+						<vox id_="853592960" pos="0.0 -0.85 0.05" rot="0.0 90 0.0" file="MOD/vehicles/dima/dimav2/wagon.vox" object="wheel_bl"/>
+					</wheel>
+					<wheel id_="1823585024" name="br" pos="1.95 0.05 1.4" rot="0.0 90 0.0" drive="0" travel="-0.1 0.2">
+						<vox id_="2071916032" pos="0.0 -0.85 0.05" rot="0.0 90 0.0" file="MOD/vehicles/dima/dimav2/wagon.vox" object="wheel_br"/>
+					</wheel>
+				</body>
+			</vehicle>
+		</group>
+	</group>
+</prefab>
+

@@ -1,0 +1,25 @@
+<prefab version="0.6.2">
+	<group id_="1695519744" open_="true" name="instance=MOD/vehicles/dima/dimav2/horse.xml" pos="6.6 -0.4 -3.6" rot="0.0 0.0 0.0">
+		<vehicle id_="1937493504" name="horse" tags="cfg=ai" driven="false" sound="suv2" spring="0.8" damping="0.8" topspeed="60" acceleration="1" strength="5" antispin="0.5" antiroll="0" difflock="0.5" steerassist="1.0">
+			<body id_="860736832" pos="-0.05 0.6 -0.25" rot="0.0 0 0.0" dynamic="true">
+				<vox id_="2144206592" pos="0.0 0.0 0" rot="0 0 0" density="1" strength="2" file="MOD/vehicles/dima/dimav2/horse.vox" object="body">
+					<location id_="1360872576" tags="vital" pos="0 2 0" rot="0 0 0"/>
+					<location id_="1757127424" tags="player" pos="0 3.25 0" rot="0.0 180 0.0"/>
+				</vox>
+				<wheel id_="795196800" name="bl" pos="-0.4 0 1.2" drive="1" travel="-0.1 0.2">
+					<vox id_="1648724224" pos="0 -0.2 0" rot="0.0 0.0 0.0" file="MOD/vehicles/dima/dimav2/horse.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="1723177728" name="br" pos="0.3 0 1.2" drive="1" travel="-0.1 0.2">
+					<vox id_="757904576" pos="0 -0.2 0" rot="0 0 0" file="MOD/vehicles/dima/dimav2/horse.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="497120896" name="fl" pos="-0.4 0 -0.3" drive="1" steer="1" travel="0-0.1 0.2">
+					<vox id_="51907680" pos="0 -0.2 0" rot="0 0 0" file="MOD/vehicles/dima/dimav2/horse.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="1725995904" name="fr" pos="0.3 0 -0.3" drive="1" steer="1" travel="-0.1 0.2">
+					<vox id_="351556544" pos="0 -0.2 0" rot="0 0 0" file="MOD/vehicles/dima/dimav2/horse.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

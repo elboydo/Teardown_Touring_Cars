@@ -1,0 +1,17 @@
+<prefab version="0.5.3">
+	<group id_="1855502976" open_="true" name="instance=LEVEL/prefab/suv.xml" pos="65.3 0.5 -1.4" rot="0.0 100.0 0.0">
+		<body id_="2071784960" open_="true" dynamic="true">
+			<vox id_="1127091328" pos="1.05 0.0 -0.9" file="LEVEL/vox/pickup1.vox" object="wheel_fr"/>
+			<vox id_="1656589056" pos="1.05 0.0 -4.2" file="LEVEL/vox/pickup1.vox" object="wheel_fr"/>
+			<vox id_="2044258176" open_="true" tags="car=3" pos="1.75 0.3 -2.6" desc="Taskmaster 4WD:A true workhorse. Not very fast, but its rugged design and high ground clearance means it essentially can get through just about anywhere." file="LEVEL/vox/pickup1.vox" object="body">
+				<group id_="1579513984" pos="0.05 0.6 2.5" prop0="scale=2">
+					<light id_="1402162816" pos="0.75069 0.15 0.00049" type="cone"/>
+					<light id_="1857665792" pos="-0.74931 0.15 0.00049" type="cone"/>
+				</group>
+			</vox>
+			<vox id_="1135218304" pos="2.55 0.0 -1.0" rot="0.0 180.0 0.0" file="LEVEL/vox/pickup1.vox" object="wheel_fr"/>
+			<vox id_="1201151616" pos="2.55 0.0 -4.3" rot="0.0 180.0 0.0" file="LEVEL/vox/pickup1.vox" object="wheel_fr"/>
+		</body>
+	</group>
+</prefab>
+

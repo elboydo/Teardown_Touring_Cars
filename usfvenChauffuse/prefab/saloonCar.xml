@@ -1,0 +1,17 @@
+<prefab version="0.5.3">
+	<group id_="972220352" open_="true" name="instance=LEVEL/prefab/saloonCar.xml" pos="-2.1 -0.1 -1.8" rot="0.0 -90.0 0.0">
+		<body id_="472215712" open_="true" dynamic="true">
+			<vox id_="2059922176" pos="1.05 0.0 -0.9" file="LEVEL/vox/salooncar.vox" object="wheel_fl"/>
+			<vox id_="1871035904" pos="1.05 0.0 -3.5" file="LEVEL/vox/salooncar.vox" object="wheel_fl"/>
+			<vox id_="933682816" tags="car=1" pos="1.75 0.1 -2.2" desc="Drab 75:A generally mediocre car with no features or specifications to talk about. Maybe that it is prone to flip in tight corners..." file="LEVEL/vox/salooncar.vox" object="body">
+				<group id_="2073751168" pos="-0.02 0.4 2.04" prop0="scale=2">
+					<light id_="1818800512" pos="-0.52544 0.15 0.06054" type="cone"/>
+					<light id_="1862056960" pos="0.67456 0.15 0.06054" type="cone"/>
+				</group>
+			</vox>
+			<vox id_="125181400" pos="2.55 0.0 -0.9" rot="0.0 180.0 0.0" file="LEVEL/vox/salooncar.vox" object="wheel_fl"/>
+			<vox id_="1070792512" pos="2.55 0.0 -3.5" rot="0.0 180.0 0.0" file="LEVEL/vox/salooncar.vox" object="wheel_fl"/>
+		</body>
+	</group>
+</prefab>
+

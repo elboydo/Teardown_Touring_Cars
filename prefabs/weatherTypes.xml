@@ -1,0 +1,18 @@
+<prefab version="0.8.0">
+	<group id_="1399803264" open_="true" name="weatherTypes" pos="0.0 0.0 -95.50001" rot="0.0 0.0 0.0">
+		<environment id_="1743429504" name="Some nice sunny weather" template="sunny" skyboxrot="45" fogParams="250 400 0.75 9" nightlight="false"/>
+		<group id_="1155732352" open_="true" name="sunset" pos="-0.2 0.1 -0.1" rot="0.0 180.0 0.0" layer="sunset">
+			<environment id_="153035904" name="Some nice sunset weather" template="sunset" skyboxrot="45"/>
+		</group>
+		<group id_="1033893504" open_="true" name="sunrise" pos="0.0 0.1 0.0" rot="0.0 -180.0 0.0" layer="sunrise">
+			<environment id_="27723420" name="Some nice sunriseweather" template="sunrise" skyboxrot="45"/>
+		</group>
+		<group id_="560301440" open_="true" name="night" pos="0.0 0.1 -0.3" rot="0.0 180.0 0.0" layer="night">
+			<environment id_="224277888" name="Some nice night weather" template="night" skybox="moonlit.dds" skyboxrot="45"/>
+		</group>
+		<group id_="707307648" open_="true" name="rainyWeather" pos="0.0 0.1 0.0" rot="0.0 -180.0 0.0" layer="rain">
+			<environment id_="1672449664" name="Some nice rainy weather" template="rain" skyboxrot="45" nightlight="false"/>
+		</group>
+	</group>
+</prefab>
+

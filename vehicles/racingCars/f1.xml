@@ -1,0 +1,32 @@
+<prefab version="0.6.2">
+	<group id_="204681424" open_="true" name="instance=MOD/vehicles/racingCars/f1.xml" pos="-1.9 0.0 46.4" rot="0.0 0.0 0.0">
+		<vehicle id_="2086662528" open_="true" tags="cfg=ai" pos="0.07 0.0 0.07" rot="0.0 0.0 0.0" driven="false" sound="racingcar" spring="1.2" topspeed="160" acceleration="9" strength="9" antispin="0.6" antiroll="0.85" difflock=".8" steerassist="3" friction="4.2">
+			<body id_="890491968" open_="true" pos="-0.05002 0.3 -0.45" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="692233472" open_="true" pos="0.05 -0.2 0.45" rot="0 180 0" density="1.5" strength="5" file="MOD/vehicles/racingCars/f1Car_red.vox" object="body">
+					<light id_="1006628864" pos="0.65 0.45 -2.3" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.3" glare="0.2"/>
+					<light id_="391798112" pos="-0.55 0.45 -2.3" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.3 0.1" unshadowed="0.3" glare="0.2"/>
+					<light id_="1715640576" pos="0.7 0.55 -2.3" rot="0.0 180.0 0.0" type="area" color="1 1 1" size="0.2 0.1" unshadowed="0.2"/>
+					<light id_="1134104192" pos="-0.6 0.55 -2.3" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.2"/>
+					<light id_="1184766592" pos="0.9 0.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+					<light id_="1088422784" pos="-0.8 0.35 2.3" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.3"/>
+					<location id_="181807968" tags="exhaust" pos="0.5 0.1 -2.4" rot="-180.0 360.0 -180.0"/>
+					<location id_="2058087040" tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+					<location id_="439642304" tags="player" pos="0.35 1.0 -0.05" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel id_="636655552" open_="true" name="bl" pos="-0.64999 0.05 1.8" drive="1" travel="-0.1 0.1">
+					<vox id_="1566143872" pos="-0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vehicles/racingCars/f1Car_red.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="439707872" open_="true" name="br" pos="0.75001 0.05 1.8" drive="1" travel="-0.1 0.1">
+					<vox id_="564102784" pos="0.1 -0.35 -0.05" rot="0 180 0" file="MOD/vehicles/racingCars/f1Car_red.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="1540452096" open_="true" name="fl" pos="-0.64999 0.05 -1.1" drive="1" steer="0.7" travel="-0.1 0.1">
+					<vox id_="1553887872" pos="-0.1 -0.35 -0.05" rot="0 180 0" file="MOD/vehicles/racingCars/f1Car_red.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="705275968" open_="true" name="fr" pos="0.75001 0.05 -1.1" drive="1" steer="0.7" travel="-0.1 0.1">
+					<vox id_="2021450240" pos="0.1 -0.35 -0.05" rot="0.0 -180.0 0.0" file="MOD/vehicles/racingCars/f1Car_red.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

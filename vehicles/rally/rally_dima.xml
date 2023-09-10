@@ -1,0 +1,32 @@
+<prefab version="0.6.2">
+	<group id_="1130237312" open_="true" name="instance=MOD/vehicles/rally/rally_dima.xml" pos="-5.45349 -0.1 12.50825" rot="0.0 90.0 0.0">
+		<vehicle id_="1797368960" open_="true" name="rally Dima" tags="cfg=ai" pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" driven="false" sound="sportscar" spring="0.7" damping="1" topspeed="130" acceleration="11" strength="13" antispin="0" antiroll="0.4" difflock="0.5" steerassist="0.6" friction="2.8">
+			<body id_="1707382528" open_="true" pos="-0.05002 0.35 0.25" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="262749856" open_="true" pos="0.05 -0.15 -0.25" rot="0 180 0" density="1" strength="10" file="MOD/vehicles/rally/rally_dima.vox" object="body">
+					<light id_="293291488" pos="-0.6 0.75 -2.1" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+					<light id_="1722325632" pos="0.5 0.75 -2.1" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+					<light id_="195833520" pos="-0.4 0.75 -2.1" rot="0.0 180.0 0.0" type="area" size="0.2 0.1" unshadowed="0.3"/>
+					<light id_="1370638080" pos="0.7 0.75 -2.1" rot="0.0 -180.0 0.0" type="area" color="1 .1 .1" size="0.2 0.1" unshadowed="0.2" glare="0.2"/>
+					<light id_="945021248" pos="-0.7 0.75 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<light id_="311249472" pos="0.8 0.75 2.0" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="20" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.4"/>
+					<location id_="1894826880" tags="exhaust" pos="-0.5 0.1 -2.30001" rot="-180.0 360.0 -180.0"/>
+					<location id_="138551552" tags="vital" pos="0.05 0.55 1.3" rot="-180.0 360.0 -180.0"/>
+					<location id_="2111108992" tags="player" pos="0.2 1.25 0.05" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel id_="834127552" open_="true" name="bl" pos="-0.94999 0.0 1.2" drive="1" travel="-0.1 0.1">
+					<vox id_="84349984" pos="0.1 -0.35 0.05" file="MOD/vehicles/rally/rally_dima.vox" object="wheel_rl"/>
+				</wheel>
+				<wheel id_="175581664" open_="true" name="br" pos="0.95001 0.0 1.2" drive="1" travel="-0.1 0.1">
+					<vox id_="782940864" pos="-0.2 -0.35 0.05" file="MOD/vehicles/rally/rally_dima.vox" object="wheel_rr"/>
+				</wheel>
+				<wheel id_="977791232" open_="true" name="fl" pos="-0.94999 0.0 -1.6" drive="1" steer="0.7" travel="-0.1 0.1">
+					<vox id_="1081082240" pos="0.1 -0.35 0.05" file="MOD/vehicles/rally/rally_dima.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="380721856" open_="true" name="fr" pos="0.95001 0.0 -1.6" drive="1" steer="0.7" travel="-0.1 0.1">
+					<vox id_="79696640" pos="-0.2 -0.35 0.05" file="MOD/vehicles/rally/rally_dima.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

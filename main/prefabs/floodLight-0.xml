@@ -1,0 +1,8 @@
+<prefab version="0.5.3">
+	<group id_="1569224192" open_="true" name="instance=LEVEL/prefabs/floodLight-0.xml" pos="70.0 0.1 62.1" rot="0.0 -90.0 0.0">
+		<vox id_="132456336" open_="true" pos="0.0" rot="0.0 0.0 0.0" file="MOD/main/floodLight-0.vox">
+			<light id_="500004672" tags="night" pos="0.05 4.2 0.3" rot=".0 0.0 0.0" type="area" color="0.8 0.86 0.91" scale="9" angle="45" penumbra="30" size="0.3 0.2 " reach="0" unshadowed="1" fogscale="2" glare="0.3"/>
+		</vox>
+	</group>
+</prefab>
+

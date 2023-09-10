@@ -1,0 +1,29 @@
+<prefab version="0.8.0">
+	<group id_="378296896" open_="true" name="collection of trees" pos="0.0 0.0 5.8">
+		<vox id_="810533184" pos="-7.99997 0.8 20.30006" file="MOD/assets/nature/tree-large.vox"/>
+		<vox id_="2088301056" pos="-11.9 0.5 25.80005" file="MOD/assets/nature/tree-sparse.vox"/>
+		<vox id_="1293563008" pos="-10.3 0.2 12.7" file="MOD/assets/nature/tree-sparse.vox"/>
+		<vox id_="2006113920" pos="-10.3 0.2 21.2" file="MOD/assets/nature/tree-small.vox"/>
+		<vox id_="805224448" pos="-10.3 0.2 9.2" file="MOD/assets/nature/tree-small.vox"/>
+		<vox id_="2020336000" pos="-7.2 0.2 5.1" file="MOD/assets/nature/tree-small.vox"/>
+		<vox id_="1048508928" pos="-3.6 0.1 17.9" file="MOD/assets/nature/pine-huge.vox"/>
+		<vox id_="1894302592" pos="-4.7 0.6 -14.6" file="MOD/assets/nature/tree-large.vox"/>
+		<vox id_="1672318592" pos="-4.7 0.6 -10.2" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="1703777792" pos="-4.7 0.6 -0.6" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="684761920" pos="-3.4 0.6 3.3" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="1041037376" pos="-8.8 0.6 14.5" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="1949356160" pos="-3.69992 0.6 -18.10001" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="2003951104" pos="-13.6 0.6 25.60004" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="656710784" pos="-6.49998 0.6 20.40004" rot="0.0 40.0 0.0" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="743354688" pos="-2.69998 0.6 13.7" rot="0.0 40.0 0.0" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="1575974784" pos="-0.59996 0.6 3.89998" rot="0.0 40.0 0.0" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="1273638784" pos="-4.49999 0.6 8.69998" rot="0.0 80.0 0.0" file="MOD/assets/nature/bushes.vox" object="large"/>
+		<vox id_="1725143936" pos="-1.4 0.6 -22.1" file="MOD/assets/nature/tree-medium.vox"/>
+		<vox id_="1597734144" pos="-6.4 0.6 8.7" file="MOD/assets/nature/tree-medium.vox"/>
+		<vox id_="1938738688" pos="-2.5 0.6 0.5" file="MOD/assets/nature/tree-mediumlarge.vox"/>
+		<vox id_="1931594880" pos="-1.4 0.6 -28.5" file="MOD/assets/nature/tree-medium.vox"/>
+		<vox id_="1597144320" pos="-1.6 0.6 -9.5" file="MOD/assets/nature/pine-huge.vox"/>
+		<vox id_="961996096" pos="-5.3 0.6 -4.3" file="MOD/assets/nature/pine-huge.vox"/>
+	</group>
+</prefab>
+

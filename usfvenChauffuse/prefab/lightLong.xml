@@ -1,0 +1,16 @@
+<prefab version="0.5.3">
+	<group id_="453012480" open_="true" pos="-19.8 3.0 29.2">
+		<vox id_="998567424" open_="true" pos="0.0 1.1 0.0" rot="180.0 0.0 0.0" prop="true" file="LEVEL/vox/furniture/livingroom_modern.vox" object="lightLong_1">
+			<light id_="210711104" tags="night" pos="-0.05 0.25 -0.05" rot="-90 0 0" type="area" scale="2" size="2 .4" unshadowed="0.75"/>
+			<rope id_="203370624" open_="true" pos="-0.75 0.0 -0.05">
+				<location id_="524909856" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location id_="845859264" pos="-0.0 -0.55 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+			<rope id_="1377847424" open_="true" pos="0.75 0.0 -0.05">
+				<location id_="116726736" pos="0.0 0.0 0.0" rot="0.0 0.0 0.0"/>
+				<location id_="59117080" pos="-0.0 -0.55 -0.0" rot="0.0 0.0 0.0"/>
+			</rope>
+		</vox>
+	</group>
+</prefab>
+

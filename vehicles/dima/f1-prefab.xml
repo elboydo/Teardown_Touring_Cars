@@ -1,0 +1,23 @@
+<prefab version="0.6.2">
+	<group id_="698852992" open_="true" name="instance=MOD/vehicles/dima/f1-prefab.xml" pos="7.0 0.0 -1.9" rot="0.0 0.0 0.0">
+		<vehicle id_="1991236224" open_="true" name="f1-dima" tags="cfg=ai" pos="0.0 1.1 0.0" sound="sportscar" spring="1.2" topspeed="150" acceleration="20" strength="20" antispin="0.8" antiroll="0.85" difflock="0.8" steerassist="0.5" friction="3.5">
+			<body id_="1015345664" open_="true" pos="0.1 -0.7 -0.8" dynamic="true">
+				<vox id_="142942736" open_="true" pos="-0.1 -0.2 -0.2" file="MOD/vehicles/dima/f1.vox" object="body">
+					<wheel id_="1420382848" open_="true" pos="0.7 0.2 -1.85" steer="1">
+						<vox id_="2105800192" pos="0.4 -0.45 0.05" file="MOD/vehicles/dima/f1.vox" object="fr_wheel"/>
+					</wheel>
+					<wheel id_="967501504" open_="true" pos="-0.9 0.2 -1.85" steer="1">
+						<vox id_="861588864" pos="-0.3 -0.45 0.05" file="MOD/vehicles/dima/f1.vox" object="fl_wheel"/>
+					</wheel>
+					<wheel id_="375347584" open_="true" pos="0.7 0.2 2.75" drive="1" steer="0">
+						<vox id_="366434144" pos="0.4 -0.45 0.05" file="MOD/vehicles/dima/f1.vox" object="fr_wheel"/>
+					</wheel>
+					<wheel id_="80941904" open_="true" pos="-0.9 0.2 2.75" drive="1" steer="0">
+						<vox id_="224474496" pos="-0.3 -0.45 0.05" file="MOD/vehicles/dima/f1.vox" object="fl_wheel"/>
+					</wheel>
+				</vox>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

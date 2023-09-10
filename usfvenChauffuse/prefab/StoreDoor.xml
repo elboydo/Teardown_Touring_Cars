@@ -1,0 +1,11 @@
+<prefab version="0.5.3">
+	<group id_="1923074688" open_="true" name="instance=LEVEL/prefab/StoreDoor.xml" pos="7.0 0.0 -2.5" rot="0.0 0.0 0.0">
+		<vox id_="2089153024" open_="true" name="StoreDoorFrame" pos="0.1 0.4 -0.6" rot="0  -180 0" file="LEVEL/vox/wood_small2.vox" object="doorFrame2">
+			<vox id_="1955648000" open_="true" name="StoreDoor" pos="0.0 0.1 0.1" rot="0 0 0" texture="6 0.8" prop="true" file="LEVEL/vox/wood_small2.vox" object="doorblade2">
+				<joint id_="1365984640" pos="0.6 0.5 0.0" rot="-90.0 0.0 0.0" type="hinge" size="0.1" limits="0 130"/>
+				<joint id_="565216960" pos="0.6 2.2 0.0" rot="-90.0 0.0 0.0" type="hinge" size="0.1" rotspring="0" limits="0 130"/>
+			</vox>
+		</vox>
+	</group>
+</prefab>
+

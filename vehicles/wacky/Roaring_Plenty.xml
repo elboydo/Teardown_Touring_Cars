@@ -1,0 +1,41 @@
+<prefab version="0.6.2">
+	<group id_="341791104" open_="true" name="instance=MOD/vehicles/wacky/Roaring_Plenty.xml" pos="-0.1 -0.1 0.0" rot="0.0 0.0 0.0">
+		<vehicle id_="868142848" open_="true" name="Roaring_Plenty" tags="cfg=ai" pos="0.1 0.3 0.0" sound="classic1" topspeed="130" acceleration="3" strength="3" antispin="1" difflock="0.3" steerassist="0.6" friction="2">
+			<body id_="2011946880" open_="true" dynamic="true">
+				<vox id_="1234118144" open_="true" pos="0.0 0.0 0.0" rot="0.0 180.0 0.0" file="MOD/vehicles/wacky/wakeyrace.vox" object="Body_RoaringPlenty">
+					<location id_="501905312" name="player" tags="player" pos="0.0 1.2 -0.4"/>
+					<location id_="1213145344" name="exhaust" tags="exhaust" pos="-0.3 0.2 -2.5" rot="10  180 0"/>
+					<light id_="276120032" pos="0.45 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.7" glare="0.35"/>
+					<light id_="107944384" pos="-0.35 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.7" glare="0.35"/>
+					<light id_="368269248" pos="0.55 0.55 -2.6" rot="-0.00001 180.0 0.00001" type="area" color="1 .1 .1" size="0.1 0.1" unshadowed="0.2" glare="0.2"/>
+					<light id_="18285660" pos="-0.45 0.55 -2.6" rot="-0.00001 180.0 0.00001" type="area" color="1 .1 .1" size="0.1 0.1" unshadowed="0.2" glare="0.2"/>
+				</vox>
+				<vox id_="1280258304" open_="true" pos="-0.8 0.3 0.8" rot="0.0 180.0 0.0" prop="true" file="MOD/vehicles/wacky/wakeyrace.vox" object="Door_LB_RP">
+					<joint id_="1935920512" pos="0.0 0.5 -0.4" rot="-90 0 0" type="hinge" rotstrength="0.05" rotspring="0.001" collide="false" limits="0 90"/>
+				</vox>
+				<vox id_="1481400576" open_="true" pos="-0.8 0.3 0.1" rot="0.0 180.0 0.0" prop="true" file="MOD/vehicles/wacky/wakeyrace.vox" object="Door_LF_RP">
+					<joint id_="11928280" pos="0.0 0.5 0.3" rot="-90 0 0" type="hinge" rotstrength="0.05" rotspring="0.001" collide="false" limits="-90 0 "/>
+				</vox>
+				<vox id_="832554624" open_="true" pos="0.7 0.3 0.1" rot="0.0 180.0 0.0" prop="true" file="MOD/vehicles/wacky/wakeyrace.vox" object="Door_RF_RP">
+					<joint id_="1662553216" pos="0.0 0.5 0.3" rot="-90 0 0" type="hinge" rotstrength="0.05" rotspring="0.001" collide="false" limits="0 90 "/>
+				</vox>
+				<vox id_="406413536" open_="true" pos="0.7 0.3 0.8" rot="0.0 180.0 0.0" prop="true" file="MOD/vehicles/wacky/wakeyrace.vox" object="Door_RB_RP">
+					<joint id_="252460080" pos="0.0 0.5 -0.4" rot="-90 0 0" type="hinge" rotstrength="0.05" rotspring="0.001" collide="false" limits="-90 0 "/>
+				</vox>
+				<wheel id_="49482700" open_="true" pos="0.7 0.15 -1.75" steer="1">
+					<vox id_="807911552" pos="0.0 -0.35 0.05" file="MOD/vehicles/wacky/wakeyrace.vox" object="Wheel_RF_RP"/>
+				</wheel>
+				<wheel id_="1727831040" open_="true" pos="0.9 0.15 1.85" drive="1">
+					<vox id_="841599168" pos="0.0 -0.35 0.05" file="MOD/vehicles/wacky/wakeyrace.vox" object="Wheel_LB_RP"/>
+				</wheel>
+				<wheel id_="1739038336" open_="true" pos="-0.9 0.15 -1.75" steer="1">
+					<vox id_="733523712" pos="0.0 -0.35 0.05" file="MOD/vehicles/wacky/wakeyrace.vox" object="Wheel_LF_RP"/>
+				</wheel>
+				<wheel id_="41683440" open_="true" pos="-1.1 0.15 1.85" drive="1">
+					<vox id_="1758307072" pos="0.0 -0.35 0.05" file="MOD/vehicles/wacky/wakeyrace.vox" object="Wheel_LB_RP"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

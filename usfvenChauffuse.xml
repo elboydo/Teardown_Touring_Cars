@@ -1,0 +1,257 @@
+<scene id_="1307391872" open_="true" version="0.7.2" shadowVolume="400 31 400">
+	<group id_="1619952128" open_="true" name="scripts" pos="0.0 -0.2 0.0">
+		<script id_="412508768" pos="0.0 0.2 0.0" rot="0.0 0.0 0.0" file="main.lua"/>
+		<group id_="617845568" open_="true" name="avf_ai" layer="avf_ai">
+			<script id_="1883095296" file="MOD/scripts/AVF_AI_V3.lua"/>
+		</group>
+	</group>
+	<body id_="1101399680" open_="true" name="scene" tags="scenebody" pos="0.0 26.8 0.0">
+		<group id_="1336753792" open_="true" name="ground" pos="-0.1 0.0 -0.1" rot="0.0 0.0 0.0">
+			<voxscript id_="1703777792" pos="-199.89999 0.0 -199.89999" rot="0.0 0.0 0.0" texture="6" file="MOD/voxscript/ground.lua">
+				<parameters scale="256" hollow="0" file="MOD/images/teardownRacingTrack_coast01.png"/>
+			</voxscript>
+		</group>
+		<group id_="263667424" open_="true" name="gates" pos="-24.5 -5.1 -12.9" rot="0.0 0.0 0.0">
+			<group id_="1900659968" open_="true" name="gate 1" pos="14.59999 24.3 8.9" rot="0.0 -179.0 0.0">
+				<trigger id_="211235424" name="gate 1" tags="gate=1 uipos=red" pos="0.0 0.0 0.0"/>
+			</group>
+			<group id_="1332887040" name="gate 2" pos="-83.59998 10.2 175.0" rot="0.0 22.0 0.0">
+				<trigger id_="1003679552" name="gate 2" tags="gate=2 uipos=red" pos="0.1 0.0 0.0"/>
+			</group>
+			<group id_="670867456" name="gate 3" pos="131.79999 13.1 183.59998" rot="0.0 21.0 0.0">
+				<trigger id_="105912640" name="gate 3" tags="gate=3 uipos=red" pos="0.0 0.0 0.0"/>
+			</group>
+			<group id_="246168240" name="gate 4" pos="174.79999 13.0 56.69999" rot="0.0 0.0 0.0">
+				<trigger id_="1993333504" name="gate 4" tags="gate=4 uipos=red" pos="0.0 0.0 0.0"/>
+			</group>
+		</group>
+		<group id_="978839872" open_="true" name="cars" pos="148.40001 4.9 108.60001" rot="0.0 -90.0 0.0" layer="raceCar">
+			<instance id_="1869331840" pos="-32.70004 0.0 -6.8" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="887935936" pos="-26.65793 0.0 -0.84388" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1457740672" pos="-43.17637 0.0 -1.57303" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="489452736" pos="-5.17238 0.0 2.97254" rot="0.0 80.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="2132212864" pos="-48.29601 0.0 -6.75442" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="140190064" pos="-13.75394 0.0 -0.1983" rot="0.0 80.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="62918400" pos="7.93243 0.0 4.89985" rot="0.0 80.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1390758784" pos="-20.65565 0.0 -6.23203" rot="0.0 80.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="863358400" pos="2.66156 0.0 -1.38171" rot="0.0 80.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1283469824" pos="32.6441 0.0 4.40202" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="139469120" pos="36.12043 0.0 0.17506" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1590590208" pos="26.36255 0.0 -0.86883" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="1966200064" pos="19.40375 0.0 4.77963" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="715565696" pos="13.12219 0.0 -0.49121" rot="0.0 90.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+			<instance id_="866307712" pos="-8.21994 0.0 -3.54735" rot="0.0 80.0 0.0" file="MOD/prefabs/racinCarAI.xml"/>
+		</group>
+		<group id_="1578465408" open_="true" name="cars" pos="148.40001 4.9 108.60001" rot="0.0 -90.0 0.0" layer="sportsCar">
+			<instance id_="1341407232" pos="-32.7 0.0 -6.8" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1859959680" pos="-26.658 0.0 -0.844" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1305425664" pos="-43.176 0.0 -1.573" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1132269056" pos="-5.172 0.0 2.973" rot="0.0 80.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1803922944" pos="-48.296 0.0 -6.754" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1858714368" pos="-13.754 0.0 -0.198" rot="0.0 80.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="329141888" pos="7.932 0.0 4.9" rot="0.0 80.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="247610112" pos="-20.656 0.0 -6.232" rot="0.0 80.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="396779168" pos="2.662 0.0 -1.382" rot="0.0 80.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1482776960" pos="32.644 0.0 4.402" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1127943424" pos="36.12 0.0 0.175" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1292317696" pos="26.363 0.0 -0.869" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="434923456" pos="19.404 0.0 4.78" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="829998592" pos="13.122 0.0 -0.491" rot="0.0 90.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+			<instance id_="1066794560" pos="-8.22 0.0 -3.547" rot="0.0 80.0 0.0" file="MOD/prefabs/aiSportsCar.xml"/>
+		</group>
+		<water id_="942923968" pos="0.0 3.6 0.0" depth="50" wave="0.9" ripple="0.7" motion="1"/>
+		<group id_="1849211136" open_="true" name="buildings" pos="8.3 3.9 108.7">
+			<instance id_="1688965760" pos="4.8 1.2 -32.0" rot="0.0 -10.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="1083769472" pos="-19.2 1.2 -33.5" rot="0.0 0.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="1124076544" pos="-34.9 1.2 -33.29999" rot="0.0 0.0 0.0" file="MOD/MEBuildings/prefab/MESingleStory01.xml"/>
+			<instance id_="1897383040" pos="-21.3 1.0 12.40001" rot="0.0 -170.0 0.0" file="MOD/MEBuildings/prefab/MESingleStory01.xml"/>
+			<instance id_="1225008128" pos="29.6 0.7 24.10001" rot="0.0 160.0 0.0" file="MOD/MEBuildings/prefab/MESingleStory01.xml"/>
+			<instance id_="1657899776" pos="-8.3 0.7 15.89999" rot="0.0 170.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="1936772480" pos="15.70002 0.7 17.39999" rot="0.0 -180.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="2078994304" pos="43.10002 0.7 32.6" rot="0.0 150.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="884462272" pos="38.6 1.2 -23.90001" rot="0.0 -20.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="1786292736" pos="20.42508 1.2 -29.94477" rot="0.0 -10.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="257441120" pos="-89.10001 1.2 -3.5" rot="0.0 40.0 0.0" file="MOD/MEBuildings/prefab/MESingleStory01.xml"/>
+			<instance id_="1046870400" pos="-77.20167 1.2 -13.74497" rot="0.0 40.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="1891353344" pos="-57.85241 1.2 -28.02281" rot="0.0 30.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+			<instance id_="1306933120" pos="-47.3 1.2 18.40001" rot="0.0 -130.0 0.0" file="MOD/MEBuildings/prefab/MESingleStory01.xml"/>
+			<instance id_="2018042112" pos="-35.09167 0.9 12.72491" rot="0.0 -150.0 0.0" file="MOD/MEBuildings/prefab/ME2Story01.xml"/>
+		</group>
+		<group id_="751284992" name="obtascles"/>
+		<group id_="1054997376" open_="true" name="scenary" pos="0.0 -0.2 0.0">
+			<vox id_="536772608" name="Palmtree" pos="0.0 7.1 105.49999" file="LEVEL/PalmTree1.vox" object="Tree"/>
+			<vox id_="2128477056" name="Palmtree" pos="-4.1 7.1 105.5" file="MOD/assets/nature/tree-small.vox"/>
+		</group>
+		<group id_="1173821440" open_="true" name="track">
+			<voxbox id_="1794026368" pos="0.0 6.6 -15.2" texture="6" size="109 9 112" brush="MOD/assets/racingTrack/roadsegments_dark.vox"/>
+		</group>
+		<group id_="1442273280" open_="true" name="track" pos="151.2 4.43 53.6">
+			<voxbox id_="330059456" open_="true" name="roadSegment" pos="3.07 1.35 -47.87" rot="0.0 -85.9 -2.8" texture="6" size="361 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+				<group id_="1411928192" open_="true">
+					<voxbox id_="1246964096" open_="true" name="roadSegment" pos="-49.16716 2.24724 -0.44937" rot="0.0 -0.5 -2.7" texture="6" size="491 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+						<group id_="1459903488" open_="true">
+							<voxbox id_="159655440" open_="true" name="roadSegment" pos="-33.08135 0.76379 0.44695" rot="0.0 0.8 -1.3" texture="6" size="337 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+								<group id_="146809600" open_="true">
+									<voxbox id_="1485398528" open_="true" name="roadSegment" pos="-3.78 -0.05 0.0" rot="0.0 0.8 0.6" texture="6" size="38 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+										<group id_="1739693824" open_="true">
+											<voxbox id_="244529744" name="roadSegment" pos="-6.68 -0.36 0.04" rot="0.0 0.8 3.0" texture="6" size="67 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+										</group>
+									</voxbox>
+								</group>
+							</voxbox>
+						</group>
+					</voxbox>
+				</group>
+			</voxbox>
+		</group>
+		<group id_="86971584" open_="true" name="track" pos="43.79999 15.53 -82.2" rot="0.0 -150.0 0.0">
+			<voxbox id_="682926784" open_="true" name="roadSegment" pos="2.67 0.25 -38.97" rot="0.0 -84.5 -1" texture="6" size="361 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+				<group id_="1904592384" open_="true">
+					<voxbox id_="1072037760" open_="true" name="roadSegment" pos="-17.1 0.22 0.7" rot="0.0 2.0 -0.8" texture="6" size="172 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+						<group id_="1613136000" open_="true">
+							<voxbox id_="1048115712" open_="true" name="roadSegment" pos="-5.9 -0.0 -0.6" rot="0.0 -5.0 0.0" texture="6" size="71 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+								<group id_="910350592" open_="true">
+									<voxbox id_="79041240" name="roadSegment" pos="-3.9 0.0 -0.6" rot="0 -8 0" texture="6" size="57 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+								</group>
+							</voxbox>
+						</group>
+					</voxbox>
+				</group>
+			</voxbox>
+		</group>
+		<group id_="1252272768" open_="true" name="track" pos="-43.00001 8.93 -144.90001" rot="0.0 180.0 0.0">
+			<voxbox id_="223688016" open_="true" name="roadSegment" pos="5.84 -0.45 -6.42" rot="0.0 -84.5 -2" texture="6" size="51 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+				<group id_="1572960000" open_="true">
+					<voxbox id_="325799328" open_="true" name="roadSegment" pos="-17.1 0.02 0.7" rot="0.0 2.0 -0.28" texture="6" size="172 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+						<group id_="1817751936" open_="true">
+							<voxbox id_="1740611328" open_="true" name="roadSegment" pos="-6.6 0.2 -0.0" rot="0.0 0.0 -1.7" texture="6" size="71 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+								<group id_="1194859776" open_="true">
+									<voxbox id_="1194466560" open_="true" name="roadSegment" pos="-6.80001 -0.0 0.00001" rot="0.0 0.0 0.0" texture="6" size="69 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+										<group id_="1838069248" open_="true">
+											<voxbox id_="452553696" open_="true" name="roadSegment" pos="-10.39985 0.21746 -0.0" rot="0.0 0.0 -1.0" texture="6" size="114 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+												<group id_="440822048" open_="true">
+													<voxbox id_="301680608" open_="true" name="roadSegment" pos="-16.49893 0.32393 -0.0" rot="0.0 0.0 -1.0" texture="6" size="175 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+														<group id_="1581807872" open_="true">
+															<voxbox id_="671522816" open_="true" name="roadSegment" pos="-15.99899 0.3152 -0.00001" rot="0.0 0.0 -1.0" texture="6" size="170 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+																<group id_="250887120" open_="true">
+																	<voxbox id_="119938200" open_="true" name="roadSegment" pos="-7.90094 0.17449 0.15724" rot="0.0 0.5 -1.0" texture="6" size="89 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+																		<group id_="504985696" open_="true">
+																			<voxbox id_="1036580608" open_="true" name="roadSegment" pos="-5.0803 -0.14303 0.17606" rot="-0.5 2.0 1.0" texture="6" size="54 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+																				<group id_="2114582528" open_="true">
+																					<voxbox id_="957801536" name="roadSegment" pos="-3.29 -0.18 0.12" rot="-0.1 2.0 3.0" texture="6" size="36 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+																				</group>
+																			</voxbox>
+																		</group>
+																	</voxbox>
+																</group>
+															</voxbox>
+														</group>
+													</voxbox>
+												</group>
+											</voxbox>
+										</group>
+									</voxbox>
+								</group>
+							</voxbox>
+						</group>
+					</voxbox>
+				</group>
+			</voxbox>
+		</group>
+		<group id_="1373456256" open_="true" name="track" pos="-112.00002 4.63 -10.80001" rot="0.0 10.0 0.0">
+			<voxbox id_="84808760" open_="true" name="roadSegment" pos="5.84 -0.45 -9.22" rot="0.0 -84.5 -2" texture="6" size="51 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+				<group id_="794410368" open_="true">
+					<voxbox id_="293553664" open_="true" name="roadSegment" pos="-6.75 -0.03 0.0" rot="0.0 0.5 -0.3" texture="6" size="68 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+						<group id_="32311220" open_="true">
+							<voxbox id_="2117662976" open_="true" name="roadSegment" pos="-6.6 0.1 0.7" rot="0.0 6.0 -1" texture="6" size="71 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+								<group id_="705538112" open_="true">
+									<voxbox id_="1746772096" open_="true" name="roadSegment" pos="-6.8 0.0 0.6" rot="0.0 5.0 0.0" texture="6" size="69 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+										<group id_="1043200192" open_="true">
+											<voxbox id_="1282290048" open_="true" name="roadSegment" pos="-10.4 0.12 1.0" rot="0.0 5.0 -0.6" texture="6" size="114 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+												<group id_="1824633600" open_="true">
+													<voxbox id_="1967117568" open_="true" name="roadSegment" pos="-6.7 0.15 0.2" rot="0.0 1.0 -1.0" texture="6" size="77 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+														<group id_="2136014080" open_="true">
+															<voxbox id_="380525248" open_="true" name="roadSegment" pos="-9.4 0.2 -0.2" rot="0.0 -1.0 -1.0" texture="6" size="104 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+																<group id_="256720176" open_="true">
+																	<voxbox id_="183184304" open_="true" name="roadSegment" pos="-6.11 0.05 -0.5" rot="0.0 -4.5 -0.3" texture="6" size="71 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+																		<group id_="1116998272" open_="true">
+																			<voxbox id_="1262759168" open_="true" name="roadSegment" pos="-1.19 -0.08 -0.08" rot="-0.5 -4.0 0.5" texture="6" size="26 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox">
+																				<group id_="1420317312" open_="true">
+																					<voxbox id_="1993726848" name="roadSegment" pos="-3.29 -0.18 0.12" rot="-0.1 2.0 3.0" texture="6" size="36 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+																				</group>
+																			</voxbox>
+																		</group>
+																	</voxbox>
+																</group>
+															</voxbox>
+														</group>
+													</voxbox>
+												</group>
+											</voxbox>
+										</group>
+									</voxbox>
+								</group>
+							</voxbox>
+						</group>
+					</voxbox>
+				</group>
+			</voxbox>
+		</group>
+		<group id_="1907213952" open_="true" name="track" pos="-215.50002 4.23 37.0">
+			<voxbox id_="521305152" name="roadSegment" pos="3.48461 0.58954 -35.93572" rot="0.0 -85.5 -2.2" texture="6" size="205 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="501053312" name="roadSegment" pos="-1.25 10.73 -111.27" rot="0.0 -86.1 -3.8" texture="6" size="466 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1433818624" name="roadSegment" pos="-1.82431 10.98845 -119.22936" rot="0.0 -86.1 -1.3" texture="6" size="81 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="2012798976" name="roadSegment" pos="1.88 7.65 -64.97" rot="0.0 -86.1 -5.2" texture="6" size="281 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1157960704" name="roadSegment" pos="3.78 5.15 -37.27" rot="0.0 -86.1 -7." texture="6" size="182 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1322466176" name="roadSegment" pos="4.98 2.95 -19.37" rot="0.0 -86.1 -9.5" texture="6" size="113 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1920846336" name="roadSegment" pos="5.78 1.15 -8.27" rot="0.0 -86.1 -12.5" texture="6" size="28 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1215570432" name="roadSegment" pos="5.87 0.58 -5.57" rot="0.0 -86.1 -10.0" texture="6" size="47 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="924507264" name="roadSegment" pos="6.07 -0.02 -2.97" rot="0.0 -86.1 -3.0" texture="6" size="47 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+		</group>
+		<group id_="30148400" open_="true" name="BUMP" pos="-142.8 3.9 83.5" rot="0.0 170.0 0.0">
+			<voxbox id_="1120930560" name="roadSegment" pos="5.76 0.03 -4.01" rot="0.0 -85.5 -10.0" texture="6" size="71 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1413042432" name="roadSegment" pos="5.17402 0.72587 -12.10243" rot="0.0 -85.5 -5.0" texture="6" size="82 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1484415488" name="roadSegment" pos="4.5 0.73 -20.2" rot="0.0 -85.5 0" texture="6" size="82 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="1904526848" name="roadSegment" pos="-8.04005 0.03 -27.10998" rot="0.0 94.5 -10.0" texture="6" size="71 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+			<voxbox id_="504002592" name="roadSegment" pos="-7.45407 0.72587 -19.01753" rot="0.0 94.5 -5.0" texture="6" size="82 9 120" brush="MOD/assets/racingTrack/roadsegments_light.vox"/>
+		</group>
+	</body>
+	<group id_="1804119552" hidden_="true" name="water">
+		<water id_="91166144" hidden_="true" pos="0.0 2.5 0.0" rot="0.0 0.0 0.0"/>
+		<water id_="530742912" hidden_="true" pos="150.39999 11.9 3.3" rot="0.0 0.0 0.0" type="polygon">
+			<vertex pos="-8.7 -1.3"/>
+			<vertex pos="-3.7 -9.1"/>
+			<vertex pos="4.9 -8.2"/>
+			<vertex pos="8.0 -3.5"/>
+			<vertex pos="7.9 8.6"/>
+			<vertex pos="4.0 14.8"/>
+			<vertex pos="-8.1 7.5"/>
+		</water>
+		<water id_="1757258496" hidden_="true" pos="128.8 11.9 22.4" rot="0.0 0.0 0.0" type="polygon">
+			<vertex pos="-9.5 9.8"/>
+			<vertex pos="0.0 0.5"/>
+			<vertex pos="7.3 2.1"/>
+			<vertex pos="9.1 10.3"/>
+			<vertex pos="0.8 21.9"/>
+			<vertex pos="-9.2 22.0"/>
+			<vertex pos="-12.5 16.1"/>
+		</water>
+	</group>
+	<body id_="208744896" open_="true" name="world anchor" tags="unbreakable" pos="14.4 8.2 -5.7" rot="0.0 0.0 0.0">
+		<voxbox id_="1628996736" pos="0.0 -3.0 0.0" color="0.0 0.0 0.0"/>
+	</body>
+	<spawnpoint id_="1200823936" name="Playerspawn (not used since start in car)" pos="-48.5 4.5 49.7" rot="0.0 -133.0 0.0"/>
+	<environment id_="1380010240" template="sunny" fogParams="200 500 0.4 0.4"/>
+	<boundary id_="1991564032" name="Boundary to keep player in the environment">
+		<vertex pos="-262.70001 -142.60001"/>
+		<vertex pos="189.7 -153.5"/>
+		<vertex pos="168.10001 182.8"/>
+		<vertex pos="-243.3 170.2"/>
+	</boundary>
+	<layers>
+		<layer name="sportsCar" visible="true"/>
+		<layer name="avf_ai" visible="true"/>
+		<layer name="raceCar" visible="false"/>
+	</layers>
+</scene>
+

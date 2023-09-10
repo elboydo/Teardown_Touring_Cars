@@ -1,0 +1,30 @@
+<prefab version="0.6.2">
+	<group id_="697214528" open_="true" name="instance=MOD/vehicles/racingSUV_Fast.xml" pos="165.7 8.4 64.7" rot="0.0 0.0 0.0">
+		<vehicle id_="636786624" open_="true" name="MGTechnical" tags="cfg=ai technicalVehicle" pos="0.0 0.0 0.1" rot="0.0 -180.0 0.0" driven="false" sound="suv2" spring="0.8" damping="0.8" topspeed="100" acceleration="4" strength="5" antispin="0" antiroll="0.6" difflock="0.5" steerassist="0.8">
+			<body id_="1925696256" open_="true" name="Technicalbody" tags="component=body" pos="-0.05 0.6 -0.25" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="412967552" tags="component=chassis" pos="0.05 -0.2 0.25" rot="0 180 0" density="2" strength="3" file="MOD/prefabs/technicals/technical.vox" object="bodyturret">
+					<light id_="757052544" pos="0.75 0.55 -2.1" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+					<light id_="481850080" pos="-0.65 0.55 -2.1" rot="0.0 180.0 0.0" type="area" size="0.1 0.1" unshadowed="0.3"/>
+					<light id_="1225008128" pos="0.65 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+					<light id_="193867328" pos="-0.55 0.65 2.1" rot="0.0 0.0 0.0" type="cone" color="1 .9 .8" scale="30" angle="90" penumbra="30" size="0.1" unshadowed="0.2" glare="0.35"/>
+					<location id_="60165720" tags="exhaust" pos="0.5 0.05 -2.1" rot="-180.0 360.0 -180.0"/>
+					<location id_="1521707776" tags="vital" pos="0.05 0.55 1.4" rot="-180.0 360.0 -180.0"/>
+					<location id_="1563915520" tags="player" pos="0.35 1.25 0.25" rot="0.0 0.0 0.0"/>
+				</vox>
+				<wheel id_="768653120" name="bl" pos="-0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+					<vox id_="612143616" pos="-0.1 -0.45 -0.05" rot="0.0 -180.0 0.0" file="MOD/prefabs/technicals/technical.vox" object="wheel_bl"/>
+				</wheel>
+				<wheel id_="1950208256" name="br" pos="0.65 -0.15 1.9" drive="1" travel="-0.1 0.2">
+					<vox id_="1646561408" pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/prefabs/technicals/technical.vox" object="wheel_br"/>
+				</wheel>
+				<wheel id_="1470848640" name="fl" pos="-0.75 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+					<vox id_="1968035072" pos="0.0 -0.45 -0.05" rot="0 180 0" file="MOD/prefabs/technicals/technical.vox" object="wheel_fl"/>
+				</wheel>
+				<wheel id_="771209152" name="fr" pos="0.65 -0.15 -1.4" drive="1" steer="1" travel="-0.1 0.2">
+					<vox id_="1790290688" pos="0.1 -0.45 -0.05" rot="0 180 0" file="MOD/prefabs/technicals/technical.vox" object="wheel_fr"/>
+				</wheel>
+			</body>
+		</vehicle>
+	</group>
+</prefab>
+

@@ -1,0 +1,42 @@
+<prefab version="0.6.0">
+	<group id_="811385216" open_="true" name="instance=MOD/prefabs/beam/beamDrift.xml" pos="-0.3 0.0 -0.1" rot="0.0 0.0 0.0">
+		<vehicle id_="210842176" open_="true" name="Ibishu 200BX drift" tags="cfg=ai" pos="-0.5 0.0 -0.1" rot="0.0 0.0 0.0" driven="false" sound="racingcar 1.2" spring="1.2" damping="0.6" topspeed="190" acceleration="10" strength="10" antiroll="0.2" difflock="0.2" steerassist="0.5" friction="1.9">
+			<body id_="154805472" open_="true" pos="0.5 0.3 -0.15" rot="0.0 0.0 0.0" dynamic="true">
+				<vox id_="1388268288" open_="true" pos="0.05 -0.05 0.25" rot="0 180 0" density="1.5" strength="2" file="LEVEL/bx.vox" object="body">
+					<location id_="1898300544" name="exhaust" tags="exhaust" pos="0.45 0.15 -2.25" rot="180.0 0.0 180.0"/>
+					<location id_="953148224" name="vital" tags="vital" pos="0.05 0.55 1.55" rot="180.0 0.0 180.0"/>
+					<location id_="2116679808" name="playerpos" tags="player" pos="0.38 1.0 -0.1" rot="0.0 0.0 0.0"/>
+					<light id_="171911424" pos="-0.5 0.6 -2.1" rot="0.0 -180.0 0.0" type="area" color="0.77 0.0 0.0" scale="1" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.1"/>
+					<light id_="2114648064" pos="0.6 0.6 -2.1" rot="0.0 -180.0 0.0" type="area" color="0.77 0.0 0.0" scale="1" angle="50" penumbra="15" size="0.1" unshadowed="0.2" glare="0.1"/>
+					<vox id_="355357888" pos="0.8 0.1 -0.0" rot="0.0 0.0 0.0" density="1.5" strength="0.5" prop="true" file="LEVEL/bx.vox" object="door_l"/>
+					<vox id_="136585360" pos="-0.7 0.1 0.0" rot="0.0 0.0 0.0" density="1.5" strength="0.5" prop="true" file="LEVEL/bx.vox" object="door_r"/>
+					<vox id_="373250304" pos="-0.0 0.5 -1.8" rot="0.0 0.0 0.0" density="1.5" strength="0.5" prop="true" file="LEVEL/bx.vox" object="boot"/>
+					<vox id_="1181227392" pos="-0.0 0.6 1.4" rot="0.0 0.0 0.0" density="0.5" strength="0.5" prop="true" file="LEVEL/bx.vox" object="hood"/>
+					<vox id_="943120576" tags="explosive=0.45" pos="0.0 0.1 -1.6" rot="0.0 0.0 0.0" density="1.5" strength="0.34" prop="true" file="LEVEL/bx.vox" object="fuel"/>
+				</vox>
+				<wheel id_="1726454656" open_="true" name="bl" pos="-0.76 0.1 1.35" drive="1" travel="-0.05 0.25">
+					<vox id_="1840166528" pos="0.0 -0.3 0.0" rot="0.0 180.0 0.0" file="LEVEL/s.vox" object="wheel_bl" scale="1"/>
+				</wheel>
+				<wheel id_="54922520" open_="true" name="br" pos="0.86 0.1 1.35" drive="1" travel="-0.05 0.25">
+					<vox id_="1566537088" pos="0.0 -0.3 0.0" rot="0.0 -180.0 0.0" file="LEVEL/s.vox" object="wheel_br" scale="1"/>
+				</wheel>
+				<wheel id_="1952043392" open_="true" name="fl" pos="-0.76 0.1 -1.05" rot="0.0 0.0 0.0" drive="0" steer="1" travel="-0.05 0.25">
+					<vox id_="500528992" pos="0.0 -0.3 0.0" rot="0.0 180.0 0.0" file="LEVEL/s.vox" object="wheel_fl" scale="1"/>
+				</wheel>
+				<wheel id_="2073095680" open_="true" name="fr" pos="0.86 0.1 -1.05" drive="0" steer="1" travel="-0.05 0.25">
+					<vox id_="595627520" pos="0.0 -0.3 0.0" rot="0.0 -180.0 0.0" file="LEVEL/s.vox" object="wheel_fr" scale="1"/>
+				</wheel>
+				<wheel id_="960554240" open_="true" name="wheel" pos="-0.3 0.6 -0.25" rot="-90.0 -180.0 0.0" drive="0" steer="14" travel="0 0">
+					<vox id_="477721056" pos="-0.05 -0.1 -0.15" rot="90.0 0.0 0.0" file="LEVEL/bx.vox" object="wheel"/>
+				</wheel>
+			</body>
+			<joint id_="1573746432" name="doorjoint_r" pos="1.4 0.6 -0.5" rot="90 0 0" type="hinge" size="0.2" rotstrength="0.0" rotspring="0.0" limits="-80 0" sound="true"/>
+			<joint id_="260652576" name="doorjoint_l" pos="-0.3 0.7 -0.5" rot="90.0 179.0 0.0" type="hinge" size="0.2" rotstrength="0.0" rotspring="0.0" limits="0 80" sound="true"/>
+			<joint id_="891344000" name="tailgatejoint" pos="0.65 0.9 1.6" rot="90 180 90" type="hinge" size="0.3" rotstrength="0.01" rotspring="0" limits="0 55" sound="true"/>
+			<joint id_="2359440" name="hood joint" pos="0.55 1.0 -0.9" rot="0.0 90.0 0" type="hinge" size="0.2" rotstrength="0" rotspring="0" collide="false" limits="0 92" sound="true"/>
+			<joint id_="1731304704" name="doorlock_l" pos="-0.2 0.6 0.7" rot="90.0 179.0 0.0" type="hinge" size="0.15" rotstrength="0.0" rotspring="0.0" collide="false" limits="-40 0"/>
+			<joint id_="662019520" name="doorlock_r" pos="1.4 0.7 0.7" rot="90.0 179.0 0.0" type="hinge" size="0.15" rotstrength="0.0" rotspring="0.0" collide="false" limits="0 40"/>
+		</vehicle>
+	</group>
+</prefab>
+
